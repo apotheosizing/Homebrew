@@ -6270,23 +6270,23 @@
 								"rows": [
 									[
 										"3rd",
-										"{@spell defiant smite}, {@spell hunter's pace}"
+										"{@spell defiant smite|ne}, {@spell hunter's pace|ne}"
 									],
 									[
 										"5th",
-										"{@spell accursed wish}, {@spell devilish hunt}"
+										"{@spell accursed wish|ne}, {@spell devilish hunt|ne}"
 									],
 									[
 										"9th",
-										"{@spell blasphemy}, {@spell funeral pyre}"
+										"{@spell blasphemy|ne}, {@spell funeral pyre|ne}"
 									],
 									[
 										"13th",
-										"{@spell ashen pack}, {@spell haunt}"
+										"{@spell ashen pack|ne}, {@spell haunt|ne}"
 									],
 									[
 										"17th",
-										"{@spell implement of cruelty}, {@spell nemesis}"
+										"{@spell implement of cruelty|ne}, {@spell nemesis|ne}"
 									]
 								]
 							}
