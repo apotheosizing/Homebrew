@@ -6316,8 +6316,10 @@
 					"name": "Devilish Aura",
 					"entries": [
 						"Starting at 7th level, you emanate an aura of infernal might. The aura extends 10 feet from you in every direction, but not through total cover. Creatures within the aura feel its effects, but you yourself do not gain its benefits:",
-						"Seirim within your aura are placed under the effects of the {@spell bane} spell.",
-						"Friendly creatures deal an additional 1d6 fire damage when they hit with a weapon attack. Good-aligned creatures gain no benefit from this aura.",
+						{
+					"type": "list",
+					"items": ["Seirim within your aura are placed under the effects of the {@spell bane} spell.",
+						"Friendly creatures deal an additional 1d6 fire damage when they hit with a weapon attack. Good-aligned creatures gain no benefit from this aura."]}
 						"At 18th level, the range of this aura increases to 30 feet."
 					]
 				}]
@@ -6447,9 +6449,9 @@
 						"One saving throw proficiency",
 						"One category of weapon or armor proficiency (such as Martial Weapons, Shields, or Heavy Armor)",
 						"One language",
-						"The answer to one question, answered using the knowledge of a particular soul's memories (you must specify one at the time you send your raven)",
-						"At your DM's option, you may choose an alternate ability, but it should be no more powerful than those described above. You must complete a long rest before using this feature again."]
+						"The answer to one question, answered using the knowledge of a particular soul's memories (you must specify one at the time you send your raven)"]
 				}
+						"At your DM's option, you may choose an alternate ability, but it should be no more powerful than those described above. You must complete a long rest before using this feature again."
 					]
 				}]
 			}]
