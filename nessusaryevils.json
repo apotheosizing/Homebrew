@@ -6189,273 +6189,277 @@
 		}
 	],
 	"subclass": [{
-		"class": "Paladin",
-		"name": "Oath of the Illrigger",
-		"source": "NessusaryEvils",
-		"subclassFeatures": [
-			[{
-				"name": "Oath of the Illrigger",
-				"entries": [
-					"Illriggers are an ancient order of paladins that swear their allegiance to one of the Lords of the Nine, the archduxes of hell. In supplication to their infernal masters, they carry their lords' command and lead their armies into battle to beat back the seirimic horde. Such paladins hold their oaths with a fierce conviction, for they believe that, without people like them, seirim would overwhelm the forces of hell and spill out into the other planes of existence, decimating every world like a plague.", "Oftentimes, an archdux will recruit soldiers and mercenaries from the Material Plane to join the ranks of the Illriggers, targeting individuals who have strong bonds with their brothers-in-arms. This way, should the archdux ever need supplemental forces for the armies of hell, they can call upon their loyal Illrigger, who in turn recruits their ardent allies to fight alongside them through hell and back.",
-					{
+			"class": "Paladin",
+			"name": "Oath of the Illrigger",
+			"source": "NessusaryEvils",
+			"subclassFeatures": [
+				[{
+					"name": "Oath of the Illrigger",
+					"entries": [
+						"Illriggers are an ancient order of paladins that swear their allegiance to one of the Lords of the Nine, the archduxes of hell. In supplication to their infernal masters, they carry their lords' command and lead their armies into battle to beat back the seirimic horde. Such paladins hold their oaths with a fierce conviction, for they believe that, without people like them, seirim would overwhelm the forces of hell and spill out into the other planes of existence, decimating every world like a plague.", "Oftentimes, an archdux will recruit soldiers and mercenaries from the Material Plane to join the ranks of the Illriggers, targeting individuals who have strong bonds with their brothers-in-arms. This way, should the archdux ever need supplemental forces for the armies of hell, they can call upon their loyal Illrigger, who in turn recruits their ardent allies to fight alongside them through hell and back.",
+						{
+							"type": "entries",
+							"name": "Tenets of the Illrigger",
+							"entries": [
+								"The tenets of the Illriggers are kept secret, and used as a kind of passphrase between Illriggers so that they know they can speak freely, one infernal paladin to another.",
+								{
+									"type": "entries",
+									"entries": [{
+										"type": "entries",
+										"name": "Hold the Line",
+										"entries": [
+											"Wherever seirim are met, they must be eradicated. Their chaos must not be allowed to infect the Multiverse and tip the scales of the Blood War in their favor."
+										]
+									}]
+								},
+								{
+									"type": "entries",
+									"entries": [{
+										"type": "entries",
+										"name": "Consolidate Power",
+										"entries": [
+											"Mortals on the Material Plane squabble for power, blind to the true threats of the multiverse. You've seen beyond the mortal veil, and choose to seek out and amass power in tribute to your archdux. Such conquest is among the most important tasks you have on the Material Plane."
+										]
+									}]
+								},
+								{
+									"type": "entries",
+									"entries": [{
+										"type": "entries",
+										"name": "Judge, Jury, and Executioner",
+										"entries": [
+											"You swear to be the embodiment of your archdux's will wherever you are. You are beholden to no law or master before them. If you see a course of action that would further your archdux's goals, you will take it, consequences be damned."
+										]
+									}]
+								},
+								{
+									"type": "entries",
+									"entries": [{
+										"type": "entries",
+										"name": "Unwavering Loyalty",
+										"entries": [
+											"Never forget who you swore fealty to. Be vigilant and maintain constant adherence to their will, for their vengeance shall be swift at even the mere thought of disobedience or treachery."
+										]
+									}]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Bonus Language",
+							"entries": [
+								"Starting at 3rd level after you swear this Oath, you can speak, read, and write Infernal."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Oath Spells",
+							"entries": [
+								"You gain oath spells at the paladin levels listed.",
+								{
+									"type": "table",
+									"caption": "Oath of the Illrigger Spells",
+									"colLabels": [
+										"Paladin Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-3 text-center",
+										"col-9"
+									],
+									"rows": [
+										[
+											"3rd",
+											"{@spell defiant smite|ne}, {@spell hunter's pace|ne}"
+										],
+										[
+											"5th",
+											"{@spell accursed wish|ne}, {@spell devilish hunt|ne}"
+										],
+										[
+											"9th",
+											"{@spell blasphemy|ne}, {@spell funeral pyre|ne}"
+										],
+										[
+											"13th",
+											"{@spell ashen pack|ne}, {@spell haunt|ne}"
+										],
+										[
+											"17th",
+											"{@spell implement of cruelty|ne}, {@spell nemesis|ne}"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Channel Divinity: Infernal Implement",
+							"entries": [
+								"You can use your Channel Divinity to call to your hand a weapon from the arsenal of the archdux you swore your oath to. As a bonus action, you present your holy symbol and invoke their terrible name. In a flash of fire and brimstone, the weapon appears in your hand. This magic weapon can be any simple or martial weapon, and you gain a bonus equal to half your proficiency bonus (rounded down), to attack and damage rolls you make with this magic weapon.",
+								"When you hit a hostile creature with this weapon, your weapon places a minor curse upon the creature. Until the beginning of your next turn, the creature subtracts 1d4 from attack rolls which target creatures other than you. Additionally, when you use your Divine Smite or Improved Divine Smite feature while wielding this weapon, you can cause those features to deal fire or necrotic damage instead of radiant. Your Infernal Implement persists until you take a short or long rest, at which point it melts into smoke and dissipates."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Channel Divinity: Invoke Authority",
+							"entries": [
+								"As an action using your Channel Divinity, you can present your holy symbol and speak the terrible name of your archduke, forcing a devil that you can see within 30 feet of you to make a Wisdom saving throw.",
+								"A devil with a challenge rating greater than half your paladin level (rounded down) automatically succeeds on this saving throw. On a failed save, the devil is bound to your will, as if a {@spell dominate monster} spell had been cast upon them. This effect lasts for 1 minute, as long as you are on the same plane of existence as the devil. It ends early if the devil drops to 0 hit points.."
+							]
+						}
+					]
+				}],
+				[{
+					"entries": [{
 						"type": "entries",
-						"name": "Tenets of the Illrigger",
+						"name": "Devilish Aura",
 						"entries": [
-							"The tenets of the Illriggers are kept secret, and used as a kind of passphrase between Illriggers so that they know they can speak freely, one infernal paladin to another.",
+							"Starting at 7th level, you emanate an aura of infernal might. The aura extends 10 feet from you in every direction, but not through total cover. Creatures within the aura feel its effects, but you yourself do not gain its benefits:",
 							{
-								"type": "entries",
-								"entries": [{
-									"type": "entries",
-									"name": "Hold the Line",
-									"entries": [
-										"Wherever seirim are met, they must be eradicated. Their chaos must not be allowed to infect the Multiverse and tip the scales of the Blood War in their favor."
-									]
-								}]
+								"type": "list",
+								"items": ["Seirim within your aura are placed under the effects of the {@spell bane} spell.",
+									"Friendly creatures deal an additional 1d6 fire damage when they hit with a weapon attack. Good-aligned creatures gain no benefit from this aura."
+								]
 							},
-							{
-								"type": "entries",
-								"entries": [{
-									"type": "entries",
-									"name": "Consolidate Power",
-									"entries": [
-										"Mortals on the Material Plane squabble for power, blind to the true threats of the multiverse. You've seen beyond the mortal veil, and choose to seek out and amass power in tribute to your archdux. Such conquest is among the most important tasks you have on the Material Plane."
-									]
-								}]
-							},
-							{
-								"type": "entries",
-								"entries": [{
-									"type": "entries",
-									"name": "Judge, Jury, and Executioner",
-									"entries": [
-										"You swear to be the embodiment of your archdux's will wherever you are. You are beholden to no law or master before them. If you see a course of action that would further your archdux's goals, you will take it, consequences be damned."
-									]
-								}]
-							},
-							{
-								"type": "entries",
-								"entries": [{
-									"type": "entries",
-									"name": "Unwavering Loyalty",
-									"entries": [
-										"Never forget who you swore fealty to. Be vigilant and maintain constant adherence to their will, for their vengeance shall be swift at even the mere thought of disobedience or treachery."
-									]
-								}]
-							}
+							"At 18th level, the range of this aura increases to 30 feet."
 						]
-					},
-					{
+					}]
+				}],
+				[{
+					"entries": [{
 						"type": "entries",
-						"name": "Bonus Language",
+						"name": "Infernal Seal",
 						"entries": [
-							"Starting at 3rd level after you swear this Oath, you can speak, read, and write Infernal."
+							"Starting at 15th level, when you hit a creature with an attack, you can place an infernal seal on them as a bonus action. On any subsequent turn you can consume the seal as an action. Until the seal is consumed, the creature takes an additional 1d6 fire damage when you hit them with a weapon attack. When you use your action to consume the seal, the target must make a Constitution saving throw against your  paladin spell save DC or take 6d8 fire damage, taking half as much damage on a success. A creature who is slain while under the effects of your infernal seal has their soul condemned to the hells. Their soul is no longer free to return should a creature try to resurrect them by any means short of a {@spell wish} spell.",
+							"You can use this feature a number of times equal to your Charisma modifier. You regain all expended uses when you complete a long rest."
 						]
-					},
-					{
+					}]
+				}],
+				[{
+					"entries": [{
 						"type": "entries",
-						"name": "Oath Spells",
+						"name": "Legionnaire from Hell",
 						"entries": [
-							"You gain oath spells at the paladin levels listed.",
+							"At 20th level, you become completely consumed by the infernal powers of your Oath, which grants you the following benefits:",
 							{
-								"type": "table",
-								"caption": "Oath of the Illrigger Spells",
-								"colLabels": [
-									"Paladin Level",
-									"Spells"
-								],
-								"colStyles": [
-									"col-3 text-center",
-									"col-9"
-								],
-								"rows": [
-									[
-										"3rd",
-										"{@spell defiant smite|ne}, {@spell hunter's pace|ne}"
-									],
-									[
-										"5th",
-										"{@spell accursed wish|ne}, {@spell devilish hunt|ne}"
-									],
-									[
-										"9th",
-										"{@spell blasphemy|ne}, {@spell funeral pyre|ne}"
-									],
-									[
-										"13th",
-										"{@spell ashen pack|ne}, {@spell haunt|ne}"
-									],
-									[
-										"17th",
-										"{@spell implement of cruelty|ne}, {@spell nemesis|ne}"
-									]
+								"type": "list",
+								"items": [
+									"You are immune to fire damage and your native plane becomes the layer of hell that your archdux rules over.",
+									"When you reduce a creature to 0 hit points with your Infernal Implement, you regain 2d10 + 10 hit points."
 								]
 							}
 						]
-					},
-					{
-						"type": "entries",
-						"name": "Channel Divinity: Infernal Implement",
-						"entries": [
-							"You can use your Channel Divinity to call to your hand a weapon from the arsenal of the archdux you swore your oath to. As a bonus action, you present your holy symbol and invoke their terrible name. In a flash of fire and brimstone, the weapon appears in your hand. This magic weapon can be any simple or martial weapon, and you gain a bonus equal to half your proficiency bonus (rounded down), to attack and damage rolls you make with this magic weapon.",
-							"When you hit a hostile creature with this weapon, your weapon places a minor curse upon the creature. Until the beginning of your next turn, the creature subtracts 1d4 from attack rolls which target creatures other than you. Additionally, when you use your Divine Smite or Improved Divine Smite feature while wielding this weapon, you can cause those features to deal fire or necrotic damage instead of radiant. Your Infernal Implement persists until you take a short or long rest, at which point it melts into smoke and dissipates."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Channel Divinity: Invoke Authority",
-						"entries": [
-							"As an action using your Channel Divinity, you can present your holy symbol and speak the terrible name of your archduke, forcing a devil that you can see within 30 feet of you to make a Wisdom saving throw.",
-							"A devil with a challenge rating greater than half your paladin level (rounded down) automatically succeeds on this saving throw. On a failed save, the devil is bound to your will, as if a {@spell dominate monster} spell had been cast upon them. This effect lasts for 1 minute, as long as you are on the same plane of existence as the devil. It ends early if the devil drops to 0 hit points.."
-						]
-					}
-				]
-			}],
-			[{
-				"entries": [{
-					"type": "entries",
-					"name": "Devilish Aura",
+					}]
+				}]
+			],
+			"shortName": "Illrigger (NE)"
+		},
+		{
+			"class": "Warlock",
+			"name": "Raven Queen",
+			"source": "NessusaryEvils",
+			"subclassFeatures": [
+				[{
+					"name": "The Raven Queen",
 					"entries": [
-						"Starting at 7th level, you emanate an aura of infernal might. The aura extends 10 feet from you in every direction, but not through total cover. Creatures within the aura feel its effects, but you yourself do not gain its benefits:",
+						"You patron is the Raven Queen, a mysterious being who rules the Shadowfel from a palace of ice deep within that dread realm. The Raven Queen watches over the world, anticipating each creature's death and ensuring that it meets its end at the proscribed time and place. As the ruler of the Shadowfel, she dwells in a decayed, dark reflection of the world. Her ability to reach into the world is limited. Thus, she turns to mortal warlocks to serve her will. Warlocks sworn to the Raven Queen receive visions and whispers from her in their dreams, sending them on quests and warning them of impending dangers.", "The Raven Queen's followers are expected to serve her will in the world. She concerns herself with ensuring that those fated to die pass from the world as expected, and bids her agents to defeat those who seek to cheat death through undeath or other imitations of immortality. She hates intelligent undead and expects her followers to strike them down, whereas mindless undead such as skeletons and zombies are little more than stumbling automatons in her eyes.",
 						{
-					"type": "list",
-					"items": ["Seirim within your aura are placed under the effects of the {@spell bane} spell.",
-						"Friendly creatures deal an additional 1d6 fire damage when they hit with a weapon attack. Good-aligned creatures gain no benefit from this aura."]}
-						"At 18th level, the range of this aura increases to 30 feet."
-					]
-				}]
-			}],
-			[{
-				"entries": [{
-					"type": "entries",
-					"name": "Infernal Seal",
-					"entries": [
-						"Starting at 15th level, when you hit a creature with an attack, you can place an infernal seal on them as a bonus action. On any subsequent turn you can consume the seal as an action. Until the seal is consumed, the creature takes an additional 1d6 fire damage when you hit them with a weapon attack. When you use your action to consume the seal, the target must make a Constitution saving throw against your  paladin spell save DC or take 6d8 fire damage, taking half as much damage on a success. A creature who is slain while under the effects of your infernal seal has their soul condemned to the hells. Their soul is no longer free to return should a creature try to resurrect them by any means short of a {@spell wish} spell.",
-						"You can use this feature a number of times equal to your Charisma modifier. You regain all expended uses when you complete a long rest."
-					]
-				}]
-			}],
-			[{
-				"entries": [{
-					"type": "entries",
-					"name": "Legionnaire from Hell",
-					"entries": [
-						"At 20th level, you become completely consumed by the infernal powers of your Oath, which grants you the following benefits:",
+							"type": "entries",
+							"name": "Sentinel Raven",
+							"entries": [
+								"Starting at 1st level, you gain the service of a spirit sent by the Raven Queen to watch over you. The spirit assumes the form and game statistics of a raven, and it always obeys your commands, which you can give telepathically while it is within 100 feet of you.",
+								"While the raven is perched on your shoulder, you gain darkvision with a range of 30 feet and a bonus to your passive Wisdom (Perception) score and to Wisdom (Perception) checks. The bonus equals your Charisma modifier. While perched on your shoulder, the raven can't be targeted by any attack or other harmful effect; only you can cast spells on it; it can't take damage; and it is incapacitated.",
+								"You can see through the raven's eyes and hear what it hears while it is within 100 feet of you. In combat, you roll initiative for the raven and control how it acts. If it is slain by a creature, you gain advantage on all attack rolls against the killer for the next 24 hours.",
+								"The raven doesn't require sleep. While it is within 100 feet of you, it can awaken you from sleep as a bonus action. The raven vanishes when it dies, if you die, or if the two of you are separated by more than 5 miles.",
+								"At the end of a short or long rest, you can call the raven back to you—no matter where it is or whether it died—and it reappears within 5 feet of you."
+							]
+						},
 						{
-					"type": "list",
-					"items": [
-						"You are immune to fire damage and your native plane becomes the layer of hell that your archdux rules over.",
-						"When you reduce a creature to 0 hit points with your Infernal Implement, you regain 2d10 + 10 hit points."
-					]
-				}
-					]
-				}]
-			}]
-		],
-		"shortName": "Illrigger (NE)"
-	},
-	{
-		"class": "Warlock",
-		"name": "Raven Queen",
-		"source": "NessusaryEvils",
-		"subclassFeatures": [
-			[{
-				"name": "The Raven Queen",
-				"entries": [
-					"You patron is the Raven Queen, a mysterious being who rules the Shadowfel from a palace of ice deep within that dread realm. The Raven Queen watches over the world, anticipating each creature's death and ensuring that it meets its end at the proscribed time and place. As the ruler of the Shadowfel, she dwells in a decayed, dark reflection of the world. Her ability to reach into the world is limited. Thus, she turns to mortal warlocks to serve her will. Warlocks sworn to the Raven Queen receive visions and whispers from her in their dreams, sending them on quests and warning them of impending dangers.", "The Raven Queen's followers are expected to serve her will in the world. She concerns herself with ensuring that those fated to die pass from the world as expected, and bids her agents to defeat those who seek to cheat death through undeath or other imitations of immortality. She hates intelligent undead and expects her followers to strike them down, whereas mindless undead such as skeletons and zombies are little more than stumbling automatons in her eyes.",
-					{
-						"type": "entries",
-						"name": "Sentinel Raven",
-						"entries": [
-							"Starting at 1st level, you gain the service of a spirit sent by the Raven Queen to watch over you. The spirit assumes the form and game statistics of a raven, and it always obeys your commands, which you can give telepathically while it is within 100 feet of you.",
-							"While the raven is perched on your shoulder, you gain darkvision with a range of 30 feet and a bonus to your passive Wisdom (Perception) score and to Wisdom (Perception) checks. The bonus equals your Charisma modifier. While perched on your shoulder, the raven can't be targeted by any attack or other harmful effect; only you can cast spells on it; it can't take damage; and it is incapacitated.",
-							"You can see through the raven's eyes and hear what it hears while it is within 100 feet of you. In combat, you roll initiative for the raven and control how it acts. If it is slain by a creature, you gain advantage on all attack rolls against the killer for the next 24 hours.",
-							"The raven doesn't require sleep. While it is within 100 feet of you, it can awaken you from sleep as a bonus action. The raven vanishes when it dies, if you die, or if the two of you are separated by more than 5 miles.",
-							"At the end of a short or long rest, you can call the raven back to you—no matter where it is or whether it died—and it reappears within 5 feet of you."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Expanded Spell List",
-						"entries": [
-							"The Raven Queen lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
-							{
-								"type": "table",
-								"caption": "Raven Queen Expanded Spells",
-								"colLabels": [
-									"Spell Level",
-									"Spells"
-								],
-								"colStyles": [
-									"col-3 text-center",
-									"col-9"
-								],
-								"rows": [
-									[
-										"1st",
-										"{@spell false life}, {@spell sanctuary}"
+							"type": "entries",
+							"name": "Expanded Spell List",
+							"entries": [
+								"The Raven Queen lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+								{
+									"type": "table",
+									"caption": "Raven Queen Expanded Spells",
+									"colLabels": [
+										"Spell Level",
+										"Spells"
 									],
-									[
-										"2nd",
-										"{@spell silence}, {@spell spiritual weapon}"
+									"colStyles": [
+										"col-3 text-center",
+										"col-9"
 									],
-									[
-										"3rd",
-										"{@spell feign death}, {@spell speak with dead}"
-									],
-									[
-										"4th",
-										"{@spell ice storm}, {@spell locate creature}"
-									],
-									[
-										"5th",
-										"{@spell commune}, {@spell cone of cold}"
+									"rows": [
+										[
+											"1st",
+											"{@spell false life}, {@spell sanctuary}"
+										],
+										[
+											"2nd",
+											"{@spell silence}, {@spell spiritual weapon}"
+										],
+										[
+											"3rd",
+											"{@spell feign death}, {@spell speak with dead}"
+										],
+										[
+											"4th",
+											"{@spell ice storm}, {@spell locate creature}"
+										],
+										[
+											"5th",
+											"{@spell commune}, {@spell cone of cold}"
+										]
 									]
-								]
-							}
+								}
+							]
+						}
+					]
+				}],
+				[{
+					"entries": [{
+						"type": "entries",
+						"name": "Soul of the Raven",
+						"entries": [
+							"At 6th level, you gain the ability to merge with your raven spirit. As a bonus action when your raven is perched on your shoulder, your body merges with your raven's form. While merged, you become Tiny, you replace your speed with the raven's, and you can use your action only to Dash, Disengage, Dodge, Help, Hide, or Search. During this time, you gain the benefits of your raven being perched on your shoulder. As an action, you and the raven return to normal."
 						]
-					}
-				]
-			}],
-			[{
-				"entries": [{
-					"type": "entries",
-					"name": "Soul of the Raven",
-					"entries": [
-						"At 6th level, you gain the ability to merge with your raven spirit. As a bonus action when your raven is perched on your shoulder, your body merges with your raven's form. While merged, you become Tiny, you replace your speed with the raven's, and you can use your action only to Dash, Disengage, Dodge, Help, Hide, or Search. During this time, you gain the benefits of your raven being perched on your shoulder. As an action, you and the raven return to normal."
-					]
+					}]
+				}],
+				[{
+					"entries": [{
+						"type": "entries",
+						"name": "Raven's Shield",
+						"entries": [
+							"At 10th level, the Raven Queen grants you a protective blessing. You gain advantage on death saving throws, immunity to the frightened condition, and resistance to necrotic damage."
+						]
+					}]
+				}],
+				[{
+					"entries": [{
+						"type": "entries",
+						"name": "Audience with the Queen",
+						"entries": [
+							"At 14th level, you are worthy of partaking of the knowledge contained in the memories the Raven Queen collects. Using a ritual to beseech the Raven Queen, or once when you roll a death saving throw, you may send your raven spirit to the throne of the Fortress of Memories.\nIt returns at the beginning of your turn in 1d6+1 rounds (rolled by the DM). When you send it to your patron, you choose one of the following options. Upon its return, you receive the ability to use that option for 1 hour.",
+							{
+								"type": "list",
+								"items": [
+									"One spell from any spell list of a level you can cast (casting it still uses a spell slot)",
+									"One warlock invocation which you meet the prerequisites for",
+									"One skill proficiency",
+									"One saving throw proficiency",
+									"One category of weapon or armor proficiency (such as Martial Weapons, Shields, or Heavy Armor)",
+									"One language",
+									"The answer to one question, answered using the knowledge of a particular soul's memories (you must specify one at the time you send your raven)"
+								]
+							},
+							"At your DM's option, you may choose an alternate ability, but it should be no more powerful than those described above. You must complete a long rest before using this feature again."
+						]
+					}]
 				}]
-			}],
-			[{
-				"entries": [{
-					"type": "entries",
-					"name": "Raven's Shield",
-					"entries": [
-						"At 10th level, the Raven Queen grants you a protective blessing. You gain advantage on death saving throws, immunity to the frightened condition, and resistance to necrotic damage."
-					]
-				}]
-			}],
-			[{
-				"entries": [{
-					"type": "entries",
-					"name": "Audience with the Queen",
-					"entries": [
-						"At 14th level, you are worthy of partaking of the knowledge contained in the memories the Raven Queen collects. Using a ritual to beseech the Raven Queen, or once when you roll a death saving throw, you may send your raven spirit to the throne of the Fortress of Memories.\nIt returns at the beginning of your turn in 1d6+1 rounds (rolled by the DM). When you send it to your patron, you choose one of the following options. Upon its return, you receive the ability to use that option for 1 hour.",
-						{
-					"type": "list",
-					"items": [
-						"One spell from any spell list of a level you can cast (casting it still uses a spell slot)",
-						"One warlock invocation which you meet the prerequisites for",
-						"One skill proficiency",
-						"One saving throw proficiency",
-						"One category of weapon or armor proficiency (such as Martial Weapons, Shields, or Heavy Armor)",
-						"One language",
-						"The answer to one question, answered using the knowledge of a particular soul's memories (you must specify one at the time you send your raven)"]
-				}
-						"At your DM's option, you may choose an alternate ability, but it should be no more powerful than those described above. You must complete a long rest before using this feature again."
-					]
-				}]
-			}]
-		],
-		"shortName": "Raven Queen (NE)"
-	}]
+			],
+			"shortName": "Raven Queen (NE)"
+		}
+	]
 }
