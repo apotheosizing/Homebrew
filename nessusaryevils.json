@@ -6190,7 +6190,7 @@
 	"subclass": [{
 		"class": "Paladin",
 		"name": "Oath of the Illrigger",
-		"source": "OathOftheIllrigger",
+		"source": "NessusaryEvils",
 		"subclassFeatures": [
 			[{
 				"name": "Oath of the Illrigger",
