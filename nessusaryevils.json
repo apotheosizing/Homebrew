@@ -6270,23 +6270,23 @@
 									"rows": [
 										[
 											"3rd",
-											"{@spell defiant smite|ne}, {@spell hunter's pace|ne}"
+											"{@spell defiant smite|nessusaryevils}, {@spell hunter's pace|nessusaryevils}"
 										],
 										[
 											"5th",
-											"{@spell accursed wish|ne}, {@spell devilish hunt|ne}"
+											"{@spell accursed wish|nessusaryevils}, {@spell devilish hunt|nessusaryevils}"
 										],
 										[
 											"9th",
-											"{@spell blasphemy|ne}, {@spell funeral pyre|ne}"
+											"{@spell blasphemy|nessusaryevils}, {@spell funeral pyre|nessusaryevils}"
 										],
 										[
 											"13th",
-											"{@spell ashen pack|ne}, {@spell haunt|ne}"
+											"{@spell ashen pack|nessusaryevils}, {@spell haunt|nessusaryevils}"
 										],
 										[
 											"17th",
-											"{@spell implement of cruelty|ne}, {@spell nemesis|ne}"
+											"{@spell implement of cruelty|nessusaryevils}, {@spell nemesis|nessusaryevils}"
 										]
 									]
 								}
@@ -6489,23 +6489,23 @@
 									"rows": [
 										[
 											"1st",
-											"{@spell shield}, {@spell venomous spite|ne}"
+											"{@spell shield}, {@spell venomous spite|nessusaryevils}"
 										],
 										[
 											"2nd",
-											"{@spell dark secret|ne}, {@spell shadow armour|ne}"
+											"{@spell dark secret|nessusaryevils}, {@spell shadow armour|nessusaryevils}"
 										],
 										[
 											"3rd",
-											"{@spell creeping dark|ne}, {@spell fox's fangs|ne}"
+											"{@spell creeping dark|nessusaryevils}, {@spell fox's fangs|nessusaryevils}"
 										],
 										[
 											"4th",
-											"{@spell skin of flint|ne}, {@spell windblade|ne}"
+											"{@spell skin of flint|nessusaryevils}, {@spell windblade|nessusaryevils}"
 										],
 										[
 											"5th",
-											"{@spell forgotten pain|ne}, {@spell punishing smite|ne}"
+											"{@spell forgotten pain|nessusaryevils}, {@spell punishing smite|nessusaryevils}"
 										]
 									]
 								}
