@@ -2373,7 +2373,7 @@
 				"type": "instant"
 			}],
 			"entries": [
-				"Choose a location within range that is within 5 feet of a creature or in dim light or darkness. You teleport to this location. As a bonus action before or after teleporting, you can make a single melee spell attack against a target within your reach. If you hit, the target takes {dice {@dice 1d6}} psychic damage."
+				"Choose a location within range that is within 5 feet of a creature or in dim light or darkness. You teleport to this location. As a bonus action before or after teleporting, you can make a single melee spell attack against a target within your reach. If you hit, the target takes {@dice 1d6} psychic damage."
 			],
 			"entriesHigherLevel": [{
 				"name": "At Higher Levels",
@@ -6343,6 +6343,107 @@
 				}]
 			}]
 		],
-		"shortName": "Illrigger"
+		"shortName": "Illrigger (NE)"
+	},
+	{
+		"class": "Warlock",
+		"name": "Raven Queen",
+		"source": "NessusaryEvils",
+		"subclassFeatures": [
+			[{
+				"name": "The Raven Queen",
+				"entries": [
+					"You patron is the Raven Queen, a mysterious being who rules the Shadowfel from a palace of ice deep within that dread realm. The Raven Queen watches over the world, anticipating each creature's death and ensuring that it meets its end at the proscribed time and place. As the ruler of the Shadowfell, she dwells in a decayed, dark reflection of the world. Her ability to reach into the world is limited. Thus, she turns to mortal warlocks to serve her will. Warlocks sworn to the Raven Queen receive visions and whispers from her in their dreams, sending them on quests and warning them of impending dangers.", "The Raven Queen's followers are expected to serve her will in the world. She concerns herself with ensuring that those fated to die pass from the world as expected, and bids her agents to defeat those who seek to cheat death through undeath or other imitations of immortality. She hates intelligent undead and expects her followers to strike them down, whereas mindless undead such as skeletons and zombies are little more than stumbling automatons in her eyes.",
+					{
+						"type": "entries",
+						"name": "Sentinel Raven",
+						"entries": [
+							"Starting at 1st level, you gain the service of a spirit sent by the Raven Queen to watch over you. The spirit assumes the form and game statistics of a raven, and it always obeys your commands, which you can give telepathically while it is within 100 feet of you.",
+							"While the raven is perched on your shoulder, you gain darkvision with a range of 30 feet and a bonus to your passive Wisdom (Perception) score and to Wisdom (Perception) checks. The bonus equals your Charisma modifier. While perched on your shoulder, the raven can't be targeted by any attack or other harmful effect; only you can cast spells on it; it can't take damage; and it is incapacitated.",
+							"You can see through the raven's eyes and hear what it hears while it is within 100 feet of you. In combat, you roll initiative for the raven and control how it acts. If it is slain by a creature, you gain advantage on all attack rolls against the killer for the next 24 hours.",
+							"The raven doesn't require sleep. While it is within 100 feet of you, it can awaken you from sleep as a bonus action. The raven vanishes when it dies, if you die, or if the two of you are separated by more than 5 miles.",
+							"At the end of a short or long rest, you can call the raven back to you—no matter where it is or whether it died—and it reappears within 5 feet of you."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Expanded Spell List",
+						"entries": [
+							"The Raven Queen lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+							{
+								"type": "table",
+								"caption": "Raven Queen Expanded Spells",
+								"colLabels": [
+									"Spell Level",
+									"Spells"
+								],
+								"colStyles": [
+									"col-3 text-center",
+									"col-9"
+								],
+								"rows": [
+									[
+										"1st",
+										"{@spell false life}, {@spell sanctuary}"
+									],
+									[
+										"2nd",
+										"{@spell silence}, {@spell spiritual weapon}"
+									],
+									[
+										"3rd",
+										"{@spell feign death}, {@spell speak with dead}"
+									],
+									[
+										"4th",
+										"{@spell ice storm}, {@spell locate create}"
+									],
+									[
+										"5th",
+										"{@spell commune}, {@spell cone of cold}"
+									]
+								]
+							}
+						]
+					}
+				]
+			}],
+			[{
+				"entries": [{
+					"type": "entries",
+					"name": "Soul of the Raven",
+					"entries": [
+						"At 6th level, you gain the ability to merge with your raven spirit. As a bonus action when your raven is perched on your shoulder, your body merges with your raven's form. While merged, you become Tiny, you replace your speed with the raven's, and you can use your action only to Dash, Disengage, Dodge, Help, Hide, or Search. During this time, you gain the benefits of your raven being perched on your shoulder. As an action, you and the raven return to normal."
+					]
+				}]
+			}],
+			[{
+				"entries": [{
+					"type": "entries",
+					"name": "Raven's Shield",
+					"entries": [
+						"At 10th level, the Raven Queen grants you a protective blessing. You gain advantage on death saving throws, immunity to the frightened condition, and resistance to necrotic damage."
+					]
+				}]
+			}],
+			[{
+				"entries": [{
+					"type": "entries",
+					"name": "Audience with the Queen",
+					"entries": [
+						"At 14th level, you are worthy of partaking of the knowledge contained in the memories the Raven Queen collects. Using a ritual to beseech the Raven Queen, or once when you roll a death saving throw, you may send your raven spirit to the throne of the Fortress of Memories.\nIt returns at the beginning of your turn in 1d6+1 rounds (rolled by the DM). When you send it to your patron, you choose one of the following options. Upon its return, you receive the ability to use that option for 1 hour.",
+						"One spell from any spell list of a level you can cast (casting it still uses a spell slot)",
+						"One warlock invocation which you meet the prerequisites for",
+						"One skill proficiency",
+						"One saving throw proficiency",
+						"One category of weapon or armor proficiency (such as Martial Weapons, Shields, or Heavy Armor)",
+						"One language",
+						"The answer to one question, answered using the knowledge of a particular soul's memories (you must specify one at the time you send your raven)",
+						"At your DM's option, you may choose an alternate ability, but it should be no more powerful than those described above. You must complete a long rest before using this feature again."
+					]
+				}]
+			}]
+		],
+		"shortName": "Raven Queen (NE)"
 	}]
 }
