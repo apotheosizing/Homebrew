@@ -12,7 +12,7 @@
 			"convertedBy": [
 				"apotheosis"
 			],
-			"version": "1.0",
+			"version": "1.0.0",
 			"url": "https://github.com/apotheosizing/Homebrew",
 			"color": "971515",
 			"targetSchema": "1.1.0"
@@ -6338,8 +6338,13 @@
 					"name": "Legionnaire from Hell",
 					"entries": [
 						"At 20th level, you become completely consumed by the infernal powers of your Oath, which grants you the following benefits:",
-						"You are immune to fire damage, and your native plane becomes the layer of hell that your archdux rules over.",
+						{
+					"type": "list",
+					"items": [
+						"You are immune to fire damage and your native plane becomes the layer of hell that your archdux rules over.",
 						"When you reduce a creature to 0 hit points with your Infernal Implement, you regain 2d10 + 10 hit points."
+					]
+				}
 					]
 				}]
 			}]
@@ -6433,6 +6438,9 @@
 					"name": "Audience with the Queen",
 					"entries": [
 						"At 14th level, you are worthy of partaking of the knowledge contained in the memories the Raven Queen collects. Using a ritual to beseech the Raven Queen, or once when you roll a death saving throw, you may send your raven spirit to the throne of the Fortress of Memories.\nIt returns at the beginning of your turn in 1d6+1 rounds (rolled by the DM). When you send it to your patron, you choose one of the following options. Upon its return, you receive the ability to use that option for 1 hour.",
+						{
+					"type": "list",
+					"items": [
 						"One spell from any spell list of a level you can cast (casting it still uses a spell slot)",
 						"One warlock invocation which you meet the prerequisites for",
 						"One skill proficiency",
@@ -6440,7 +6448,8 @@
 						"One category of weapon or armor proficiency (such as Martial Weapons, Shields, or Heavy Armor)",
 						"One language",
 						"The answer to one question, answered using the knowledge of a particular soul's memories (you must specify one at the time you send your raven)",
-						"At your DM's option, you may choose an alternate ability, but it should be no more powerful than those described above. You must complete a long rest before using this feature again."
+						"At your DM's option, you may choose an alternate ability, but it should be no more powerful than those described above. You must complete a long rest before using this feature again."]
+				}
 					]
 				}]
 			}]
