@@ -1313,5 +1313,912 @@
 				"The creature casts dim light in a 10-foot radius. The next attack made against the creature has advantage."
 				],
 			"featureType": "Jinx"
-		}]
+		}],
+		"spell": [
+		{
+			"name": "Animate Hair",
+			"source": "walrockwitch",
+			"page": 24,
+			"srd": true,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a silver comb"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Your hair grows to a length of five feet and begins to undulate, forming four large, living tendrils. While under the effects of this spell, you can use your hair to make attacks or lift small items. Items lifted by your hair can weigh collectively up to 20 pounds, or up to four objects (one per tendril) of 5 pounds or lighter. You are able to manipulate these objects with your hair as you would your hands, unless otherwise specified.",
+				"You can attack with your hair by making a melee spell attack using the Attack action, and your hair is considered to have a reach of 10 feet. On a hit, your hair deals bludgeoning damage equal to {@dice 1d8} + your spellcasting ability modifier.",
+				"You can also use your hair to perform a grapple against any creature within its reach. Use a check with your spellcasting ability modifier in place of any Strength (Athletics) checks the grapple would have you make. Your hair can grapple up to four creatures separately, as each tendril counts as an open hand for this purpose.",
+				"Your hair can hold weapons and shields as it would any other item, but cannot use them to make attacks or confer any bonuses. Your hair does not innately grant you any extra attacks, but if you have the Extra Attack feature (or similar) you can make your normal assortment of additional attacks using your hair.",
+				"When this spell ends, your hair resumes its previous length and appearance, and drops any objects or creatures it may be holding."
+			],
+			"scalingLevelDice": {
+				"label": "acid damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Witch",
+						"source": "walrockwitch"
+					}
+				]
+			},
+			"uniqueId": "342dffc8ae12f684af214e565bb7a560"
+		},
+		{
+			"name": "Animate Hut",
+			"source": "walrockwitch",
+			"page": 25,
+			"srd": true,
+			"level": 6,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a chicken foot, 500 gp of herbs which the spell consumes",
+					"consumed": true,
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "permanent"
+				}
+			],
+			"entries": [
+				"You can animate a hovel, hut, or small house that you touch as part of the casting of this spell, causing it to grow two to eight legs that can be organic or inorganic in appearance.",
+				"This animated hut is a construct immune to disease, poison damage, and being frightened, poisoned, or charmed, and has an AC of 16, 100 hit points, a speed of 50 feet, 26 Strength, 12 Dexterity, 18 Constitution, a 4 in all other statistics, and is considered to be Gargantuan in size. If the owner of this hut does not consent to this spell taking place, the spell slot will be expended with no effect. If the hut is reduced to 0 hit points, it returns to its inanimate state, but may suffer some structural damage in doing so.",
+				"While you are within this hut, you can expend an action to cause the hut to move in a direction of your choice. As a part of this action, you can cause the hut to take either the Dash or Dodge action. If you are not within the hut but on the same plane as it, you can call it to move to you (taking the Dash action) as a continuous ritual that lasts until the hut arrives, which requires you to stay within the same location for the ritual’s duration",
+				"In either case, the hut is semi-intelligent and will avoid obvious pitfalls and hazardous terrain. If the hut cannot find a way forward (if it is too large for a path, for example), you instinctively know that something is blocking it. The hut is unable to attack, and will actively avoid harming creatures or destroying terrain in the course of its movement.",
+				"If you cast this spell while you already have an animated hut, the first hut returns to its inanimate state, and the new hut becomes your animated hut."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 9th level, you can instead cause the hut to grow wings and fly, granting it a flying speed of 100 feet with the hover quality instead of its normal movement speed."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "acid damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"PRM",
+				"SCL",
+				"SMN"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Witch",
+						"source": "walrockwitch"
+					}
+				]
+			},
+			"uniqueId": "448872f6c0e670437e861b12d9788c96"
+		},
+		{
+			"name": "Cackle",
+			"source": "walrockwitch",
+			"page": 25,
+			"srd": true,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You elicit a wicked cackle, unnerving to those nearby. Each creature within range cannot target you with opportunity attacks for the duration, and must make a Wisdom saving throw. A creature that fails this saving throw takes {@damage 3d4} psychic damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, increase the psychic damage by {@dice 1d4} for each slot level above 1st."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "acid damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Witch",
+						"source": "walrockwitch"
+					}
+				]
+			},
+			"uniqueId": "f3114d7771bc3332c046fa3248832a81"
+		},
+		{
+			"name": "Combine Potions",
+			"source": "walrockwitch",
+			"page": 25,
+			"srd": true,
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "alchemist's supplies, two vials or bottles of potions or poison"
+			},
+			"duration": [
+				{
+					"type": "permanent"
+				}
+			],
+			"entries": [
+				"You attempt to combine two potions or poisons you have on your person into a single item with the effects of both. The potions or poisons you’re combining can be mundane, magical, or created with class features that allow the imbuing of spells (as with the Witch’s Imbue Potion feature). You cannot combine two potions that were created with features that imbue spells, nor can you combine a previously combined potion or poison with any other item.",
+				"After casting this spell, make two checks with your spellcasting ability modifier, adding your proficiency bonus if you are proficient with alchemist’s supplies. The DC for these checks is 25 – twice the level of the spell slot you used to cast this spell. On a success, you have created the combined potion or poison, and both of the new item’s effects can be applied with a single Use an Object action.",
+				"If this check fails, however, one of the items you attempted to combine is destroyed, chosen at random. Further, roll once on the Potion Mishaps table, and suffer the result.",
+				"Potion Mishaps",
+				"{@dice d10} Revelation",
+				"1 The potion fumes turn your skin green. Only a remove curse spell can end this effect.",
+				"2 A large, unsightly wart grows in a prominent position on your body.",
+				"3 The destroyed potion explodes, catching you on fire and dealing {@damage 1d6} fire damage each turn until you use an action to render yourself prone and put it out.",
+				"4 The potion releases a toxic miasma, as if you had cast the spell stinking cloud centered on yourself.",
+				"5 Roll {@dice 1d100}. This is the percentage of your hair that falls out.",
+				"6 The potion ignites in a loud flash and an explosive bang. You are blinded and deafened for one minute.",
+				"7 Smoke from the potion deadens your senses. Everything smells and tastes like dirt for 24 hours.",
+				"8 The potion’s fumes cloud your mind, and you forget all events that happened within the last hour.",
+				"9 Within 20 feet of you, all plants wilt and die, and all food and milk spoils.",
+				"10 One randomly determined item on your person is transported to the Ethereal Plane."
+			],
+			"scalingLevelDice": {
+				"label": "acid damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"miscTags": [
+				"PRM"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Witch",
+						"source": "walrockwitch"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					}
+				]
+			},
+			"uniqueId": "857ac779743db8c5449fecc155a974a5"
+		},
+		{
+			"name": "Conjure Effigy",
+			"source": "walrockwitch",
+			"page": 26,
+			"srd": true,
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a personal item belonging to the target with sentimental value, or a piece of the target’s body such as their hair or nail clippings, which the spell consumes",
+					"consumed": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Choosing one creature you can see within 120 feet of you, you conjure in an unoccupied hand a makeshift doll of linen, straw, and stuffing that vaguely resembles the target, binding the personal item used in the spell’s casting to the doll. If you lack the material component for this spell and the target is within 5 feet of you, you can retrieve an inconsequential personal item (such as a hair) from the target as part of this spell’s casting, which you immediately use as the spell’s material component. ",
+				"While you hold this doll, damage you inflict upon it harms the creature that the doll resembles. Damage done with this doll cannot kill a creature, and if a creature is reduced to 0 hit points through usage of this doll, it is rendered unconscious but is immediately stabilized. After the spell’s duration expires, the doll vanishes, and any personal items lose their magical potency and cannot be reused.",
+				"As part of the action used to conjure the doll, or as a separate action on a later turn while you are holding the doll, you can perform any of the following:",
+				"Pinprick. You pull out a short pin and stab the doll. Make a spell attack roll against the creature the doll resembles. On a hit, it takes {@damage 3d8} piercing damage.",
+				"Open Flame. You expose the doll to fire, burning it. The creature the resembles must make a Charisma saving throw. If it fails, it takes {@damage 5d8} fire damage. If the target succeeds on its saving throw, it takes half this amount. In either case, this destroys the doll, and the spell ends.",
+				"Throw. You throw the doll up to 10 feet in a direction you choose. The creature it resembles must make a Charisma saving throw. If it fails, it is moved 10 feet in a direction of your choice other than upwards for every 5 feet you threw the doll. If the creature fails the save and if it or the doll collide with any solid objects (other than the floor) during this throw or forced movement, the creature takes {@damage 2d8} bludgeoning damage.",
+				"Crush. You throw the doll to the ground and stomp on it. The creature it resembles must make a Charisma saving throw. If it fails, it is rendered prone and takes {@damage 2d8} bludgeoning damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, any damage dealt by the spell increases by {@dice 1d8} for each slot level above 3rd."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "acid damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"bludgeoning",
+				"fire",
+				"piercing"
+			],
+			"miscTags": [
+				"SGT",
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Witch",
+						"source": "walrockwitch"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "1804d6f080e8113a4d772bab8dc1902e"
+		},
+		{
+			"name": "Curse of Craving",
+			"source": "walrockwitch",
+			"page": 27,
+			"srd": true,
+			"level": 6,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a dinnerbone picked clean of meat"
+			},
+			"duration": [
+				{
+					"type": "permanent"
+				}
+			],
+			"entries": [
+				"You touch one humanoid, which must make a Charisma saving throw. If it fails, the target suffers your choice of one of the following curses, which can be negated with a remove curse spell or similar magic.",
+				"Adoration. The target develops a deep admiration for a creature of your choice, which you must have seen and that knows at least one language. The creature you choose can be yourself. The target is considered charmed by that creature. When the target takes a long rest, it can repeat the initial saving throw, ending this effect on a success. ",
+				"Starvation. The target has either an unending hunger or thirst (your choice) that no amount of food or water will satiate. At the end of the day (typically after a long rest), the target suffers the effects of food or water deprivation, as listed in the Player’s Handbook (p. 185), as if it had consumed no food or water that day. This effect only functions if the target needs to eat food or drink water to survive. Each day after suffering deprivation in this way, the target may repeat the initial saving throw. If it succeeds, this effect ends, though the target still suffers the effects of food or water deprivation until they are mitigated normally."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, any damage dealt by the spell increases by {@dice 1d8} for each slot level above 3rd."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "acid damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"miscTags": [
+				"PRM"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Witch",
+						"source": "walrockwitch"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "c3ccd8e309c00d91ddb65693af312cdc"
+		},
+		{
+			"name": "Enlarge Familiar",
+			"source": "walrockwitch",
+			"page": 27,
+			"srd": true,
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a magnifying glass"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"This spell can only target a familiar you have summoned through the find familiar spell. You use your magic to increase your familiar’s size and strength dramatically, making them a much more formidable foe. Your familiar grows to Medium size, gains an AC of 8 + your proficiency bonus + your spellcasting ability modifier, and it increases its hit point maximum by 10. The Strength, Dexterity, and Constitution scores of your familiar all increase to 10 (unless they are greater already), and you choose one of these scores to instead increase to 14.",
+				"Your familiar also gains an attack which adds your spellcasting ability modifier and proficiency bonus to its roll to hit (in place of the familiar’s own statistics), and on a hit deals piercing, bludgeoning, or slashing damage (your choice) equal to {@dice 1d8} + your spellcasting ability modifier. Your familiar still cannot attack on its own, and you must use a bonus action to allow it to use an Attack action, or use a reaction of your own to allow it to make an opportunity attack.",
+				"This transformation lasts for up to one minute, until your familiar is reduced to 0 hit points, or until you end it as no additional action."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, your familiar instead grows to Large size, and increases its hit point maximum by an additional 5 hit points for every slot level above 3rd."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "acid damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"miscTags": [
+				"SGT",
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Witch",
+						"source": "walrockwitch"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "f1287f45768de21bbd146ce2951e1552"
+		},
+		{
+			"name": "Glyph of Misfortune",
+			"source": "walrockwitch",
+			"page": 27,
+			"srd": true,
+			"level": 5,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a drawn glyph"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You impart a vicious curse, draining a creature’s luck. Choose one creature you can see within range, which must make a Charisma saving throw. If it fails, that crea- ture is subject to your glyph of misfortune for the spell’s duration, or until the creature is affected by remove curse or similar magic.",
+				"Whenever a creature under your glyph makes an attack, an ability check, or a saving throw, you inherently know, and you can use your reaction to roll {@dice 1d20} after you know the result of the creature’s roll. If your result is lower than the creature’s roll, substitute the number on your die for what the creature rolled."
+			],
+			"scalingLevelDice": {
+				"label": "acid damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"savingThrow": [
+				"charisma"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Witch",
+						"source": "walrockwitch"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "4e8ed6c1603835c1bb7a5777ed666a87"
+		},
+		{
+			"name": "Guiding Light",
+			"source": "walrockwitch",
+			"page": 28,
+			"srd": true,
+			"level": 1,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a silver mirror"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You create a luminous beacon over your head that shines with the radiance of the moon. Any number of creatures you designate up to your spellcasting ability modifier (minimum 1) within 30 feet of you can use a reaction to immediately move a distance up to its movement speed closer to you. This movement does not provoke opportunity attacks."
+			],
+			"scalingLevelDice": {
+				"label": "acid damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Witch",
+						"source": "walrockwitch"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "97d00665452a97afcfb067b6163493ca"
+		},
+		{
+			"name": "Rite",
+			"source": "walrockwitch",
+			"page": 28,
+			"srd": true,
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "25 gp worth of incense and herbs, which the spell consumes",
+					"consumed": true,
+					"cost": 2500
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You undertake a magical rite, intended to denote a time of change in life. When you cast this spell, choose one of the following effects, the targets of which must remain within 10 feet of you during casting.",
+				"Coming of Age. You touch one willing young adult humanoid, who then chooses 3 skills. For the next 24 hours, the target is proficient in those 3 skills if they are not already, and has advantage on checks made with the chosen skills. A creature can only benefit from this once.",
+				"Funeral. You touch the corpse of one creature. For the next 7 days, the creature cannot be made undead by any means, aside from a wish spell.",
+				"Hunt. You touch up to 5 humanoids, which can include yourself. For the next 24 hours, beasts have disadvantage on any Perception checks to locate a creature affected by this rite, and a creature under this rite has advantage on any Survival checks made to locate a beast.",
+				"Induction. You touch one willing humanoid who wishes to become a member of your circle or coven. For the next 24 hours, that creature has advantage on Insight checks and Wisdom and Intelligence saving throws, as long as at least one member of your circle or coven is within 30 feet of them. A creature can only benefit from this once.",
+				"Sacrifice. You touch one creature with a CR or level less than your total character level. This creature cannot be a construct or undead, and must be conscious and restrained or immobilized for the duration of the ritual. Upon completion of the ritual the creature dies, and you and up to 5 creatures you designate who were within 10 feet of the ritual during its casting gain temporary hit points equal to your spellcasting modifier + the creature’s CR or level, which last for up to 24 hours. A creature can only benefit from this once every 30 days. ",
+				"Wedding. You touch a number of adult humanoids willing to be bonded in marriage. For the next 7 days, each of these creatures gains a point of inspiration whenever they spend a short or long rest in the company of at least one of their spouses. A creature cannot gain this benefit again for 300 days, nor can it be gained a second time by the same coupling of creatures."
+			],
+			"scalingLevelDice": {
+				"label": "acid damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Witch",
+						"source": "walrockwitch"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "141b9c1469d824acd7d4b6bd87a78ce2"
+		},
+		{
+			"name": "Share Pain",
+			"source": "walrockwitch",
+			"page": 29,
+			"srd": true,
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you or a creature you can see within 60 feet of you are hit by an attack made by a creature within range"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"m": "a thorned vine tied in a knot"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You attempt to transfer some of the triggering attack’s damage back to the attacking creature. Reduce the damage the creature hit with the attack receives by half (round up), and the attacking creature must make a Constitution saving throw. If it fails, it takes the same amount of damage received by the target of its attack, up to a maximum of 10 hit points of damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the maximum damage this spell can deal increases by 10 hit points for every slot level above 4th."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "acid damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SGT",
+				"SCL"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Witch",
+						"source": "walrockwitch"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "cfc7c59b206c2310bb3926e55b99a465"
+		},
+		{
+			"name": "Watch Totem",
+			"source": "walrockwitch",
+			"page": 29,
+			"srd": true,
+			"level": 0,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a tiny stick, stone, or other natural object carved with runes"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You place the object used as a material component of this spell on a horizontal surface within range. For the duration of this spell, as long as you are on the same plane as the object, you can use an action at any time to see from the object’s location for up to one minute. You can only see in a 60-foot radius around the object, your normal senses are considered blinded during this time, and this spell does not allow you to hear sounds near the object. Special vision-based senses you may have, such as darkvision, function normally with this spell.",
+				"This vision ends after one minute, or if you take an action to end it early. After this vision ends, when the spell’s duration expires, if the object takes damage, or if the object is affected by dispel magic or similar, the object crumbles to dust and can no longer be used.",
+				"Only one watch totem can be active at any time. Casting this spell while an object created by this spell already exists destroys that original object, allowing a newly-created object to function."
+			],
+			"scalingLevelDice": {
+				"label": "acid damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"savingThrow": [
+				"constitution"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Witch",
+						"source": "walrockwitch"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "abf18bef6433767746ea1e4ddf3232bc"
+		}
+	]
 }
