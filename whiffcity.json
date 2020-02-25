@@ -375,11 +375,11 @@
 				"You mask nearly all marks of your presence from the senses. Until the spell ends, you and all that you are wearing or carrying:",
 				{
 							"type": "list",
-							"items": ["- Become invisible.",
-				"- Cannot be heard or smelled.",
-				"- Cannot be detected by tremorsense, blindsight,  or scrying sensors.",
-				"- Cannot be tracked and leave no traces of passage.",
-				"- Cannot be clung to by non-magical materials such as arrows or sand."]
+							"items": ["Become invisible.",
+				"Cannot be heard or smelled.",
+				"Cannot be detected by tremorsense, blindsight,  or scrying sensors.",
+				"Cannot be tracked and leave no traces of passage.",
+				"Cannot be clung to by non-magical materials such as arrows or sand."]
 						}
 			],
 			"conditionInflict": [
