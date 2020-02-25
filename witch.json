@@ -1367,10 +1367,10 @@
 							"Once you have used this ability, you cannot do so again until you have completed a long rest.",
 							{
 								"type": "table",
-								"caption": "Revelations",
+								"caption": "Fortune Telling",
 								"colLabels": [
-									"{@dice d10}",
-									"Revelation"
+									"{@dice d20}",
+									"Card"
 								],
 								"colStyles": [
 									"col-1 text-center",
