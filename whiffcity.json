@@ -1,0 +1,903 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "whiffcity",
+			"abbreviation": "WC",
+			"full": "Whiff City",
+			"authors": [
+				"Mario",
+				"Quinn"
+			],
+			"convertedBy": [
+				"apotheosis"
+			],
+			"version": "1.0",
+			"url": "https://github.com/apotheosizing/Homebrew",
+			"color": "#89CFF0",
+			"targetSchema": "1.1.0"
+		}],
+		"dateAdded": 1582296841,
+		"dateLastModified": 1582296841
+	},
+	"subclass": [{
+			"class": "Warlock",
+			"name": "Slumbering",
+			"source": "whiffcity",
+			"subclassFeatures": [
+				[{
+					"name": "The Slumbering",
+					"entries": [
+						"Your patron is one with the restful peace of the night, as well as the rejuvenation of the waking dawn. The cycle of exhaustion, rest, and renewal is the domain of the serene Slumbering patron. Beings of this type include Uvean, Voraan, and Okallo of Elihyel, Filianore, Hypnos, Khepri, and Nut.",
+						{
+							"type": "entries",
+							"name": "Expanded Spell List",
+							"entries": [
+								"The Slumbering lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+								{
+									"type": "table",
+									"caption": "Slumbering Expanded Spells",
+									"colLabels": [
+										"Spell Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-3 text-center",
+										"col-9"
+									],
+									"rows": [
+										[
+											"1st",
+											"{@spell sleep}, {@spell sanctuary}"
+										],
+										[
+											"2nd",
+											"{@spell lesser restoration}, {@spell moonbeam}"
+										],
+										[
+											"3rd",
+											"{@spell catnap}, {@spell slow}"
+										],
+										[
+											"4th",
+											"{@spell sickening radiance}, {@spell Mordenkainen's private sanctum}"
+										],
+										[
+											"5th",
+											"{@spell awaken}, {@spell dream}"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Favour of the Restless",
+							"entries": [
+							"Starting at 1st level, If you would suffer a level of exhaustion, you may instead gain temporary hit points equal to your Charisma modifier (minimum 1).",
+							"Once you use this feature, you can't use it again until you finish a short or long rest."
+						]
+						},
+						{
+							"type": "entries",
+							"name": "Embrace of Morpheus",
+							"entries": [
+							"At 1st level, you gain proficiency in the Perception skill. In addition, you ignore the prerequisties for {@optfeature Aspect of the Moon|XGE}.",
+							"In addition, when you cast the spell {@spell sleep}, instead of rolling dice you may use the highest number for each die."
+						]
+						}
+					]
+				}],
+				[{
+					"entries": [{
+						"type": "entries",
+						"name": "Break of Dawn",
+						"entries": [
+							"At 6th level, you may bless the rest of yourself and your companions. During a lost or short rest, you may spend 10 minutes performing a ritual of revitalization. At the end of the rest, you and up to 5 willing creatures regain hit points equal to your Charisma modifier + your Warlock level. Any hit points gained over the maximum become temporary hit points.",
+							"These temporary hit points are lost if you fall unconscious."
+						]
+					}]
+				}],
+				[{
+					"entries": [{
+						"type": "entries",
+						"name": "Incubation",
+						"entries": [
+							"At 10th level, you learn the spell {@spell greater restoration} and it counts as a warlock spell for you.",
+							"When you finish a short or long rest, you can cast the {@spell divination} or {@spell contact other plane} spell as an action, without expending a spell slot."
+						]
+					}]
+				}],
+				[{
+					"entries": [{
+						"type": "entries",
+						"name": "Curse of Insomnia",
+						"entries": [
+							"At 14th level, you have learned to weave insomnia and fatigue into your magic. On your turn, you can use a bonus action to augment your magic for the next minute. While the augment is active, once per turn, when you hit a creature with a spell attack or it fails a saving throw from one of your spells, it must make a Constitution saving throw or suffer a level of exhaustion. The augment ends early if you fall unconscious.",
+							"Once you use this feature, you can't use it again until you finish a long rest."
+						]
+					}]
+				}]
+			],
+			"shortName": "Slumbering (WC)"
+		},
+		{
+			"class": "Warlock",
+			"name": "Flesh",
+			"source": "whiffcity",
+			"subclassFeatures": [
+				[{
+					"name": "The Flesh",
+					"entries": [
+						"You have bonded yourself to the flesh of the world; a pact sealed in blood. The Flesh, also known as the Formless, the Heart of the World, or the Endless Meat, writhes beneath the dirt and stone that acts as its shell. The Flesh has only one goal: to propagate itself and consume all other life it meets, twisting their forms and minds to meld together in perfect unity.",
+						{
+							"type": "entries",
+							"name": "Expanded Spell List",
+							"entries": [
+								"The Flesh lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+								{
+									"type": "table",
+									"caption": "Flesh Expanded Spells",
+									"colLabels": [
+										"Spell Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-3 text-center",
+										"col-9"
+									],
+									"rows": [
+										[
+											"1st",
+											"{@spell grease}, {@spell ray of sickness}"
+										],
+										[
+											"2nd",
+											"{@spell enhance ability}, {@spell protection from poison}"
+										],
+										[
+											"3rd",
+											"{@spell animate dead}, {@spell life transference}"
+										],
+										[
+											"4th",
+											"{@spell confusion}, {@spell polymorph}"
+										],
+										[
+											"5th",
+											"{@spell contagion}, {@spell reincarnate}"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Favour of the Restless",
+							"entries": [
+							"Making a pact with the Heart of the World has given you insight into the horrid language it and its spawn speak.",
+							"Starting at 1st level, you learn the Abyssal language if you did not know it already.",
+							"You also know meat of all kinds inside and out and the endless hunger of the Formless drives you to consume it. However, you still have your wits about you and won't just eat raw meat, unless you were already predisposed to do so.",
+							"You gain proficiency with Cook's Utensils if you did not have it already."
+						]
+						},
+						{
+							"type": "entries",
+							"name": "Pliable Flesh",
+							"entries": [
+							"Communing with the Endless Meat has given you insight to the true possibility of your own body and you can now shape it to suit your desires and needs.",
+							"Also at 1st level, you gain a number of Mutation Points equal to 1 + your Charisma modifier (minimum of 1). When you finish a long or short rest, you can assign these points to Mutations listed below.",
+							"These Mutations each cost one Mutation Point.",
+							{
+										"type": "table",
+										"caption": "Minor Mutations Table",
+										"colLabels": [
+											"Mutation",
+											"Effect"
+										],
+										"colStyles": [
+											"col-3 text-left",
+											"col-9"
+										],
+										"rows": [
+											[   "Antivemon",
+												"You have advantage on saving throws against poison and resistance against poison damage."
+											],
+											[
+												"Calloused Skin",
+												"While not wearing heavy armour, you gain +1 to your AC."
+											],
+											[
+												"Equine Legs",
+												"Your speed increases by 10 feet."
+											],
+											[
+												"Extra Eyes",
+												"You gain darkvision out to a range of 30 feet. If you already have darkvision from another source, its range increases by 30 feet. You also have advantage on Wisdom (Perception) checks that rely on sight."
+											],
+											[
+												"Gills",
+												"You gain a swim speed of 30 feet and you can breathe in water as well as air."
+											],
+											[
+												"Natural Weapon (Melee)",
+												"You gain a biological weapon that you are proficient with, replacing your unarmed strike. This weapon deals {@dice 1d6} slashing damage and has the {@italics finesse} property."
+											],
+											[
+												"Powerful Legs",
+												"Your long jump is up to 20 feet and your high jump is up to 10 feet."
+											],
+											[
+												"Sticky Hands",
+												"You gain a climbing speed of 30 feet."
+											],
+											[
+												"Sure-Feet",
+												"You have advantage on Strength and Dexterity saving throws made against effects that would knock you prone."
+											],
+											[
+												"Tainted Blood",
+												"When hit with a melee attack, you can use your reaction to deal 2d4 poison damage to the attacker. You may use this feature a number of times equal to your Charisma modifier and regain all expended uses on a long rest."
+											],
+											[
+												"Warped Arms",
+												"Your reach is 5 feet greater than normal."
+											]
+										]
+									}
+						]
+						}
+					]
+				}],
+				[{
+					"entries": [{
+						"type": "entries",
+						"name": "Shapechanger",
+						"entries": [
+							"By 6th level, your expertise with changing your own shape has allowed you to prevent others from doing it to you against your will.",
+							"You are no longer affected by spells that alter your physical form - such as {@spell polymorph} or {@spell enlarge/reduce} - unless you wish to be."
+						]
+					},
+					{
+							"type": "entries",
+							"name": "Meat Sense",
+							"entries": [
+							"Also at 6th level, you can use an action to mentally call out to other creatures in tune with the Endless Meat. You learn the location and number of any such creatures within 100 feet.",
+							"You also can stand upon your shared fleshiness to foster good will with any creature afflicted the Meat, gaining advantage on all Charisma checks made with such a 'meat-ure'."
+						]
+						}]
+				}],
+				[{
+					"entries": [{
+						"type": "entries",
+						"name": "Incubation",
+						"entries": [
+							"By 10th level, the secrets held by your own body are hidden no longer. You have unlocked the potential deep within your bones and organs and can shape yourself into new and stranger forms.",
+							"A new suite of Mutations becomes available to you. These Mutations each cost two Mutation Points.",
+							{
+										"type": "table",
+										"caption": "Major Mutations Table",
+										"colLabels": [
+											"Mutation",
+											"Effect"
+										],
+										"colStyles": [
+											"col-3 text-left",
+											"col-9"
+										],
+										"rows": [
+											[   "Adrenal Amplifier",
+												"When you are reduced to 0 hit points but not killed outright, you immediately regain hit points equal to your Warlock level + your Charisma modifier. Once you use this feature, you must finish a long rest before you can use it again."
+											],
+											[
+												"Bone Restructuring",
+												"You can change your size category, becoming one category smaller or larger than your original size."
+											],
+											[
+												"Echolocation",
+												"You gain blindsight out to a range of 15 feet."
+											],
+											[
+												"Natural Weapon (Ranged)",
+												"You gain a biological weapon that you are proficient with. As an action, you can target one creature or object you can see within 30 feet of you. The target must make a Dexterity saving throw, taking {@dice 3d10} acid damage on a failure. The DC is equal to 8 + your Constitution modifier + your proficiency bonus. This damage increases by 1d10 when you reach 17th level ({@dice 4d10}). You can use this trait a number of times equal to your Constitution modifier (minimum of once) and you regain all expended uses when you finish a long rest."
+											],
+											[
+												"Sensitive Footpads",
+												"You gain tremorsense out to a range of 15 feet."
+											],
+											[
+												"Surplus Organs",
+												"Once per long rest, you may turn a critical hit against you into a normal hit, ignoring any extra damage or effects triggered by the critical hit."
+											],
+											[
+												"Wings",
+												"You have a flying speed of 30 feet when not wearing heavy or medium armour."
+											]
+										]
+									}
+						]
+					}]
+				}],
+				[{
+					"entries": [{
+						"type": "entries",
+						"name": "Eruption of Flesh",
+						"entries": [
+							"At 14th level, your mastery of meat lies not only in your body but extends to the body of the world itself, allowing you can command a fragment of its power directly.",
+							"As an action, you can summon forth meat from the world's core and cause it to erupt through your own body in the form of a tentacle. You decide the exact location of origin and its presence doesn't affect your senses or locomotion.",
+							"As a bonus action on subsequent turns, you can cause one of the following effects with it, using your game statistics:",
+							"{@bold Blood Spray.} The tentacle spews a mist of blood 10 feet in every direction from you. Plants that aren't creatures become flesh in the range. Any creature in the mist must succeed on a Constitution saving throw or take {@dice 2d6} + your Charisma modifier necrotic damage.",
+							"{@bold Bone Spike.} A sharpened bone spear is propelled from the tentacle toward one creature within 100 feet of you. Make a ranged spell attack. On a hit, the target takes {@dice 3d6} piercing damage. This damage is magical.",
+							"{@bold Leech.} A lamprey-like mouth forms on the end of the tentacle, attaching itself to a creature of your choice within 20 feet of you. The creature must make a Dexterity saving throw against to your spell save DC. On a failure, the creature takes damage equal to {@dice 2d6} + your Charisma modifier, and ",
+							"{@bold Whip.} The tentacle lashes out at one creature within 20 feet of you. Make a melee spell attack. On a hit, the target takes {@dice 3d8} bludgeoning damage. This damage is magical.",
+							"The tentacle lasts for one minute or until dispelled as a free action. Once you use this feature, you must finish a long rest before you can use it again."
+						]
+					}]
+				}]
+			],
+			"shortName": "Flesh (WC)"
+		}
+	],
+	"spell": [
+		{
+			"name": "Unknowable",
+			"source": "whiffcity",
+			"srd": true,
+			"level": 7,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a faceless doll"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You mask nearly all marks of your presence from the senses. Until the spell ends, you and all that you are wearing or carrying:",
+				{
+							"type": "list",
+							"items": ["- Become invisible.",
+				"- Cannot be heard or smelled.",
+				"- Cannot be detected by tremorsense, blindsight,  or scrying sensors.",
+				"- Cannot be tracked and leave no traces of passage.",
+				"- Cannot be clung to by non-magical materials such as arrows or sand."]
+						}
+			],
+			"conditionInflict": [
+				"invisible"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "3ec9b671c842b7662951049751aae013"
+		},
+		{
+			"name": "Astral Smite",
+			"source": "whiffcity",
+			"level": 6,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You fire several bolts of ghostly energy at a creature within range. You do not have to be able to see the creature to target them but there must be a straight, unobstructed path from you to the target. The spell can also target a creature on the ethereal plane from the material plane. The target must make a Dexterity saving throw. A creature takes {@damage 12d6} force damage on a failed save, or half as much on a successful save. A creature on the ethereal plane or in a gaseous form has vulnerability to this damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 7th level or higher, the damage increases by {@dice 1d6} for each slot level above 6th."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "a584a2996205ec1b1c043961942cf732"
+		},
+		{
+			"name": "Delay Teleportation",
+			"source": "whiffcity",
+			"level": 7,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"You protect your immediate vicinity against teleportation. An invisible 30-foot radius sphere centred on you appears and follows you for the duration of the spell. Whenever a creature attempts to teleport within the sphere, it must make a Charisma saving throw. If it fails, the creature's teleportation is delayed. It lingers on the Astral plane and will teleport to its destination at the end of its next turn. At the same time, you can reposition the destination of the teleportation anywhere within the circle and learn exactly how many creatures are teleporting there."
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "809fad5e1becc88681e8aceeff642d88"
+		},
+		{
+			"name": "Wall of Skeletons",
+			"source": "whiffcity",
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a rattle"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a bony wall of countless skeletons within range. The wall is 1 foot thick and is composed of ten 10-foot-by-20-foot panels. Each panel must be contiguous with at least one other panel.",
+				"If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use its reaction to move up to its speed so that it is no longer enclosed by the wall.",
+				"The wall can have any shape you desire, though it can't occupy the same space as a creature or object. The wall doesn't need to be vertical or rest on any firm foundation.",
+				"When the creature moves within 5 feet of the wall or starts its turn there, it must make a Dexterity saving throw, taking {@damage 2d8} slashing damage on a failed save as the skeletons lash out at the target. On your turn, you can use your action to make a melee spell attack against each creature within 5 feet of the wall, dealing {@damage 2d8} slashing damage on a hit.",
+				"The wall is an object made of bones that can be damaged and thus breached. Each panel has AC 13, 39 hit points, and vulnerability to bludgeoning damage. Reducing a panel to 0 hit points destroys it and might cause connected panels to collapse at the DM's discretion."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@dice 1d8} for each slot level above 5th."
+					]
+				}
+			],
+			"damageInflict": [
+				"slashing"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"W"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "ac967030c7f2709f752ef7cd3813b147"
+		},
+		{
+			"name": "Uriel",
+			"source": "whiffcity",
+			"level": 9,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a holy symbol worth at least 500 gp",
+					"consumed": true,
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You call forth the heavenly flame of the mightiest angels. Each creature in a 15-foot-radius, 90-foot-high cylinder centred on a point within range must succeed on a Constitution saving throw or take {@damage 20d12} fire or radiant damage (your choice), or {@dice 10d12} of each, and is blinded and deafened for 10 minutes. A creature that succeeds on its saving throw takes half as much damage and isn't blinded and deafened."
+			],
+			"damageInflict": [
+				"fire",
+				"radiant"
+			],
+			"conditionInflict": [
+				"blinded",
+				"deafened"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"Y"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "26849c2b475f3b6cba109ac63bdc33c2"
+		},
+		{
+			"name": "Lightweight Cargo",
+			"source": "whiffcity",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a feather"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You touch an object that can fit inside a 10 ft cube. Its weight is halved for the duration. The spell ends early if you cast it again."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, you can target an object that can fit inside a cube 5 ft larger for each slot level above 1st."
+					]
+				}
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "bfb456f5f50984a0dbbd9877e27ca393"
+		},
+		{
+			"name": "Under Divine Flag",
+			"source": "whiffcity",
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "a steel bar"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You steel the resolve of your allies with words of glory and zeal. For the duration, any number of willing creatures you choose within range are immune to being frightened. The spell ends early if you cast it again."
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "e05845e303abd448ef7a7095558fee72"
+		},
+		{
+			"name": "Appraisal",
+			"source": "whiffcity",
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a scale worth at least 50 gp",
+					"cost": 5000
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You choose one object that you must touch throughout the casting of the spell. If it is a non-magical item then you learn how much it is worth in gp and what non-magical precious metals or stones (if any) are present in the object. If it is a magical item or some other magic-imbued object, you learn roughly how much it is worth in gp."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "664ca3aac978a8e8f6e80830a70ce01c"
+		},
+		{
+			"name": "Create McFood and McWater",
+			"source": "whiffcity",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of golden string, wire, or fabric shaped like an M"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You create 45 pounds of burgers and fries and 30 gallons of carbonated drink on the ground or in containers within range, enough to sustain up to fifteen humanoids or five steeds for 24 hours. The food is quite tasty, if a bit fattening, and spoils if uneaten after 72 hours. The carbonated drink is clean and doesn't go bad."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "dee6f551ed857ff292519556ee4e6083"
+		}
+	]
+}
