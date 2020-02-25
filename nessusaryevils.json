@@ -416,8 +416,8 @@
 			"damageInflict": [
 				"piercing"
 			],
-			"savingThrow": [
-				"dexterity"
+			"spellAttack": [
+				"M"
 			],
 			"miscTags": [
 				"SCL"
