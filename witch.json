@@ -1,0 +1,1317 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "walrockwitch",
+			"abbreviation": "WH",
+			"full": "Witch (WH)",
+			"authors": [
+				"Walrock Homebrew"
+			],
+			"convertedBy": [
+				"apotheosis"
+			],
+			"version": "1.2",
+			"color": "#800080",
+			"url": "https://www.dmsguild.com/product/248189/WH-The-Witch-a-character-class-of-natural-arcana-and-the-old-ways-of-magic",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 1546170412,
+		"dateLastModified": 1546170412
+	},
+	"class": [{
+			"name": "Witch",
+			"source": "walrockwitch",
+			"hd": {
+				"number": 1,
+				"faces": 6
+			},
+			"proficiency": [
+				"int",
+				"wis"
+			],
+			"classTableGroups": [{
+					"colLabels": [
+						"Jinxes Known"
+					],
+					"rows": [
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							1
+						],
+						[
+							1
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						]
+					]
+				},
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|class=Witch (WH)}",
+						"Spells Known"
+					],
+					"rows": [
+						[
+							3,
+							3
+						],
+						[
+							3,
+							4
+						],
+						[
+							3,
+							5
+						],
+						[
+							4,
+							6
+						],
+						[
+							4,
+							7
+						],
+						[
+							4,
+							8
+						],
+						[
+							4,
+							9
+						],
+						[
+							4,
+							10
+						],
+						[
+							4,
+							11
+						],
+						[
+							5,
+							12
+						],
+						[
+							5,
+							13
+						],
+						[
+							5,
+							14
+						],
+						[
+							5,
+							15
+						],
+						[
+							5,
+							16
+						],
+						[
+							5,
+							17
+						],
+						[
+							5,
+							18
+						],
+						[
+							5,
+							19
+						],
+						[
+							5,
+							19
+						],
+						[
+							5,
+							20
+						],
+						[
+							5,
+							20
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=Witch (WH)}",
+						"{@filter 2nd|spells|level=2|class=Witch (WH)}",
+						"{@filter 3rd|spells|level=3|class=Witch (WH)}",
+						"{@filter 4th|spells|level=4|class=Witch (WH)}",
+						"{@filter 5th|spells|level=5|class=Witch (WH)}",
+						"{@filter 6th|spells|level=6|class=Witch (WH)}",
+						"{@filter 7th|spells|level=7|class=Witch (WH)}",
+						"{@filter 8th|spells|level=8|class=Witch (WH)}",
+						"{@filter 9th|spells|level=9|class=Witch (WH)}"
+					],
+					"rows": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							2,
+							1,
+							1
+						]
+					]
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"none"
+				],
+				"weapons": [
+					"blowguns",
+					"daggers",
+					"quarterstaffs",
+					"sickles"
+				],
+				"tools": [
+					"alchemist's supplies", "herbalism kit", "poisoner's kit"
+				],
+				"skills": [{
+					"choose": {
+						"from": [
+							"animal handling",
+							"arcana",
+							"history",
+							"insight",
+							"medicine",
+							"nature",
+							"religion",
+							"stealth",
+							"survival"
+						],
+						"count": 2
+					}
+				}]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a dagger or (b) a sickle",
+					"(a) a component pouch or (b) an arcane focus or (c) a druidic focus",
+					"a set of alchemist's supplies, an herbalism kit, and a poisoner's kit",
+					"(a) an scholar's pack or (b) a explorer's pack",
+					"a spellbook"
+				],
+				"goldAlternative": "2d4 x 10"
+			},
+			"classFeatures": [
+				[{
+						"name": "Spellcasting",
+						"entries": [{
+								"type": "entries",
+								"name": "Cantrips",
+								"entries": [
+									"At 1st level, you know three cantrips of your choice from the witch spell list. You learn additional witch cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Witch table."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spell Slots",
+								"entries": [
+									"The Witch table shows how many spell slots you have to cast your witch spells of 1st level and higher. To cast one of these witch spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest. For example, if you know the 1st-level spell witch bolt and have a 1st-level and a 2nd-level spell slot available, you can cast witch bolt using either slot."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spells Known of 1st Level or Higher",
+								"entries": [
+									"You know three 1st-level spells of your choice from the witch spell list. You learn an additional witch spell of your choice at each level. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st- or 2nd-level. Additionally, when you gain a level in this class, you can choose one of the witch spells you know and replace it with another spell from the witch spell list, which also must be of a level for which you have spell slots."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spellcasting Ability",
+								"entries": [
+									"Intelligence is your spellcasting ability for witch spells, representing the deep study of natural arcana required for witchcraft. You use Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a witch spell you cast and when making an attack roll with one.",
+									{
+										"type": "abilityDc",
+										"name": "Spell",
+										"attributes": [
+											"int"
+										]
+									},
+									{
+										"type": "abilityAttackMod",
+										"name": "Spell",
+										"attributes": [
+											"int"
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Ritual Book",
+								"entries": [
+									"You also have a spellbook known as a ritual book. Your ritual book does not contain the witch spells you know, which are instead fixed in your memory. Rather, the ritual book contains your choice of two 1st-level spells that have the ritual tag from the witch spell list. The spells that are in your ritual book don’t count against the number of spells you know. You can’t cast the witch spells in your ritual book except as rituals, unless you’ve learned them by some other means. You can also cast any witch spell you know as a ritual if it has the ritual tag.",
+									{
+										"type": "entries",
+										"name": "Adding Ritual Spells",
+										"entries": ["On your adventures, you can add other witch ritual spells to your ritual book. When you find such a spell, you can add it to your ritual book if the spell’s level is equal to or less than half your witch level (rounded up) and if you can spare the time to tran scribe the spell. For each level of the spell, the transcrip tion process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it."]
+									},
+									{
+										"type": "entries",
+										"name": "Replacing the Book",
+										"entries": ["You can copy a ritual spell from your ritual book into another book — for example, if you want to make a backup copy of your ritual book. This is just like copying a new ritual spell into your ritual book, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied ritual spell.",
+											"If you lose your ritual book and do not have a replacement, you can instead attempt to replicate each ritual spell in the lost book, writing each spell in turn into a new book. This has the same cost in time and currency as duplicating a book, above, but after scribing a spell you must roll an Intelligence (Arcana) check with a DC of 8 + twice the ritual spell’s level, to determine whether or not you have recalled it correctly. On a success, the ritual spell is added to your book, but on a failure the spell is incorrect and forgotten, and must be found again. To avoid this, most witches keep an extra ritual book hidden away in a secure location."
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spellcasting Focus",
+								"entries": [
+									"You can use an arcane focus or a druidic focus as a spellcasting focus for your witch spells."
+								]
+							}
+						]
+					},
+					{
+						"name": "Occult Familiar",
+						"entries": [
+							"Since time immemorial, witches have formed bonds with familiar spirits, which stand as symbols and sources of their magical power. Historically, familiars have acted as messengers between witches and the unknowable entities that taught them the ways of the arcane, but in modern times familiars mostly serve as companions and foils to their chosen witch.",
+							"You know the spell {@spell find familiar}, which counts as a witch spell and does not count against the total spells you can know. You are able to cast find familiar without expending a spell slot or any materials costs. Familiars you conjure with find familiar gain a number of additional benefits:",
+							{
+								"type": "list",
+								"items": [
+									"The familiar’s Charisma and Intelligence scores become 12, unless they are already higher.",
+									"The familiar can speak, read, and understand all languages you know.",
+									"The familiar’s movement does not provoke opportunity attacks.",
+									"The familiar adds your witch level to its hit point maximum.",
+									"If the familiar succeeds on a saving throw and would take half damage, it instead takes no damage."
+								]
+							}
+						]
+					}
+				],
+				[{
+						"name": "Jinx",
+						"entries": [
+							"At 2nd level, you harness the power of jinxes, which are subtle ways to twist your spellcraft, derived from the blending of natural and arcane magics. Learn two jinxes of your choice from the following list. You learn one additional jinx of your choice at 7th, 13th, and 18th level.",
+							"Once on each of your turns in which a creature within 120 feet of you that you can see has failed a saving throw against one of your spells or has been hit by one of your attacks, you can use a bonus action to target one such creature of your choice with a jinx of your choice, out of those jinxes that you know. If multiple such crea- tures exist, still target only one of them. A jinx’s effects last until the start of your next turn, unless the effects would end earlier. Jinxes are inherently magical, and do not function in the area of an antimagic field spell or similar effects.",
+							"You can use this feature once before you must finish a short or long rest to regain its usage. At 5th level, you can use this feature twice between rests. At 15th, this increases to three times between rests.",
+							"The jinxes you can learn can be found on the {@filter Optional Features page|optionalfeatures|feature_type=jinx}. If a jinx has prerequisites, you must meet them before you can learn the jinx. Whenever you gain a witch level, you can replace one jinx you know with a different jinx on this list that you meet the prerequisites for."
+							]
+					},
+					{
+						"name": "Witch's Coven",
+						"entries": [
+							"Also at 2nd level, you align yourself with a Witch's Coven, a secretive society of witches that closely guards their magical secrets from the outside."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[{
+						"name": "Brewcraft",
+						"entries": [
+							"Natural magic and arcane magic are not separate entities to a witch. Because of this, witches are masters of unlocking the arcane potential hidden in common herbs and plants. Starting at 3rd level, if you craft a magic item in the potion category, it takes you a quarter of the normal time, and it costs you half as much of the usual gold. These bonuses also apply to any mundane items you could create with alchemist’s supplies or the poisoner’s kit, such as antitoxin, acid, alchemist’s fire, ale, basic poison, or any of the poisons listed in the Dungeon Master’s Guide.",
+							"Your DM may decide that certain potions or poisons (purple worm poison, as an example) are uncraftable to you unless you uncover specific rare ingredients first. Should you acquire them, subtract the price of these rare ingredients from the crafting cost accordingly."
+						]
+					},
+					{
+						"name": "Imbue Potion",
+						"entries": [
+							"When witches are unable to spend great amounts of time brewing potions, they can imbue a tincture directly with their arcane power. The result is a potion that is easier and less costly to make, but less stable and with little longevity.",
+							"Beginning at 3rd level, when you take a short or long rest and have an empty vial on your person, you can choose one of the following spells you know and can cast with available spell slots:",
+							{
+								"type": "table",
+								"caption": "Imbue Potion",
+								"colLabels": [
+									"Spell Level",
+									"Spells"
+								],
+								"colStyles": [
+									"col3 textcenter",
+									"col9"
+								],
+								"rows": [
+									[
+										"1st",
+										"{@spell animate hair|WH}, {@spell charm person}, {@spell command}, {@spell cure wounds}, {@spell disguise self}, {@spell detect magic}, {@spell false life}, {@spell feather fall}, {@spell mage armor}, {@spell sleep}, {@spell speak with animals}"
+									],
+									[
+										"2nd",
+										"{@spell alter self}, {@spell barkskin}, {@spell blindness/deafness}, {@spell detect thoughts}, {@spell dragon's breath|XGE}, {@spell enhance ability}, {@spell enlarge/reduce}, {@spell invisibility}, {@spell lesster restoration}, {@spell protection from poison}, {@spell see invisibilty}, {@spell spider climb}"
+									],
+									[
+										"3rd",
+										"{@spell catnap|XGE}, {@spell dispel magic}, {@spell feign death}, {@spell gaseous form}, {@spell nondetection}, {@spell protection from energy}, {@spell remove curse}, {@spell revivify}, {@spell tongues}, {@spell vampirice touch}, {@spell water breathing}, {@spell water walk}"
+									],
+									[
+										"4th",
+										"{@spell charm monster|XGE}, {@spell death ward}, {@spell fire shield}, {@spell freedom of movement}, {@spell greater invisibility}, {@spell stoneskin}"
+									],
+									[
+										"5th",
+										"{@spell awaken}, {@spell commune with nature}, {@spell contact other plane}, {@spell dominate person}, {@spell greater restoration}, {@spell legend lore}, {@spell reincarnate}, {@spell skill empowerment}"
+									],
+									[
+										"6th",
+										"{@spell curse of craving|WH}, {@spell find the path}, {@spell investiture of flame|XGE}, {@spell investiture of ice|XGE}, {@spell investiture of stone|XGE}, {@spell investiture of wind|XGE}, {@spell true seeing}"
+									]
+								]
+							},
+							"Immediately choose any details this spell would have you select and expend that spell’s material components and a spell slot equal to the spell level you intend the spell to function at. Instead of any targets specified by the spell, the spell’s target becomes the creature that drinks the potion. If a creature must have certain attributes to be subject to the spell (such as a specific creature type), the potion only works on creatures with those attributes.",
+							"At the end of the rest, you then create a potion that is able to impart the spell you selected, with the details you have chosen. The spell slot you have used in the creation of the potion does not refresh as long as the potion exists. Once the potion (or an item it is applied to) has been used, is destroyed, or otherwise ceases to exist, the spell slot can refresh as it would normally, but does not automatically do so.",
+							{
+								"type": "entries",
+								"name": "Using an Imbued Potion",
+								"entries": ["As an action, a creature can drink the entire potion, administer it to another willing creature, or apply it to an item of food or drink. The potion only confers effects on a creature that drinks it entirely, or that consumes in entirety the item of food or drink to which it is applied. Such a creature immediately gains the effects of the spell you selected, with the specific details you chose when you first created the potion. An applied potion on a consumable item can be detected by a creature holding the item with a successful Intelligence (Arcana) or Wisdom (Survival) check made against your spell save DC. Spells imparted by this potion last for their normal durations, listed within the text of the spells themselves. If a spell conferred by this feature requires concentration, the creature that drank the potion must maintain concentration on the effect as if they cast the spell themselves. If a potion would require the creature drinking it to make a saving throw, that saving throw is made against your spell save DC."]
+							},
+							{
+								"type": "entries",
+								"name": "Active Potions",
+								"entries": ["At any time, you can have a number of active potions from this feature equal to your witch level divided by 3, rounded down. You can also cause any of your potions from this feature to no longer retain their potency with a bonus action, regardless of how far away from you they may be."]
+							}
+						]
+					}
+				],
+				[{
+					"name": "Ability Score Improvement",
+					"entries": [
+						"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+						"If your DM allows the use of feats, you may instead take a feat."
+					]
+				}],
+				[{
+					"name": "Jinx (2/rest)",
+					"entries": [
+						"At 5th level, you can use your jinx feature twice before needing to rest."
+					]
+				}],
+				[{
+					"name": "Witch's Coven feature",
+					"entries": [
+						"At 6th level, you gain a feature granted by your Witch's Coven."
+					],
+					"gainSubclassFeature": true
+				}],
+				[{
+					"name": "Enchant Broom",
+					"entries": [
+						"At 7th level, you’ve learned the secret ritual required to make a witch’s broom, the flying conveyance of any true witch. You can undertake an hourlong ritual that prepares one broom (or, with your DM’s permission, any sufficiently broomlike object) to become your witch’s broom. After this ritual is complete, this broom counts as a broom of flying (Dungeon Master’s Guide, p. 156), and you choose the command word needed to activate it. This broom responds only to your use of its command word, and will refuse to move if anyone else tries to ride it while you are not already on it. The broom is still able to move about unoccupied as normal, however.",
+						"If you perform this ritual on a second broom while you already have a witch’s broom benefiting from this feature, the first witch’s broom returns to its initial mundane state, and the new broom becomes your witch’s broom."
+					]
+				}],
+				[{
+					"name": "Ability Score Improvement",
+					"entries": [
+						"When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+						"If your DM allows the use of feats, you may instead take a feat."
+					]
+				}],
+				[],
+				[{
+					"name": "Witch's Coven feature",
+					"entries": [
+						"At 10th level, you gain a feature granted by your Witch's Coven."
+					],
+					"gainSubclassFeature": true
+				}],
+				[{
+					"name": "Fine Fettle",
+					"entries": [
+						"At 11th level, you are perpetually healthy and resistant to conditions that could be the death of others. You have resistance to poison damage and are immune to disease and the poisoned condition.",
+						"Additionally, you age only 1 year for every 5 years you grow older, are immune to the negative effects of aging, and cannot unwillingly die from old age."
+					]
+				}],
+				[{
+					"name": "Ability Score Improvement",
+					"entries": [
+						"When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+						"If your DM allows the use of feats, you may instead take a feat."
+					]
+				}],
+				[],
+				[{
+					"name": "Witch's Coven feature",
+					"entries": [
+						"At 14th level, you gain a feature granted by your Witch's Coven."
+					],
+					"gainSubclassFeature": true
+				}],
+				[{
+					"name": "Jinx (3/rest)",
+					"entries": [
+						"At 15th level, you can use your jinx feature three times before needing to rest."
+					]
+				}],
+				[{
+					"name": "Ability Score Improvement",
+					"entries": [
+						"When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+						"If your DM allows the use of feats, you may instead take a feat."
+					]
+				}],
+				[],
+				[],
+				[{
+					"name": "Ability Score Improvement",
+					"entries": [
+						"When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+						"If your DM allows the use of feats, you may instead take a feat."
+					]
+				}],
+				[{
+					"name": "Grand Old Wytch",
+					"entries": [
+						"Once you reach 20th level, you have been honored with the title of Grand Olde Wytch, bestowed on only the greatest practitioners of witchcraft.",
+						"After you roll initiative, you can choose to be able to use your Jinx feature freely for the next one minute without expending any of its uses. All other restrictions on using Jinx still apply."
+					]
+				}]
+			],
+			"subclassTitle": "Witch's Coven",
+			"subclasses": [{
+				"name": "Coven of the Lost Moon",
+				"subclassFeatures": [
+					[{
+						"name": "P",
+						"entries": [
+							"P"
+						]
+					}],
+					[{
+						"type": "entries",
+						"name": "P",
+						"entries": [
+							"P"
+						]
+					}],
+					[{
+						"type": "entries",
+						"name": "P",
+						"entries": [
+							"P"
+						]
+					}],
+					[{
+						"type": "entries",
+						"name": "P",
+						"entries": [
+							"P"
+						]
+					}]
+				],
+				"source": "walrockwitch",
+				"shortName": "Lost Moon"
+			}],
+			"fluff": [{
+				"entries": [
+					"Witches are learned practitioners of the earliest of magics, from a time when the arcane and the natural were studied as one. Eschewing the more esoteric magics studied by some of their peers, witches prefer practical magic with a variety of potential uses. Witches draw upon the power inherent in the night and the land to breathe life into fallen comrades, brew mystical potions and poisons mighty enough to fell a dragon, and weave terrible curses that may plague an individual for the rest of their life."
+				],
+				"name": "Witch",
+				"type": "section"
+			}],
+			"classSpells": [
+				"Acid Splash",
+				"Chill Touch",
+				{
+					"name": "Control Flames",
+					"source": "XGE"
+				},
+				{
+					"name": "Create Bonfire",
+					"source": "XGE"
+				},
+				"Dancing Lights",
+				"Druidcraft",
+				"Friends",
+				{
+					"name": "Frostbite",
+					"source": "XGE"
+				},
+				"Guidance",
+				{
+					"name": "Gust",
+					"source": "XGE"
+				},
+				{
+					"name": "Infestation",
+					"source": "XGE"
+				},
+				"Mage Hand",
+				{
+					"name": "Magic Stone",
+					"source": "XGE"
+				},
+				"Mending",
+				"Message",
+				"Minor Illusion",
+				{
+					"name": "Mold Earth",
+					"source": "XGE"
+				},
+				"Poison Spray",
+				"Prestidigitation",
+				{
+					"name": "Primal Savagery",
+					"source": "XGE"
+				},
+				"Produce Flame",
+				"Ray of Frost",
+				{
+					"name": "Shape Water",
+					"source": "XGE"
+				},
+				"Spare the Dying",
+				"Thaumaturgy",
+				"Thorn Whip",
+				{
+					"name": "Toll the Dead",
+					"source": "XGE"
+				},
+				{
+					"name": "Watch Totem",
+					"source": "WH"
+				},
+				"Alarm",
+				"Animal Friendship",
+				{
+					"name": "Animate Hair",
+					"source": "WH"
+				},
+				{
+					"name": "Beast Bond",
+					"source": "XGE"
+				},
+				{
+					"name": "Cackle",
+					"source": "WH"
+				},
+				{
+					"name": "Catapult",
+					"source": "XGE"
+				},
+				{
+					"name": "Cause Fear",
+					"source": "XGE"
+				},
+				"Charm Person",
+				"Command",
+				"Comprehend Languages",
+				"Create or Destroy Water",
+				"Detect Evil and Good",
+				"Detect Magic",
+				"Detect Poison and Disease",
+				{
+					"name": "Distort Value",
+					"source": "AI"
+				},
+				{
+					"name": "Earth Tremor",
+					"source": "XGE"
+				},
+				"Entangle",
+				"Faerie Fire",
+				"Feather Fall",
+				"Fog Cloud",
+				"Goodberry",
+				{
+					"name": "Guiding Light",
+					"source": "WH"
+				},
+				{
+					"name": "Ice Knife",
+					"source": "XGE"
+				},
+				"Identify",
+				"Illusory Script",
+				"Mage Armor",
+				"Protection from Evil and Good",
+				"Purify Food and Drink",
+				"Ray of Sickness",
+				{
+					"name": "Rite",
+					"source": "WH"
+				},
+				"Sleep",
+				{
+					"name": "Snare",
+					"source": "XGE"
+				},
+				"Speak with Animals",
+				"Unseen Servant",
+				"Witch Bolt",
+				"Alter Self",
+				"Animal Messenger",
+				"Augury",
+				"Barkskin",
+				"Beast Sense",
+				"Detect Thoughts",
+				{
+					"name": "Dragon's Breath",
+					"source": "XGE"
+				},
+				{
+					"name": "Dust Devil",
+					"source": "XGE"
+				}, {
+					"name": "Earthbind",
+					"source": "XGE"
+				},
+				"Enhance Ability",
+				"Enlarge/Reduce",
+				"Enthrall",
+				"Gentle Repose",
+				"Gust of Wind",
+				"Hold Person",
+				"Invisibility",
+				"Knock",
+				"Locate Animals or Plants",
+				"Locate Object",
+				"Magic Mouth",
+				"Melf's Acid Arrow",
+				"Misty Step",
+				"Moonbeam",
+				"Nystul's Magic Aura",
+				"Protection from Poison",
+				"Ray of Enfeeblement",
+				"See Invisibility",
+				"Silence",
+				{
+					"name": "Skywrite",
+					"source": "XGE"
+				},
+				{
+					"name": "Snilloc's Snowball Swarm",
+					"source": "XGE"
+				},
+				"Spider Climb",
+				"Spike Growth",
+				"Suggestion",
+				{
+					"name": "Warding Wind",
+					"source": "XGE"
+				},
+				"Web",
+				"Zone of Truth",
+				{
+					"name": "Catnap",
+					"source": "XGE"
+				},
+				"Clairvoyance",
+				"Conjure Animals",
+				{
+					"name": "Conjure Effigy",
+					"source": "WH"
+				},
+				"Counterspell",
+				"Create Food and Water",
+				"Dispel Magic",
+				{
+					"name": "Enemies Abound",
+					"source": "XGE"
+				},
+				{
+					"name": "Enlarge Familiar",
+					"source": "WH"
+				},
+				"Erupting Earth",
+				{
+					"name": "Fast Friends",
+					"source": "AI"
+				},
+				"Fear",
+				"Feign Death",
+				"Gaseous Form",
+				"Glyph of Warding",
+				{
+					"name": "Incite Greed",
+					"source": "AI"
+				},
+				"Leomund's Tiny Hunt",
+				"Life Transference",
+				"Magic Circle",
+				"Meld into Stone",
+				"Nondetection",
+				"Phantom Steed",
+				"Plant Growth",
+				"Sending",
+				"Sleet Storm",
+				"Slow",
+				"Speak with Dead",
+				"Speak with Plants",
+				"Stinking Cloud",
+				"Tidal Wave",
+				{
+					"name": "Tiny Servant",
+					"source": "XGE"
+				},
+				"Tongues",
+				"Vampiric Touch",
+				"Water Breathing",
+				"Water Walk",
+				"Arcane Eye",
+				"Banishment",
+				{
+				"name": "Charm Monster",
+				"source": "XGE"
+				},
+				"Compulsion",
+				"Confusion",
+				"Conjure Minor Elementals",
+				"Conjure Woodland Beings",
+				"Control Water",
+				"Dominate Beast",
+				"Fabricate",
+				"Freedom of Movement",
+				{
+					"name": "Galder's Speedy Courier",
+					"source": "LLK"
+				},
+				"Giant Insect",
+				"Grasping Vine",
+				{
+					"name": "Guardian of Nature",
+					"source": "XGE"
+				},
+				"Ice Storm",
+				"Locate Creature",
+				"Polymorph",
+				{
+					"name": "Share Pain",
+					"source": "WH"
+				},
+				"Stone Shape",
+				"Animate Objects",
+				"Awaken",
+				{
+					"name": "Combine Potions",
+					"source": "WH"
+				},
+				"Commune with Nature",
+				"Conjure Elemental",
+				"Contact Other Plane",
+				{
+					"name": "Control Winds",
+					"source": "XGE"
+				},
+				"Dominate Person",
+				"Dream",
+				"Geas",
+				{
+					"name": "Glyph of Misfortune",
+					"source": "WH"
+				},
+				"Hallow",
+				"Hold Monster",
+				"Legend Lore",
+				"Modify Memory",
+				"Passwall",
+				"Planar Binding",
+				"Reincarnate",
+				"Scrying",
+				{
+					"name": "Skill Empowerment",
+					"source": "XGE"
+				},
+				"Telekinesis",
+				"Teleportation Circle",
+				"Transmute Rock",
+				"Tree Stride",
+				"Wall of Stone",
+				{
+					"name": "Wrath of Nature",
+					"source": "XGE"
+				},
+				{
+					"name": "Animate Hut",
+					"source": "WH"
+				},
+				{
+					"name": "Bones of the Earth",
+					"source": "XGE"
+				},
+				"Circle of Death",
+				"Conjure Fey",
+				{
+					"name": "Create Homunculus",
+					"source": "XGE"
+				},
+				"Create Undead",
+				{
+					"name": "Curse of Craving",
+					"source": "WH"
+				},
+				"Eyebite",
+				"Find the Path",
+				"Flesh to Stone",
+				"Guards and Wards",
+				{
+					"name": "Investiture of Flame",
+					"source": "XGE"
+				},
+				{
+					"name": "Investiture of Ice",
+					"source": "XGE"
+				},
+				{
+					"name": "Investiture of Stone",
+					"source": "XGE"
+				},
+				{
+					"name": "Investiture of Wind",
+					"source": "XGE"
+				},
+				"Magic Jar",
+				"Mass Suggestion",
+				{
+					"name": "Mental Prison",
+					"source": "XGE"
+				},
+				"Move Earth",
+				"Otto's Irresistible Dance",
+				"Planar Ally",
+				{
+					"name": "Soul Cage",
+					"source": "XGE"
+				},
+				"Transport via Plants",
+				"True Seeing",
+				"Wall of Thorns",
+				"Etherealness",
+				"Finger of Death",
+				"Forcecage",
+				"Mirage Arcane",
+				"Plane Shift",
+				{
+					"name": "Power Word Pain",
+					"source": "XGE"
+				},
+				"Project Image",
+				"Sequester",
+				"Simulacrum",
+				"Symbol",
+				{
+					"name": "Whirlwind",
+					"source": "XGE"
+				},
+				{
+					"name": "Abi-Dalzim's Horrid Wilting",
+					"source": "XGE"
+				},
+				"Animal Shapes",
+				"Antimagic Field",
+				"Antipathy/Sympathy",
+				"Control Weather",
+				"Dominate Monster",
+				"Earthquake",
+				"Feeblemind",
+				{
+				"name": "Illusory Dragon",
+				"source": "XGE"
+			},
+			{
+				"name": "Maddening Darkness",
+				"source": "XGE"
+			},
+			"Mind Blank",
+			"Power Word Stun",
+			"Astral Projection",
+			"Foresight",
+			"Gate",
+			"Imprisonment",
+			{
+				"name": "Mass Polymorph",
+				"source": "XGE"
+			},
+			"Power Word Kill",
+			"Psychic Scream",
+			"Shapechange",
+			"Storm of Vengeance",
+			"True Polymorph",
+			"Weird"
+	]
+}
+],
+	"optionalfeature": [
+		{
+			"source": "WH",
+			"name": "Beguiling",
+			"entries": [
+				"Pull the creature 15 feet towards you in a straight line. This movement does not provoke opportunity attacks."
+				],
+			"featureType": "Jinx"
+		},
+		{
+			"source": "WH",
+			"name": "Crippling",
+			"entries": [
+				"The creature’s movement speeds are reduced by 20 feet."
+				],
+			"featureType": "Jinx"
+		},
+		{
+			"source": "WH",
+			"name": "Draining",
+			"entries": [
+				"The creature cannot regain hit points."
+				],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 7,
+						"class": {
+							"name": "Witch"
+						}
+					}
+				}
+			],
+			"featureType": "Jinx"
+		},
+		{
+			"source": "WH",
+			"name": "Dulled Reflexes",
+			"entries": [
+				"The creature cannot take opportunity attacks."
+				],
+			"featureType": "Jinx"
+		},
+		{
+			"source": "WH",
+			"name": "Fumbling",
+			"entries": [
+				"The creature drops one item of your choice that it is holding. The item lands at the creature's feet."
+				],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 7,
+						"class": {
+							"name": "Witch"
+						}
+					}
+				}
+			],
+			"featureType": "Jinx"
+		},
+		{
+			"source": "WH",
+			"name": "Misfortune",
+			"entries": [
+				"The next attack the creature makes is made with disadvantage."
+				],
+			"featureType": "Jinx"
+		},
+		{
+			"source": "WH",
+			"name": "Repelling",
+			"entries": [
+				"Push the creature 15 feet directly away from you in a straight line. This movement does not provoke opportunity attacks."
+				],
+			"featureType": "Jinx"
+		},
+		{
+			"source": "WH",
+			"name": "Silenced",
+			"entries": [
+				"The creature cannot talk and is unable to cast spells."
+				],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 7,
+						"class": {
+							"name": "Witch"
+						}
+					}
+				}
+			],
+			"featureType": "Jinx"
+		},
+		{
+			"source": "WH",
+			"name": "Supplication",
+			"entries": [
+				"The creature must make a Strength saving throw against your spell save DC. If it fails, it becomes prone, and can recover from this condition as normal."
+				],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 7,
+						"class": {
+							"name": "Witch"
+						}
+					}
+				}
+			],
+			"featureType": "Jinx"
+		},
+		{
+			"source": "WH",
+			"name": "Wytchfire",
+			"entries": [
+				"The creature casts dim light in a 10-foot radius. The next attack made against the creature has advantage."
+				],
+			"featureType": "Jinx"
+		}]
+}
