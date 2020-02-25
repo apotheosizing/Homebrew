@@ -92,7 +92,7 @@
 						"type": "entries",
 						"name": "Break of Dawn",
 						"entries": [
-							"At 6th level, you may bless the rest of yourself and your companions. During a lost or short rest, you may spend 10 minutes performing a ritual of revitalization. At the end of the rest, you and up to 5 willing creatures regain hit points equal to your Charisma modifier + your Warlock level. Any hit points gained over the maximum become temporary hit points.",
+							"At 6th level, you may bless the rest of yourself and your companions. During a long or short rest, you may spend 10 minutes performing a ritual of revitalization. At the end of the rest, you and up to 5 willing creatures regain hit points equal to your Charisma modifier + your Warlock level. Any hit points gained over the maximum become temporary hit points.",
 							"These temporary hit points are lost if you fall unconscious."
 						]
 					}]
