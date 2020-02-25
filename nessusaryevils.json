@@ -22,22 +22,7 @@
 	},
 	"optionalfeature": [{
 		"name": "Agonizing Blast",
-		"prerequisite": [{
-			"spell": [
-				"booming blade",
-				"chill touch",
-				"eldritch blast",
-				"fire bolt",
-				"green-flame blade",
-				"magic stone",
-				"primal savagery",
-				"produce flame",
-				"ray of frost",
-				"shadowthorn",
-				"shocking grasp",
-				"thorn whip"
-			]
-		}],
+		"prerequisite": ["a cantrip requiring a spell attack roll"],
 		"entries": [
 			"Choose one of your warlock cantrips. Its mechanics are changed from the moment you take this invocation; it now scales in the same way as eldritch blast. If it would apply any additional effects, such as disadvantage, this can only be applied to one beam. In addition, when you cast this cantrip, add your spellcasting ability modifier to the damage it deals on a hit."
 		],
@@ -423,7 +408,7 @@
 				}
 			}],
 			"entries": [
-				"You imbue a skull with necromantic magic, granting it an eerie semblance of life. When you cast this spell, you can speak a phrase of 10 words or fewer. Whenever a creature touches the skull or enters a space within 5 feet of it, the skull speaks the phrase. You can also choose to infuse the skull with malicious energy. When you do, once per turn when a creature other than you touches the skull, it will snap at them with its teeth. The creature must make a Dexterity saving throw. If they fail, they take {@damage 1d4} piercing damage. An animated skull has 6 AC and 1 hit point."
+				"You imbue a skull with necromantic magic, granting it an eerie semblance of life. When you cast this spell, you can speak a phrase of 10 words or fewer. Whenever a creature touches the skull or enters a space within 5 feet of it, the skull speaks the phrase. You can also choose to infuse the skull with malicious energy. When you do, once per turn when a creature other than you touches the skull, it will snap at them with its teeth. Make a melee spell attack. On a hit, they take {@damage 1d4} piercing damage. An animated skull has 6 AC and 1 hit point."
 			],
 			"entriesHigherLevel": [
 				"This spell's piercing damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4}). "
