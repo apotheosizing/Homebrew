@@ -19,6 +19,47 @@
 		"dateAdded": 1582296841,
 		"dateLastModified": 1582296841
 	},
+	"optionalfeature": [
+		{
+			"name": "Exoskeletal Carapace",
+			"prerequisite": [
+				{
+					"patron": "The Flesh"
+				}
+			],
+			"entries": [
+				"While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Charisma modifier. You can use a shield and still gain this benefit."
+			],
+			"source": "whiffcity",
+			"featureType": "EI"
+		},
+		{
+			"name": "Beneficial Parasite",
+			"prerequisite": [
+				{
+					"patron": "The Flesh"
+				}
+			],
+			"entries": [
+				"A mutation of your choice is leeched out of your body and held within a parasitic creature, this parasite can transfer the chosen mutation to a willing host. Either you or the host can end the parasitism at any time. You can only have one such parasite active at a time. The mutation chosen is unavailable to you while it is in the parasite, and can be changed during a rest."
+			],
+			"source": "whiffcity",
+			"featureType": "EI"
+		},
+		{
+			"name": "Concentrated Bile",
+			"prerequisite": [
+				{
+					"patron": "The Flesh"
+				}
+			],
+			"entries": [
+				"Spells you cast ignore resistance to acid damage. In addition, when you roll damage for a spell you cast that deals acid damage, you can treat any 1 on a damage die as a 2."
+			],
+			"source": "whiffcity",
+			"featureType": "EI"
+		}
+	],
 	"subclass": [{
 			"class": "Warlock",
 			"name": "Slumbering",
