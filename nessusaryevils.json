@@ -22,14 +22,9 @@
 	},
 	"optionalfeature": [{
 		"name": "Agonizing Blast",
-		"prerequisite": [
-				{
-					"feature": [
-						"a cantrip that requires a spell attack roll"
-					]
-				}
-			],
+		"prerequisite": [],
 		"entries": [
+			"{@italic Prerequisite: a cantrip that requires a spell attack roll}",
 			"Choose one of your warlock cantrips. Its mechanics are changed from the moment you take this invocation; it now scales in the same way as eldritch blast. If it would apply any additional effects, such as disadvantage, this can only be applied to one beam. In addition, when you cast this cantrip, add your spellcasting ability modifier to the damage it deals on a hit."
 		],
 		"source": "NessusaryEvils",
