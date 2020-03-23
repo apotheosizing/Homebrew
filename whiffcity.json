@@ -220,7 +220,7 @@
 											],
 											[
 												"Natural Weapon (Melee)",
-												"You gain a biological weapon that you are proficient with, replacing your unarmed strike. This weapon deals {@dice 1d6} slashing damage and has the {@italics finesse} property."
+												"You gain a biological weapon that you are proficient with, replacing your unarmed strike. This weapon deals {@dice 1d6} slashing damage and has the {@italic finesse} property."
 											],
 											[
 												"Powerful Legs",
