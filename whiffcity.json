@@ -240,7 +240,7 @@
 											"col-9"
 										],
 										"rows": [
-											[   "Antivemon",
+											[   "Antivenom",
 												"You have advantage on saving throws against poison and resistance against poison damage."
 											],
 											[
@@ -368,7 +368,7 @@
 							"As a bonus action on subsequent turns, you can cause one of the following effects with it, using your game statistics:",
 							"{@bold Blood Spray.} The tentacle spews a mist of blood 10 feet in every direction from you. Plants that aren't creatures become flesh in the range. Any creature in the mist must succeed on a Constitution saving throw or take {@dice 2d6} + your Charisma modifier necrotic damage.",
 							"{@bold Bone Spike.} A sharpened bone spear is propelled from the tentacle toward one creature within 100 feet of you. Make a ranged spell attack. On a hit, the target takes {@dice 3d6} piercing damage. This damage is magical.",
-							"{@bold Leech.} A lamprey-like mouth forms on the end of the tentacle, attaching itself to a creature of your choice within 20 feet of you. The creature must make a Dexterity saving throw against to your spell save DC. On a failure, the creature takes damage equal to {@dice 2d6} + your Charisma modifier, and ",
+							"{@bold Leech.} A lamprey-like mouth forms on the end of the tentacle, attaching itself to a creature of your choice within 20 feet of you. The creature must make a Dexterity saving throw against to your spell save DC. On a failure, the creature takes damage equal to {@dice 2d6} + your Charisma modifier, and you gain temporary hit points equal to the damage dealt.",
 							"{@bold Whip.} The tentacle lashes out at one creature within 20 feet of you. Make a melee spell attack. On a hit, the target takes {@dice 3d8} bludgeoning damage. This damage is magical.",
 							"The tentacle lasts for one minute or until dispelled as a free action. Once you use this feature, you must finish a long rest before you can use it again."
 						]
