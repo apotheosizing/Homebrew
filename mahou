@@ -1,0 +1,878 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "magicalgirl",
+			"abbreviation": "MG",
+			"full": "Magical Girl",
+			"authors": [
+				"Freelance GM",
+				"/u/Shywinds"
+			],
+			"convertedBy": [
+				"apotheosis"
+			],
+			"version": "1.0",
+			"color": "#FFB6C1",
+			"url": "https://homebrewery.naturalcrit.com/share/H17XG_g4Z",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 1546170412,
+		"dateLastModified": 1546170412
+	},
+	"class": [{
+		"name": "Magical Girl",
+		"source": "magicalgirl",
+		"hd": {
+			"number": 1,
+			"faces": 8
+		},
+		"proficiency": [
+			"cha",
+			"con"
+		],
+		"classTableGroups": [{
+				"colLabels": [
+					"Magical Charmses Known"
+				],
+				"rows": [
+					[
+						0
+					],
+					[
+						0
+					],
+					[
+						1
+					],
+					[
+						1
+					],
+					[
+						2
+					],
+					[
+						2
+					],
+					[
+						2
+					],
+					[
+						2
+					],
+					[
+						3
+					],
+					[
+						3
+					],
+					[
+						3
+					],
+					[
+						3
+					],
+					[
+						4
+					],
+					[
+						4
+					],
+					[
+						4
+					],
+					[
+						4
+					],
+					[
+						5
+					],
+					[
+						5
+					],
+					[
+						5
+					],
+					[
+						5
+					]
+				]
+			},
+			{
+				"colLabels": [
+					"Spells Known",
+					"Slot Level"
+				],
+				"rows": [
+					[
+						0,
+						0
+					],
+					[
+						2,
+						1
+					],
+					[
+						3,
+						1
+					],
+					[
+						3,
+						1
+					],
+					[
+						4,
+						2
+					],
+					[
+						4,
+						2
+					],
+					[
+						5,
+						2
+					],
+					[
+						5,
+						2
+					],
+					[
+						6,
+						3
+					],
+					[
+						6,
+						3
+					],
+					[
+						7,
+						3
+					],
+					[
+						7,
+						3
+					],
+					[
+						8,
+						4
+					],
+					[
+						8,
+						4
+					],
+					[
+						9,
+						4
+					],
+					[
+						9,
+						4
+					],
+					[
+						10,
+						5
+					],
+					[
+						10,
+						5
+					],
+					[
+						11,
+						5
+					],
+					[
+						11,
+						5
+					]
+				]
+			}
+		],
+		"startingProficiencies": {
+			"armor": [
+				"light"
+			],
+			"weapons": [
+				"simple"
+			],
+			"tools": [
+				"none"
+			],
+			"skills": [{
+				"choose": {
+					"from": [
+						"acrobatics",
+						"arcana",
+						"insight",
+						"perception",
+						"persuasion"
+					],
+					"count": 2
+				}
+			}]
+		},
+		"startingEquipment": {
+			"additionalFromBackground": true,
+			"default": [
+				"your heirloom, which could be (a) a signet ring, (b) an amulet, (c) a set of fine clothes, or (d) a martial weapon of your choice.",
+				"(a) a quarterstaff or (b) a dagger.",
+				"(a) a diplomat's pack or (b) a scholar's pack.",
+				"a bag with two tomes of lore on subjects of your choice."
+			],
+			"goldAlternative": "2d4 x 10"
+		},
+		"classFeatures": [
+			[{
+					"type": "entries",
+					"name": "Magical Promise",
+					"entries": [
+						"At 1st level, you declare a magical promise that you must never break, and this will determine the abilities and the manifestations of your transformation with either a Promise of Friendship, a Promise of Safety, a Promise of Understanding, or a Promise of Retribution, each of which is detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+					],
+					"gainSubclassFeature": true
+				},
+				{
+					"type": "entries",
+					"name": "Transformation",
+					"entries": [
+						"At 1st level, as a bonus action you may undergo a magical transformation into your alternate form. The transformation generally has a cosmetic change. This could be something minor, such as a difference in hair color, or it could be a major change, such as a new outfit suddenly appearing over your clothing. Transforming requires the magical girl's heirloom. In order to transform, you must be able to take actions, and your heirloom must be on your person. You have two uses of your Transformation at first level, which return after a short or long rest. While you are transformed, you gain the following traits:",
+						{
+							"type": "entries",
+							"name": "Armor Class",
+							"entries": ["While you are transformed and not wearing armor, your armor class is equal to 10 + your Dexterity Modifier + your Charisma modifier. You can use a shield and still gain this benefit."]
+						},
+						{
+							"type": "entries",
+							"name": "Duration",
+							"entries": ["You can maintain your Transformation for up to one hour. If you are knocked unconscious, your transformation ends early."]
+						},
+						{
+							"type": "entries",
+							"name": "Size",
+							"entries": ["You become a medium humanoid creature, regardless of what your original form was."]
+						},
+						{
+							"type": "entries",
+							"name": "Radiant Weapons",
+							"entries": ["When you transform, you may choose to summon one or more weapons from the list below:",
+								{
+									"type": "list",
+									"items": [
+										"Up to two thrown weapons which, if thrown, dissipate and reappear in your hands at the end of your turn.",
+										"Any nonmagical weapon with the ammunition property, which has unlimited ammunition.",
+										"Two light weapons.",
+										"Up to two one-handed weapons, or one-handed weapon and a shield.",
+										"A two-handed weapon."
+									]
+								},
+								"These weapons are made of radiant energy, and shed bright light in a 5-foot radius. Since these weapons are made of light, they deal radiant damage, instead of their normal damage type. These radiant weapons cannot be wielded by anyone other than you, and dissipate as soon as they leave your hand.",
+								"While you are wielding your radiant weapons, you may transform your current weapon (or weapons) into a different option on the list above, or dispel your radiant weapons completely, as a bonus action. If you do not have your radiant weapons in hand, you may use your action to conjure them."
+							]
+						}
+					]
+				}
+			],
+			[{
+					"name": "Charm Casting",
+					"entries": [{
+							"type": "entries",
+							"name": "Transformed Magic",
+							"entries": [
+								"At 2nd level, Magical Girls gain access to a unique form of Spellcasting called Charm Casting, which can only be accessed by their transformed selves."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spell Slots",
+							"entries": [
+								"Each time you Transform, you gain one spell slot; if you revert back to your normal form, the spell slot is wasted. The level of the spell slot is shown on the Magical Girl table. At 11th level, you gain a second spell slot whenever you Transform."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spells Known of 1st Level or Higher",
+							"entries": [
+								"You know two 1st level spells of your choice from the magical girl spell list. The Spells Known column of the magical girl table shows when you learn more magical girl spells of your choice of 1st level or higher. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Ability",
+							"entries": [
+								"Charisma is your spellcasting ability for your magical girl spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a magical girl spell you cast and when making an attack roll with one.",
+								{
+									"type": "abilityDc",
+									"name": "Spell",
+									"attributes": [
+										"cha"
+									]
+								},
+								{
+									"type": "abilityAttackMod",
+									"name": "Spell",
+									"attributes": [
+										"cha"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Focus",
+							"entries": [
+								"When you cast a spell that requires a material component, you must use your heirloom as a spellcasting focus."
+							]
+						}
+					]
+				},
+				{
+					"name": "Fighting Style",
+					"entries": [
+						"You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.",
+						{
+							"type": "options",
+							"entries": [{
+									"type": "entries",
+									"name": "Archery",
+									"entries": [
+										"You gain a +2 bonus to attack rolls you make with ranged weapons."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Defense",
+									"entries": [
+										"While you are wearing armor, you gain a +1 bonus to AC."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Great Weapon Fighting",
+									"entries": [
+										"When you roll a 1 or 2 on the damage die for an attack you make with a melee weapon you are wielding with two hands, you can re-roll the die and must use the new result even if it is a 1 or 2. The weapon must have the two-handed or versatile property to gain this benefit."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Two-Weapon Fighting",
+									"entries": [
+										"When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			[{
+				"name": "Magical Charms",
+				"entries": [
+					"A magical girl's powers adjust themselves to be more in tune with their wielder's personality.",
+					"At 3rd level, you gain two magical charms of your choice. Your magical charm options can be found on the {@filter Optional Features page|optionalfeatures|feature_type=magical_charm}. You may only take a charm once, unless the charm says otherwise. You gain an additional charm at 9th, 13th, and 17th levels."
+				]
+			}],
+			[{
+				"name": "Ability Score Improvement",
+				"entries": [
+					"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+					"If your DM allows the use of feats, you may instead take a feat."
+				]
+			}],
+			[{
+				"name": "Extra Attack",
+				"entries": [
+					"Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+				]
+			}],
+			[{
+				"name": "Magical Promise feature",
+				"entries": [
+					"At 6th level, you gain a feature granted by your Magical Promise."
+				],
+				"gainSubclassFeature": true
+			}],
+			[{
+				"name": "Power of Friendship",
+				"entries": [
+					"At 7th level, you become immune to being charmed or frightened, so long as there is an ally within 30 feet. Additionally, allies within 30 feet have advantage on saving throws against being charmed or frightened."
+				]
+			}],
+			[{
+				"name": "Ability Score Improvement",
+				"entries": [
+					"When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+					"If your DM allows the use of feats, you may instead take a feat."
+				]
+			}],
+			[],
+			[{
+				"name": "Magical Promise feature",
+				"entries": [
+					"At 10th level, you gain a feature granted by your Magical Promise."
+				],
+				"gainSubclassFeature": true
+			}],
+			[],
+			[{
+				"name": "Ability Score Improvement",
+				"entries": [
+					"When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+					"If your DM allows the use of feats, you may instead take a feat."
+				]
+			}],
+			[],
+			[{
+				"name": "Magical Promise feature",
+				"entries": [
+					"At 14th level, you gain a feature granted by your Magical Promise."
+				],
+				"gainSubclassFeature": true
+			}],
+			[{
+				"name": "Strength of Spirit",
+				"entries": [
+					"At 15th level, your dedication to your promise is so strong, it manifests as a protective barrier. When you need to make a saving throw using an ability other than Charisma, you may choose to make a Charisma saving throw instead. You may do this a number of times per day equal to your Charisma modifier. You regain expended uses when you complete a long rest."
+				]
+			}],
+			[{
+				"name": "Ability Score Improvement",
+				"entries": [
+					"When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+					"If your DM allows the use of feats, you may instead take a feat."
+				]
+			}],
+			[],
+			[{
+				"name": "Power of Friendship Improvement",
+				"entries": [
+					"At 18th level, you are immune to being charmed or frightened so long as you can see an ally, and allies within 60 feet have advantage against being charmed or frightened."
+				]
+			}],
+			[{
+				"name": "Ability Score Improvement",
+				"entries": [
+					"When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+					"If your DM allows the use of feats, you may instead take a feat."
+				]
+			}],
+			[{
+				"name": "Promise Fulfilled",
+				"entries": [
+					"At 20th level, you can find strength in your abilities, even when it seems hopeless or futile. If you roll initiative and have no uses of Transformation left, you regain one use."
+				]
+			}]
+		],
+		"subclassTitle": "Magical Promise",
+		"subclasses": [{
+				"name": "Promise of Friendship",
+				"subclassFeatures": [
+					[{
+						"name": "Promise of Friendship",
+						"entries": [
+							"The Magical Girl dedicates herself to her allies, their ambitions, and their goals. Your transformation is an idol of sorts, a beautiful and inspiring leader.",
+							{
+								"type": "entries",
+								"name": "Irresistable",
+								"entries": [
+									"At 1st level, you add 1/2 your proficiency bonus to Charisma checks you are not proficient in. While you are transformed, you have advantage on Performance and Persuasion checks."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Beacon of Inspiration",
+								"entries": [
+									"Starting at 1st level, your transformation is a beacon of inspiration to your allies. While you are transformed, you may use your reaction to add 1d4 to one ability check, attack roll, or saving throw made by a friendly creature within 30 feet of you who can see you."
+								]
+							}
+						]
+					}],
+					[{
+						"type": "entries",
+						"name": "Inspiring Strike",
+						"entries": [
+							"At 6th level, your fighting style shifts to aiding your allies more than fighting alone. When you take the attack action, you may forfeit your second attack in order to give an ally within 5 feet of your target advantage on their next attack roll against that creature."
+						]
+					}],
+					[{
+						"type": "entries",
+						"name": "Improved Inspiration",
+						"entries": [
+							"Beginning at 10th level, you may use your Beacon of Inspiration ability even if you are not transformed. If you are transformed, friendly creatures add 1d8 to their roll, instead of 1d4."
+						]
+					}],
+					[{
+						"type": "entries",
+						"name": "Passive Inspiration",
+						"entries": [
+							"At 14th level, your presence becomes an intoxicating aura of confidence. While you are transformed, friendly creatures within 30 feet of you may roll 1d4 and add the result to one ability check, attack roll, or saving throw they make before the beginning of your next turn."
+						]
+					}]
+				],
+				"source": "magicalgirl",
+				"shortName": "Friendship"
+			},
+			{
+				"name": "Promise of Safety",
+				"subclassFeatures": [
+					[{
+						"name": "Promise of Safety",
+						"entries": [
+							"The Magical Girl swears to defend the innocent, and protect the weak. Your transformation is an avatar of battle, capable of taking on threats significantly more dangerous than you could hope to defeat alone.",
+							{
+								"type": "entries",
+								"name": "Weapon Training",
+								"entries": [
+									"At 1st level, you gain proficiency with martial weapons, medium armor, and shields."
+								]
+							}
+						]
+					}],
+					[{
+						"type": "entries",
+						"name": "Skilled Charger",
+						"entries": [
+							"At 6th level, you become especially adept at rushing your foes. If you move at least 20 feet in a straight line before making a melee weapon attack, you have advantage on your next attack roll."
+						]
+					}],
+					[{
+						"type": "entries",
+						"name": "One Body, Two Souls",
+						"entries": [
+							"Beginning at 10th level, your transformation can protect you from mortal harm. If you would be reduced to 0 hit points, or killed outright while you are transformed, you may end your Transformation in order to go to 1 hit point instead."
+						]
+					}],
+					[{
+						"type": "entries",
+						"name": "Purging Transformation",
+						"entries": [
+							"At 14th level, your transformation reinvigorates your body. You can transform as long as you are conscious, even if you are not capable of taking actions. If you are incapacitated, paralyzed, petrified, poisoned, restrained, or stunned, transforming immediately ends any number of those conditions currently affecting you."
+						]
+					}]
+				],
+				"source": "magicalgirl",
+				"shortName": "Safety"
+			},
+			{
+				"name": "Promise of Understanding",
+				"subclassFeatures": [
+					[{
+						"name": "Promise of Understanding",
+						"entries": [
+							"The Magical Girl's promise is to solve a mystery that eluded the one the promise was made to. Your transformation is a beacon of light against the darkness of ignorance.",
+							{
+								"type": "entries",
+								"name": "Radiant Blast",
+								"entries": [
+									"Whenever you take the Attack action, you may substitute one or more of your attacks with a blast of brilliant energy. This blast has a 60ft range, and requires a ranged Spell attack to hit. On a successful hit, a blast deals 1d6 radiant damage, plus your Charisma modifier. While you are transformed, the damage increases to 1d8 radiant damage, plus your charisma modifier."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Comprehension",
+								"entries": [
+									"You gain proficiency with 2 languages, 2 tools, or 1 language and 1 tool of your choice."
+								]
+							}
+						]
+					}],
+					[{
+						"type": "entries",
+						"name": "Radiant Salvo",
+						"entries": [
+							"At 6th level, if you use the Attack action to make two or more Radiant Blast attacks, you may make a third Radiant Blast attack as a bonus action."
+						]
+					}],
+					[{
+						"type": "entries",
+						"name": "Magical Understanding",
+						"entries": [
+							"By 10th level, your Promise has given you a level of clarity that other people do not possess. You gain proficiency in Wisdom Saving Throws. While you are transformed, you have advantage on all saving throws against spells."
+						]
+					}],
+					[{
+						"type": "entries",
+						"name": "Intense Radiance",
+						"entries": [
+							"At 14th level, any Radiant damage you deal ignores resistance to radiant damage."
+						]
+					}]
+				],
+				"source": "magicalgirl",
+				"shortName": "Understanding"
+			},
+			{
+				"name": "Promise of Retribution",
+				"subclassFeatures": [
+					[{
+						"name": "Promise of Retribution",
+						"entries": [
+							"Sometimes, the Magical Girl’s promise is not a positive one. This corrupted promise results in a fearsome alternate form. The Magical Girl becomes vicious and violent, constantly teetering on the edge of becoming something monstrous.",
+							{
+								"type": "entries",
+								"name": "Negative Energy",
+								"entries": [
+									"Your radiant weapons are vicious and cruel. They deal necrotic damage instead of radiant damage."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Retribution",
+								"entries": [
+									"As a reaction to taking damage, you may target the creature that dealt damage to you with the fury of your Promise. For the next minute, you have advantage on all attack rolls against that creature. Once the effect ends, you can't use this feature again until you finish a short rest."
+								]
+							}
+						]
+					}],
+					[{
+						"type": "entries",
+						"name": "Ferocity",
+						"entries": [
+							"At 6th level, you ferociously assault your chosen foes. Once per turn, you may add your Charisma modifier to the damage roll of an attack you make."
+						]
+					}],
+					[{
+						"type": "entries",
+						"name": "Bathe in Blood",
+						"entries": [
+							"At 10th level, your need for retribution has descended into outright bloodlust. Whenever you kill an enemy targeted by your Retribution ability, you gain temporary hit points equal to your Charisma modifier plus your Magical Girl level."
+						]
+					}],
+					[{
+						"type": "entries",
+						"name": "Unstoppable!",
+						"entries": [
+							"At 14th level, your perverted sense of justice has all but consumed you. While you are transformed, you stubbornly refuse to die. If you would be reduced to 0 hit points, or killed outright, you may attempt a Constitution saving throw with a DC equal to 5 + the damage taken. On a success, you drop to 1 hit point instead."
+						]
+					}]
+				],
+				"source": "magicalgirl",
+				"shortName": "Retribution"
+			}
+		],
+		"fluff": [{
+			"entries": [
+				"Despite the name, Magical Girls are not necessarily female, but the most iconic characters of this class are. Magical Girls are mundane people with the extraordinary ability to transform into a powerful alternate form.",
+				"There are two sources of a Magical Girl's power: a magical promise, and a heirloom given to the character. The Magical Girl makes a promise, and is given the heirloom. The heirloom allows the magical girl to transform. Transformation gives the Magical Girl the power to complete her promise. It is a cyclical relationship that constantly reminds the Magical Girl what she is fighting for.",
+				"Naturally, the new form provided by the transformation tends to embody the ideals of the promise. The new form may look and act more like the heirloom’s original owner than the Magical Girl using it."
+			],
+			"name": "Magical Girl",
+			"type": "section"
+		}],
+		"classSpells": [
+			"Bless",
+			"Charm Person",
+			"Compelled Duel",
+			"Cure Wounds",
+			"Divine Favor",
+			"Expeditious Retreat",
+			"Fog Cloud",
+			"Guiding Bolt",
+			"Healing Word",
+			"Hex",
+			"Magic Missile",
+			"Shield",
+			"Sleep",
+			"Searing Smite",
+			"Thunderous Smite",
+			"Wrathful Smite",
+			"Darkvision",
+			"Gust of Wind",
+			"Magic Weapon",
+			"Mirror Image",
+			"Misty Step",
+			"Scorching Ray",
+			"Shatter",
+			"Suggestion",
+			"Warding Bond",
+			"Blinding Smite",
+			"Blink",
+			"Counterspell",
+			"Daylight",
+			"Dispel Magic",
+			"Elemental Weapon",
+			"Fear",
+			"Fireball",
+			"Lightning Bolt",
+			"Revivify",
+			"Sending",
+			"Banishment",
+			"Death Ward",
+			"Dimension Door",
+			"Freedom of Movement",
+			"Staggering Smite",
+			"Wall of Fire",
+			"Banishing Smite",
+			"Cone of Cold",
+			"Destructive Smite",
+			"Flame Strike",
+			"Raise Dead",
+			"Wall of Force"
+		]
+	}],
+	"optionalfeature": [{
+			"source": "MG",
+			"name": "Awoken Familiar",
+			"entries": [
+				"You can cast Find Familiar once per day, without a material component. Your familiar can speak any languages you know, and has an Intelligence and Wisdom score of 11+ your Charisma modifier. Your familiar can cast Augury once per short or long rest. When you reach 9th level, it can cast Divination once per long rest."
+			],
+			"featureType": "Magical Charms"
+		},
+		{
+			"source": "MG",
+			"name": "Altered Ability",
+			"entries": [
+				"When you choose this charm, pick an ability score. That ability score has a +2 bonus while you are transformed, but cannot be increased above 20. At 17th level, this Charm can increase an ability score above 20, to a maximum of 22."
+			],
+			"featureType": "Magical Charms"
+		},
+		{
+			"source": "MG",
+			"name": "Blinding Transformation",
+			"entries": [
+				"{@italic You may only have one Transformation effect.}",
+				"Your transformation is especially bright. Creatures within 15 feet of you that can see you must make a Constitution saving throw against your Spell Save DC. On a failure, that creature is blinded for a number of rounds equal to your Charisma modifier. At the end of their turn, affected creatures may make a new saving throw, ending the blindness on a successful save."
+			],
+			"featureType": "Magical Charms"
+		},
+		{
+			"source": "MG",
+			"name": "Durable Form",
+			"entries": [
+				"When you transform, you gain a number of Temporary Hit points equal to 2d4 plus your Charisma modifier. The number of dice increases to 3d4 at 9th level, 4d4 at 13th level, and 5d4 at 17th level."
+			],
+			"featureType": "Magical Charms"
+		},
+		{
+			"source": "MG",
+			"name": "Elemental Favor",
+			"entries": [
+				"Choose acid, cold, fire, lightning, or thunder. You are resistant to that kind of damage, even while you are not Transformed. At 13th level, you become immune instead. Additionally, while you are transformed, your radiant weapons may deal that kind of damage instead of radiant damage. If you have the Promise of Understanding, your Radiant Blasts can also deal the chosen type of damage instead of radiant damage. You may take this Charm multiple times, but you must choose a different damage type each time."
+			],
+			"featureType": "Magical Charms"
+		},
+		{
+			"source": "MG",
+			"name": "Elemental Transformation",
+			"entries": [
+				"{@italic You may only have one Transformation effect.}",
+				"When you pick this Charm, choose acid, cold, fire, or lightning. Creatures within 10 feet of you must make a Dexterity saving throw against your Spell Save DC. On a failure They take 4d6 damage of the chosen type, or half as much on a successful save. The damage increases to 6d6 at 9th level, 7d6 at 13th level, and 8d6 at 17th level."
+			],
+			"featureType": "Magical Charms"
+		},
+		{
+			"source": "MG",
+			"name": "Explosive Transformation",
+			"entries": [
+				"{@italic You may only have one Transformation effect.}",
+				"When you transform, there is a thunderous explosion. Creatures within 10 feet must make a Constitution saving throw. On a failure, they take 2d6 Thunder damage and are pushed 10 feet away from you. On a successful save, they take half damage and are not pushed. The damage increases to 4d6 at 9th level, 5d6 at 13th level, and 6d6 at 17th level."
+			],
+			"featureType": "Magical Charms"
+		},
+		{
+			"source": "MG",
+			"name": "Extra Magic",
+			"entries": [
+				"{@italic Prerequisite: Promise of Understanding}",
+				"Choose two spells from any class's spell list. The spells must be a level you can cast with a casting time of one action, bonus action, or reaction. You add the chosen spells to your list of Spells Known. At 9th, 13th, and 17th level, you may choose to learn 1 additional spell."
+			],
+			"featureType": "Magical Charms"
+		},
+		{
+			"source": "MG",
+			"name": "Fearsome Transformation",
+			"entries": [
+				"{@italic You may only have one Transformation effect.}",
+				"Your transformation is terrible to behold. Creatures within 10 feet of you must make a Wisdom saving throw against your Spell Save DC or become frightened for a number of rounds equal to your Charisma modifier. At the end of their turn, affected creatures may make a new saving throw, ending the fear effect on a successful save."
+			],
+			"featureType": "Magical Charms"
+		},
+		{
+			"source": "MG",
+			"name": "Finishing Move",
+			"entries": [
+				"When you hit a creature with a weapon or spell attack, you may declare a Finishing Move before you roll damage. Your target must immediately make a Constitution saving throw. If the enemy has more than 1/4 its hit points remaining, it automatically passes this saving throw. On a successful result, the creature takes normal damage from the attack. On a failed saving throw, the Finishing Move becomes a critical hit. If the amount of damage dealt is enough to kill the creature, you regain one use of this ability. Otherwise, you may not use this ability again until you complete a long rest."
+			],
+			"prerequisite": [{
+				"level": {
+					"level": 13,
+					"class": {
+						"name": "Magical Girl"
+					}
+				}
+			}],
+			"featureType": "Magical Charms"
+		},
+		{
+			"source": "MG",
+			"name": "Light Step",
+			"entries": [
+				"You can cast Feather Fall at-will without expending a spell slot. While you are transformed, your jump distance is tripled. At 13th level, you gain a fly speed equal to your walking speed while you are transformed."
+			],
+			"featureType": "Magical Charms"
+		},
+		{
+			"source": "MG",
+			"name": "Lingering Magic",
+			"entries": [
+				"When your Transformation ends, any un-used spell slots you have are not wasted. Instead, you may use those Spell Slots in your normal form. These spell slots last until you Transform again, or take a short rest."
+			],
+			"featureType": "Magical Charms"
+		},
+		{
+			"source": "MG",
+			"name": "Mass Appeal",
+			"entries": [
+				"{@italic Prerequisite: Promise of Friendship}",
+				"You may cast Dominate Person or Geas without expending a spell slot. Once you do, you may not cast either spell again until you complete a long rest. If you are at least 13th level, you may cast Mass Suggestion while you are transformed. Once you do, you may not do so again until you complete a long rest."
+			],
+			"prerequisite": [{
+				"level": {
+					"level": 9,
+					"class": {
+						"name": "Magical Girl"
+					}
+				}
+			}],
+			"featureType": "Magical Charms"
+		},
+		{
+			"source": "MG",
+			"name": "Enhanced Weapons",
+			"entries": [
+				"{@italic Prerequisite: Promise of Safety}",
+				"Choose one or two weapons you possess, or your radiant weapons. While you are wielding those weapons, they count as Magical. At 13th level, the weapons become oversized while you are transformed, dealing 1d8 additional damage."
+			],
+			"featureType": "Magical Charms"
+		},
+		{
+			"source": "MG",
+			"name": "Misty Transformation",
+			"entries": [
+				"{@italic You may only have one Transformation effect.}",
+				"Swirling fog or thick smoke exudes from you out to a 10-foot radius when you transform. This fog provides 3/4 cover, and lasts for a number of rounds equal to your Charisma modifier, or until it is dispersed by a strong wind."
+			],
+			"featureType": "Magical Charms"
+		},
+		{
+			"source": "MG",
+			"name": "Sacrifice",
+			"entries": [
+				"Add Revivify to your list of spells known. You can cast Revivify without expending a spell slot, and without a material component, by ending your transformation. If you cast Revivify this way, you must also expend all of your hit dice, roll them, and take that much necrotic damage. Additionally, you may not transform again until you take a long rest."
+			],
+			"prerequisite": [{
+				"level": {
+					"level": 9,
+					"class": {
+						"name": "Magical Girl"
+					}
+				}
+			}],
+			"featureType": "Magical Charms"
+		},
+		{
+			"source": "MG",
+			"name": "Summoned Armor",
+			"entries": [
+				"You may create a suit of radiant armor by attuning to a suit of armor you possess for 1 hour. In order to attune to the armor, you must be proficient in its use. If the suit of armor is on the same plane of existence, you may summon it as part of your transformation. The armor immediately teleports onto your body."
+			],
+			"featureType": "Magical Charms"
+		}
+	]
+}
