@@ -703,10 +703,8 @@
 						"The next step is to consider who your character made a promise to, as well as why. Is your Magical Promise with a ghost that lives in your Heirloom, an extra-planar being such as an angel, or an ideal? What can you do to fulfill that promise? Once your original goal is completed, how can you continue to uphold the terms of your Magical Promise?"
 					],
 					"type": "section"
-				}],
-			"name": "Magical Girl",
-			"type": "section"
-		}],
+				}
+			],
 		"classSpells": [
 			"Bless",
 			"Charm Person",
