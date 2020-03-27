@@ -2106,24 +2106,24 @@
 		]
 	}],
 	"optionalfeature": [{
-			"source": "WH",
-			"name": "Beguiling",
+			"source": "Walrock Homebrew",
+			"name": "Beguiling Jinx",
 			"entries": [
 				"Pull the creature 15 feet towards you in a straight line. This movement does not provoke opportunity attacks."
 			],
 			"featureType": "Jinx"
 		},
 		{
-			"source": "WH",
-			"name": "Crippling",
+			"source": "Walrock Homebrew",
+			"name": "Crippling Jinx",
 			"entries": [
 				"The creature’s movement speeds are reduced by 20 feet."
 			],
 			"featureType": "Jinx"
 		},
 		{
-			"source": "WH",
-			"name": "Draining",
+			"source": "Walrock Homebrew",
+			"name": "Draining Jinx",
 			"entries": [
 				"The creature cannot regain hit points."
 			],
@@ -2138,16 +2138,16 @@
 			"featureType": "Jinx"
 		},
 		{
-			"source": "WH",
-			"name": "Dulled Reflexes",
+			"source": "Walrock Homebrew",
+			"name": "Dulled Reflexes Jinx",
 			"entries": [
 				"The creature cannot take opportunity attacks."
 			],
 			"featureType": "Jinx"
 		},
 		{
-			"source": "WH",
-			"name": "Fumbling",
+			"source": "Walrock Homebrew",
+			"name": "Fumbling Jinx",
 			"entries": [
 				"The creature drops one item of your choice that it is holding. The item lands at the creature's feet."
 			],
@@ -2162,24 +2162,24 @@
 			"featureType": "Jinx"
 		},
 		{
-			"source": "WH",
-			"name": "Misfortune",
+			"source": "Walrock Homebrew",
+			"name": "Misfortune Jinx",
 			"entries": [
 				"The next attack the creature makes is made with disadvantage."
 			],
 			"featureType": "Jinx"
 		},
 		{
-			"source": "WH",
-			"name": "Repelling",
+			"source": "Walrock Homebrew",
+			"name": "Repelling Jinx",
 			"entries": [
 				"Push the creature 15 feet directly away from you in a straight line. This movement does not provoke opportunity attacks."
 			],
 			"featureType": "Jinx"
 		},
 		{
-			"source": "WH",
-			"name": "Silenced",
+			"source": "Walrock Homebrew",
+			"name": "Silenced Jinx",
 			"entries": [
 				"The creature cannot talk and is unable to cast spells."
 			],
@@ -2194,8 +2194,8 @@
 			"featureType": "Jinx"
 		},
 		{
-			"source": "WH",
-			"name": "Supplication",
+			"source": "Walrock Homebrew",
+			"name": "Supplication Jinx",
 			"entries": [
 				"The creature must make a Strength saving throw against your spell save DC. If it fails, it becomes prone, and can recover from this condition as normal."
 			],
@@ -2210,8 +2210,8 @@
 			"featureType": "Jinx"
 		},
 		{
-			"source": "WH",
-			"name": "Wytchfire",
+			"source": "Walrock Homebrew",
+			"name": "Wytchfire Jinx",
 			"entries": [
 				"The creature casts dim light in a 10-foot radius. The next attack made against the creature has advantage."
 			],
