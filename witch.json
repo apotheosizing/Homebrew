@@ -734,7 +734,7 @@
 				"name": "Coven of the Dark Moon",
 				"subclassFeatures": [
 					[{
-					"name": "Coven of the Dark Moon",
+						"name": "Coven of the Dark Moon",
 						"entries": [
 							"All witches possess a supernatural tie to the magic of shadows and the night, but those that band together under the Coven of the Dark Moon are the most innately acquainted with this midnight arcana. Known as dark witches, they are sworn under the darkness of a new moon to sow curses and discord, disrupting the structures of society, for better or for worse. As such, witches of this coven tend to be chaotic in nature, but may be good, neutral, or evil depending on their individual morals.",
 							{
@@ -823,7 +823,7 @@
 				"name": "Coven of the Full Moon",
 				"subclassFeatures": [
 					[{
-					"name": "Coven of the Full Moon",
+						"name": "Coven of the Full Moon",
 						"entries": [
 							"Though the night may be dark, it is not without life, compassion, and mercy. The light of the full moon is a beacon to those that travel by night, assuaging their fears and lending them hope in the darkness. So, too, do the witches sworn to the Coven of the Full Moon give hope and healing, both to their allies and to the domains of nature. Witches of this coven are known as white witches and are often neutral or good, very rarely having any reason to stray towards evil, though they may be as lawful or chaotic as they see fit.",
 							{
@@ -909,7 +909,7 @@
 				"name": "Coven of the Half Moon",
 				"subclassFeatures": [
 					[{
-					"name": "Coven of the Half Moon",
+						"name": "Coven of the Half Moon",
 						"entries": [
 							"Notorious for playing tricks on mortal eyes, moonlight casts strange shadows, making things appear to be other than they are. When the moon is perfectly half-lit and half covered in shadow, the dim light it casts clouds the truth of all things, in equal part revealing and creating lies and deceptions. Witches of the Coven of the Half Moon are experts at crafting moonlight to their will, using it to both expose and author new treacheries. These grey witches (as they are known) trend towards being neutral, though many good and evil grey witches exist. Though many grey witches are chaotic, some few are lawful, using their deceptions and trickery to reinforce the order of society and civilization.",
 							{
@@ -1003,7 +1003,7 @@
 				"name": "Coven of the Crescent Moon",
 				"subclassFeatures": [
 					[{
-					"name": "Coven of the Crescent Moon",
+						"name": "Coven of the Crescent Moon",
 						"entries": [
 							"Witches are practical and pragmatic by nature, and many know full well the limits of spellcraft. The green witches of the Coven of the Crescent Moon train with both blade and spell, and style themselves as the protectors of witchcraft, both within and without, and tend to be lawful in nature. Should a witch-hunter make too much headway or a spellcaster delve too deeply into the darkest secrets of magic, the green witches will be there, fighting to restore the balance.",
 							{
@@ -1095,7 +1095,7 @@
 				"name": "Coven of the Eclipse",
 				"subclassFeatures": [
 					[{
-					"name": "Coven of the Eclipse",
+						"name": "Coven of the Eclipse",
 						"entries": [
 							"All witches know fully well there are magics they are forbidden to study, forgotten secrets that, if dabbled with, can easily be the end of the world. Though exceedingly rare, these red witches fall within the Coven of the Eclipse, dedicating themselves to their craft under the auspice of a lunar eclipse. Such witches can easily be evil malefactors obsessed with power, or they can simply be chaotic seekers of truth, willing to go to any length to understand the origins of their abilities.",
 							{
@@ -1195,7 +1195,7 @@
 				"name": "Coven of the Gibbous Monn",
 				"subclassFeatures": [
 					[{
-					"name": "Coven of the Gibbous Moon",
+						"name": "Coven of the Gibbous Moon",
 						"entries": [
 							"Fate is written in both the stars and blood, for those who look with careful eye. Witches of the Coven of the Gibbous Moon consider themselves to be the arbiters of destiny, reading fate and either averting it or ensuring its completion. These indigo witches also act as spirit guides, bringing the souls of the dead to their final place of rest through rite and ritual. Witches in this coven are often neutral, respecting the forces of death and fate in the broader cosmos, and knowing their place as but a servant to each.",
 							{
@@ -1563,7 +1563,7 @@
 				"name": "Coven of the Lost Moon",
 				"subclassFeatures": [
 					[{
-					"name": "Coven of the Lost Moon",
+						"name": "Coven of the Lost Moon",
 						"entries": [
 							"Legends and star charts of old tell of how, long ago, one additional moon hung in the night sky. Whether by magic, cataclysm, or something stranger still, this moon has vanished, leaving the witches under its auspice in a precarious position. Naming themselves the Coven of the Lost Moon, these witches scour the multiverse for what happened to the missing celestial object, as well as the answers to other strange permutations of existence. These starlight witches, clad in silver, can find themselves as ardent members of any alignment, as each witch is likely to stumble upon their own poignant, individual truth.",
 							{
@@ -1648,44 +1648,42 @@
 			}
 		],
 		"fluff": [{
-					"entries": [
-						"Holding a wand in a loose grip,a young human with tousled red hair and a sheepish grin faces down a furious orc warrior nearly three times his size. With a word and a gesture, the boy’s red hair suddenly erupts into a flurry of long, vicious, living tendrils that wrap themselves around the legs and throat of the orc, dragging the shocked warrior off his feet and holding him aloft.",
-						"Sitting atop a floating broom, a wood elf with glowing green eyes gently directs it to pass by the royal palace and idle next to an open window overlooking the throne room. She spies, through the window, the king of all the realm holding court on his throne. The elf gingerly reaches into her sleeve and retrieves a rudimentary straw doll, fashioned with a tiny gold crown upon its head, and a gleaming silver pin. A single pinprick strikes through the heart of the doll, and the king doubles over clutching his chest in pain, sending his courtiers into a blind panic. The wood elf watches, satisfied.",
-						"Pounding a handful of herbs into powder with her trusty mortar and pestle, an elderly tiefling in a flowing grey robe tosses them into her cauldron, already raised to a boil over an open flame. As she does so, the cauldron exudes a noxious green cloud and begins to froth wildly. In just a handful of days, the tiefling will begin the distillation process, creating a new vial of eldritch poison to seep life from the world.",
-						"Witches are learned practitioners of the earliest of magics, from a time when the arcane and the natural were studied as one. Eschewing the more esoteric magics studied by some of their peers, witches prefer practical magic with a variety of potential uses. Witches draw upon the power inherent in the night and the land to breathe life into fallen comrades, brew mystical potions and poisons mighty enough to fell a dragon, and weave terrible curses that may plague an individual for the rest of their life."
-					],
-					"name": "Witch",
-					"type": "section"
-				},
-				{
-					"name": "Acolytes of the First Magic",
-					"entries": [
-						"When the world was young and the mortal races existed entirely at the mercy of primordials, gods, and monsters, there were beings in the darkness that took a surprising mercy on those lesser creatures struggling to survive.",
-						"Whether these beings were spirits, specific gods, or something more sinister, no two tales agree, but the bargains they struck ushered the first inklings of mortal magic into the world. Witches hold as tradition that it was these magics that gave mortals a fighting chance, while others more suspicious of witchcraft tell that this was the first interference of malicious entities into mortal affairs, and an affront to the pure will of the gods.",
-						"Witches are always deeply individualistic, and in the present era have been divided by coven and practice. Though all witches learn from the writings of and words spoken by their elders, some study the ancient ways as an evolving historical and scholastic pursuit, while others practice their magics wild and with full communion of the old beings who laid the path of natural arcana before them. An endlessly diverse group of practitioners, witches rarely agree how best to use their magic, even within the same coven."
-					],
-					"type": "section"
-				},
-				{
-					"name": "Devoted to the Craft",
-					"entries": [
-						"Though not all witches wander far and wide, no witch lives what could be considered a normal life. The reputation of witches as curse-binders and worse often precedes them, and even the best of witches often face at least an inkling of suspicion or fear from those they attempt to help.",
-						"Nevertheless, witches are always dedicated to learning the intricacies of their craft, though many witches do dabble. The specifics of the craft a witch learns are usually the product of the life that witch has led. A witch that knows how to bind wounds has likely done so on many occasions, while a witch skilled in the arts of cursing may have lived a life full of revenge and spite."
-					],
-					"type": "section"
-				},
-				{
-					"name": "Creating a Witch",
-					"entries": [
-						"When you create your witch character, consider strongly their morals and personal leanings. Witches always hold opinions of the world that they are willing to act upon, making them a dynamic and decisive force. How do these attitudes shape your magic, and how has your magic shaped them, in turn?",
-						"Who was the witch that introduced you to magic? Did you stumble upon an occult ritual deep in the woods, or did you enroll in a prestigious institute of witchcraft? What values do those witches close to you hold, and how have they colored your personality and ideals?",
-						"Finally, what has made you choose the life of a wandering witch? Are you searching for untold secrets, running from your status as a pariah, or seeking a land and place to call your own? In any case, your motivations are your own, and very little will stop you from achieving them."
-					],
-					"type": "section"
-				}],
-			"name": "Witch",
-			"type": "section"
-		}],
+				"entries": [
+					"Holding a wand in a loose grip,a young human with tousled red hair and a sheepish grin faces down a furious orc warrior nearly three times his size. With a word and a gesture, the boy’s red hair suddenly erupts into a flurry of long, vicious, living tendrils that wrap themselves around the legs and throat of the orc, dragging the shocked warrior off his feet and holding him aloft.",
+					"Sitting atop a floating broom, a wood elf with glowing green eyes gently directs it to pass by the royal palace and idle next to an open window overlooking the throne room. She spies, through the window, the king of all the realm holding court on his throne. The elf gingerly reaches into her sleeve and retrieves a rudimentary straw doll, fashioned with a tiny gold crown upon its head, and a gleaming silver pin. A single pinprick strikes through the heart of the doll, and the king doubles over clutching his chest in pain, sending his courtiers into a blind panic. The wood elf watches, satisfied.",
+					"Pounding a handful of herbs into powder with her trusty mortar and pestle, an elderly tiefling in a flowing grey robe tosses them into her cauldron, already raised to a boil over an open flame. As she does so, the cauldron exudes a noxious green cloud and begins to froth wildly. In just a handful of days, the tiefling will begin the distillation process, creating a new vial of eldritch poison to seep life from the world.",
+					"Witches are learned practitioners of the earliest of magics, from a time when the arcane and the natural were studied as one. Eschewing the more esoteric magics studied by some of their peers, witches prefer practical magic with a variety of potential uses. Witches draw upon the power inherent in the night and the land to breathe life into fallen comrades, brew mystical potions and poisons mighty enough to fell a dragon, and weave terrible curses that may plague an individual for the rest of their life."
+				],
+				"name": "Witch",
+				"type": "section"
+			},
+			{
+				"name": "Acolytes of the First Magic",
+				"entries": [
+					"When the world was young and the mortal races existed entirely at the mercy of primordials, gods, and monsters, there were beings in the darkness that took a surprising mercy on those lesser creatures struggling to survive.",
+					"Whether these beings were spirits, specific gods, or something more sinister, no two tales agree, but the bargains they struck ushered the first inklings of mortal magic into the world. Witches hold as tradition that it was these magics that gave mortals a fighting chance, while others more suspicious of witchcraft tell that this was the first interference of malicious entities into mortal affairs, and an affront to the pure will of the gods.",
+					"Witches are always deeply individualistic, and in the present era have been divided by coven and practice. Though all witches learn from the writings of and words spoken by their elders, some study the ancient ways as an evolving historical and scholastic pursuit, while others practice their magics wild and with full communion of the old beings who laid the path of natural arcana before them. An endlessly diverse group of practitioners, witches rarely agree how best to use their magic, even within the same coven."
+				],
+				"type": "section"
+			},
+			{
+				"name": "Devoted to the Craft",
+				"entries": [
+					"Though not all witches wander far and wide, no witch lives what could be considered a normal life. The reputation of witches as curse-binders and worse often precedes them, and even the best of witches often face at least an inkling of suspicion or fear from those they attempt to help.",
+					"Nevertheless, witches are always dedicated to learning the intricacies of their craft, though many witches do dabble. The specifics of the craft a witch learns are usually the product of the life that witch has led. A witch that knows how to bind wounds has likely done so on many occasions, while a witch skilled in the arts of cursing may have lived a life full of revenge and spite."
+				],
+				"type": "section"
+			},
+			{
+				"name": "Creating a Witch",
+				"entries": [
+					"When you create your witch character, consider strongly their morals and personal leanings. Witches always hold opinions of the world that they are willing to act upon, making them a dynamic and decisive force. How do these attitudes shape your magic, and how has your magic shaped them, in turn?",
+					"Who was the witch that introduced you to magic? Did you stumble upon an occult ritual deep in the woods, or did you enroll in a prestigious institute of witchcraft? What values do those witches close to you hold, and how have they colored your personality and ideals?",
+					"Finally, what has made you choose the life of a wandering witch? Are you searching for untold secrets, running from your status as a pariah, or seeking a land and place to call your own? In any case, your motivations are your own, and very little will stop you from achieving them."
+				],
+				"type": "section"
+			}
+		],
 		"classSpells": [
 			"Acid Splash",
 			"Chill Touch",
@@ -2453,99 +2451,99 @@
 				"After casting this spell, make two checks with your spellcasting ability modifier, adding your proficiency bonus if you are proficient with alchemist’s supplies. The DC for these checks is 25 – twice the level of the spell slot you used to cast this spell. On a success, you have created the combined potion or poison, and both of the new item’s effects can be applied with a single Use an Object action.",
 				"If this check fails, however, one of the items you attempted to combine is destroyed, chosen at random. Further, roll once on the Potion Mishaps table, and suffer the result.",
 				{
-										"type": "table",
-										"caption": "Potion Mishaps",
-										"colLabels": [
-											"{@dice d10}",
-											"Mishaps"
-										],
-										"colStyles": [
-											"col-1 text-center",
-											"col-11"
-										],
-										"rows": [
-											[{
-													"type": "cell",
-													"roll": {
-														"exact": 1
-													}
-												},
-												"The potion fumes turn your skin green. Only a remove curse spell can end this effect."
-											],
-											[{
-													"type": "cell",
-													"roll": {
-														"exact": 2
-													}
-												},
-												"A large, unsightly wart grows in a prominent position on your body."
-											],
-											[{
-													"type": "cell",
-													"roll": {
-														"exact": 3
-													}
-												},
-												"The destroyed potion explodes, catching you on fire and dealing {@damage 1d6} fire damage each turn until you use an action to render yourself prone and put it out."
-											],
-											[{
-													"type": "cell",
-													"roll": {
-														"exact": 4
-													}
-												},
-												"The potion releases a toxic miasma, as if you had cast the spell stinking cloud centered on yourself."
-											],
-											[{
-													"type": "cell",
-													"roll": {
-														"exact": 5
-													}
-												},
-												"Roll {@dice 1d100}. This is the percentage of your hair that falls out."
-											],
-											[{
-													"type": "cell",
-													"roll": {
-														"exact": 6
-													}
-												},
-												"The potion ignites in a loud flash and an explosive bang. You are blinded and deafened for one minute."
-											],
-											[{
-													"type": "cell",
-													"roll": {
-														"exact": 7
-													}
-												},
-												"Smoke from the potion deadens your senses. Everything smells and tastes like dirt for 24 hours."
-											],
-											[{
-													"type": "cell",
-													"roll": {
-														"exact": 8
-													}
-												},
-												"The potion’s fumes cloud your mind, and you forget all events that happened within the last hour."
-											],
-											[{
-													"type": "cell",
-													"roll": {
-														"exact": 9
-													}
-												},
-												"Within 20 feet of you, all plants wilt and die, and all food and milk spoils."
-											],
-											[{
-													"type": "cell",
-													"roll": {
-														"exact": 10
-													}
-												},
-												"One randomly determined item on your person is transported to the Ethereal Plane."
-											]
-										]
-									}
+					"type": "table",
+					"caption": "Potion Mishaps",
+					"colLabels": [
+						"{@dice d10}",
+						"Mishaps"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"The potion fumes turn your skin green. Only a remove curse spell can end this effect."
+						],
+						[{
+								"type": "cell",
+								"roll": {
+									"exact": 2
+								}
+							},
+							"A large, unsightly wart grows in a prominent position on your body."
+						],
+						[{
+								"type": "cell",
+								"roll": {
+									"exact": 3
+								}
+							},
+							"The destroyed potion explodes, catching you on fire and dealing {@damage 1d6} fire damage each turn until you use an action to render yourself prone and put it out."
+						],
+						[{
+								"type": "cell",
+								"roll": {
+									"exact": 4
+								}
+							},
+							"The potion releases a toxic miasma, as if you had cast the spell stinking cloud centered on yourself."
+						],
+						[{
+								"type": "cell",
+								"roll": {
+									"exact": 5
+								}
+							},
+							"Roll {@dice 1d100}. This is the percentage of your hair that falls out."
+						],
+						[{
+								"type": "cell",
+								"roll": {
+									"exact": 6
+								}
+							},
+							"The potion ignites in a loud flash and an explosive bang. You are blinded and deafened for one minute."
+						],
+						[{
+								"type": "cell",
+								"roll": {
+									"exact": 7
+								}
+							},
+							"Smoke from the potion deadens your senses. Everything smells and tastes like dirt for 24 hours."
+						],
+						[{
+								"type": "cell",
+								"roll": {
+									"exact": 8
+								}
+							},
+							"The potion’s fumes cloud your mind, and you forget all events that happened within the last hour."
+						],
+						[{
+								"type": "cell",
+								"roll": {
+									"exact": 9
+								}
+							},
+							"Within 20 feet of you, all plants wilt and die, and all food and milk spoils."
+						],
+						[{
+								"type": "cell",
+								"roll": {
+									"exact": 10
+								}
+							},
+							"One randomly determined item on your person is transported to the Ethereal Plane."
+						]
+					]
+				}
 			],
 			"scalingLevelDice": {
 				"label": "acid damage",
