@@ -764,7 +764,7 @@
 			"entries": [
 				"You can cast Find Familiar once per day, without a material component. Your familiar can speak any languages you know, and has an Intelligence and Wisdom score of 11+ your Charisma modifier. Your familiar can cast Augury once per short or long rest. When you reach 9th level, it can cast Divination once per long rest."
 			],
-			"featureType": "Magical Charms"
+			"featureType": "MC"
 		},
 		{
 			"source": "magicalgirl",
@@ -772,7 +772,7 @@
 			"entries": [
 				"When you choose this charm, pick an ability score. That ability score has a +2 bonus while you are transformed, but cannot be increased above 20. At 17th level, this Charm can increase an ability score above 20, to a maximum of 22."
 			],
-			"featureType": "Magical Charms"
+			"featureType": "MC"
 		},
 		{
 			"source": "magicalgirl",
@@ -781,7 +781,7 @@
 				"{@italic You may only have one Transformation effect.}",
 				"Your transformation is especially bright. Creatures within 15 feet of you that can see you must make a Constitution saving throw against your Spell Save DC. On a failure, that creature is blinded for a number of rounds equal to your Charisma modifier. At the end of their turn, affected creatures may make a new saving throw, ending the blindness on a successful save."
 			],
-			"featureType": "Magical Charms"
+			"featureType": "MC"
 		},
 		{
 			"source": "magicalgirl",
@@ -789,7 +789,7 @@
 			"entries": [
 				"When you transform, you gain a number of Temporary Hit points equal to 2d4 plus your Charisma modifier. The number of dice increases to 3d4 at 9th level, 4d4 at 13th level, and 5d4 at 17th level."
 			],
-			"featureType": "Magical Charms"
+			"featureType": "MC"
 		},
 		{
 			"source": "magicalgirl",
@@ -797,7 +797,7 @@
 			"entries": [
 				"Choose acid, cold, fire, lightning, or thunder. You are resistant to that kind of damage, even while you are not Transformed. At 13th level, you become immune instead. Additionally, while you are transformed, your radiant weapons may deal that kind of damage instead of radiant damage. If you have the Promise of Understanding, your Radiant Blasts can also deal the chosen type of damage instead of radiant damage. You may take this Charm multiple times, but you must choose a different damage type each time."
 			],
-			"featureType": "Magical Charms"
+			"featureType": "MC"
 		},
 		{
 			"source": "magicalgirl",
@@ -806,7 +806,7 @@
 				"{@italic You may only have one Transformation effect.}",
 				"When you pick this Charm, choose acid, cold, fire, or lightning. Creatures within 10 feet of you must make a Dexterity saving throw against your Spell Save DC. On a failure They take 4d6 damage of the chosen type, or half as much on a successful save. The damage increases to 6d6 at 9th level, 7d6 at 13th level, and 8d6 at 17th level."
 			],
-			"featureType": "Magical Charms"
+			"featureType": "MC"
 		},
 		{
 			"source": "magicalgirl",
@@ -815,7 +815,7 @@
 				"{@italic You may only have one Transformation effect.}",
 				"When you transform, there is a thunderous explosion. Creatures within 10 feet must make a Constitution saving throw. On a failure, they take 2d6 Thunder damage and are pushed 10 feet away from you. On a successful save, they take half damage and are not pushed. The damage increases to 4d6 at 9th level, 5d6 at 13th level, and 6d6 at 17th level."
 			],
-			"featureType": "Magical Charms"
+			"featureType": "MC"
 		},
 		{
 			"source": "magicalgirl",
@@ -824,7 +824,7 @@
 				"{@italic Prerequisite: Promise of Understanding}",
 				"Choose two spells from any class's spell list. The spells must be a level you can cast with a casting time of one action, bonus action, or reaction. You add the chosen spells to your list of Spells Known. At 9th, 13th, and 17th level, you may choose to learn 1 additional spell."
 			],
-			"featureType": "Magical Charms"
+			"featureType": "MC"
 		},
 		{
 			"source": "magicalgirl",
@@ -833,7 +833,7 @@
 				"{@italic You may only have one Transformation effect.}",
 				"Your transformation is terrible to behold. Creatures within 10 feet of you must make a Wisdom saving throw against your Spell Save DC or become frightened for a number of rounds equal to your Charisma modifier. At the end of their turn, affected creatures may make a new saving throw, ending the fear effect on a successful save."
 			],
-			"featureType": "Magical Charms"
+			"featureType": "MC"
 		},
 		{
 			"source": "magicalgirl",
@@ -849,7 +849,7 @@
 					}
 				}
 			}],
-			"featureType": "Magical Charms"
+			"featureType": "MC"
 		},
 		{
 			"source": "magicalgirl",
@@ -857,7 +857,7 @@
 			"entries": [
 				"You can cast Feather Fall at-will without expending a spell slot. While you are transformed, your jump distance is tripled. At 13th level, you gain a fly speed equal to your walking speed while you are transformed."
 			],
-			"featureType": "Magical Charms"
+			"featureType": "MC"
 		},
 		{
 			"source": "magicalgirl",
@@ -865,7 +865,7 @@
 			"entries": [
 				"When your Transformation ends, any un-used spell slots you have are not wasted. Instead, you may use those Spell Slots in your normal form. These spell slots last until you Transform again, or take a short rest."
 			],
-			"featureType": "Magical Charms"
+			"featureType": "MC"
 		},
 		{
 			"source": "magicalgirl",
@@ -882,7 +882,7 @@
 					}
 				}
 			}],
-			"featureType": "Magical Charms"
+			"featureType": "MC"
 		},
 		{
 			"source": "magicalgirl",
@@ -891,7 +891,7 @@
 				"{@italic Prerequisite: Promise of Safety}",
 				"Choose one or two weapons you possess, or your radiant weapons. While you are wielding those weapons, they count as Magical. At 13th level, the weapons become oversized while you are transformed, dealing 1d8 additional damage."
 			],
-			"featureType": "Magical Charms"
+			"featureType": "MC"
 		},
 		{
 			"source": "magicalgirl",
@@ -900,7 +900,7 @@
 				"{@italic You may only have one Transformation effect.}",
 				"Swirling fog or thick smoke exudes from you out to a 10-foot radius when you transform. This fog provides 3/4 cover, and lasts for a number of rounds equal to your Charisma modifier, or until it is dispersed by a strong wind."
 			],
-			"featureType": "Magical Charms"
+			"featureType": "MC"
 		},
 		{
 			"source": "magicalgirl",
@@ -916,7 +916,7 @@
 					}
 				}
 			}],
-			"featureType": "Magical Charms"
+			"featureType": "MC"
 		},
 		{
 			"source": "magicalgirl",
@@ -924,7 +924,7 @@
 			"entries": [
 				"You may create a suit of radiant armor by attuning to a suit of armor you possess for 1 hour. In order to attune to the armor, you must be proficient in its use. If the suit of armor is on the same plane of existence, you may summon it as part of your transformation. The armor immediately teleports onto your body."
 			],
-			"featureType": "Magical Charms"
+			"featureType": "MC"
 		}
 	]
 }
