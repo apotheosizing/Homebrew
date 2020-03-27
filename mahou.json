@@ -762,7 +762,8 @@
 			"source": "magicalgirl",
 			"name": "Awoken Familiar",
 			"entries": [
-				"You can cast Find Familiar once per day, without a material component. Your familiar can speak any languages you know, and has an Intelligence and Wisdom score of 11+ your Charisma modifier. Your familiar can cast Augury once per short or long rest. When you reach 9th level, it can cast Divination once per long rest."
+				"You can cast {@spell find familiar|phb} once per day, without a material component. Your familiar can speak any languages you know, and has an Intelligence and Wisdom score of 11 + your Charisma modifier. Your familiar can cast {@spell augury|phb} once per short or long rest.",
+				"When you reach 9th level, it can cast {@spell divination|phb} once per long rest."
 			],
 			"featureType": "MC"
 		},
@@ -770,7 +771,8 @@
 			"source": "magicalgirl",
 			"name": "Altered Ability",
 			"entries": [
-				"When you choose this charm, pick an ability score. That ability score has a +2 bonus while you are transformed, but cannot be increased above 20. At 17th level, this Charm can increase an ability score above 20, to a maximum of 22."
+				"When you choose this charm, pick an ability score. That ability score has a +2 bonus while you are transformed, but cannot be increased above 20.",
+				"At 17th level, this Charm can increase an ability score above 20, to a maximum of 22."
 			],
 			"featureType": "MC"
 		},
@@ -779,7 +781,7 @@
 			"name": "Blinding Transformation",
 			"entries": [
 				"{@italic You may only have one Transformation effect.}",
-				"Your transformation is especially bright. Creatures within 15 feet of you that can see you must make a Constitution saving throw against your Spell Save DC. On a failure, that creature is blinded for a number of rounds equal to your Charisma modifier. At the end of their turn, affected creatures may make a new saving throw, ending the blindness on a successful save."
+				"Your transformation is especially bright. Creatures within 15 feet of you that can see you must make a Constitution saving throw against your spell save DC. On a failure, that creature is blinded for a number of rounds equal to your Charisma modifier. At the end of their turn, affected creatures may make a new saving throw, ending the blindness on a successful save."
 			],
 			"featureType": "MC"
 		},
@@ -787,7 +789,7 @@
 			"source": "magicalgirl",
 			"name": "Durable Form",
 			"entries": [
-				"When you transform, you gain a number of Temporary Hit points equal to 2d4 plus your Charisma modifier. The number of dice increases to 3d4 at 9th level, 4d4 at 13th level, and 5d4 at 17th level."
+				"When you transform, you gain a number of temporary hit points equal to 2d4 plus your Charisma modifier. The number of dice increases to 3d4 at 9th level, 4d4 at 13th level, and 5d4 at 17th level."
 			],
 			"featureType": "MC"
 		},
@@ -795,7 +797,10 @@
 			"source": "magicalgirl",
 			"name": "Elemental Favor",
 			"entries": [
-				"Choose acid, cold, fire, lightning, or thunder. You are resistant to that kind of damage, even while you are not Transformed. At 13th level, you become immune instead. Additionally, while you are transformed, your radiant weapons may deal that kind of damage instead of radiant damage. If you have the Promise of Understanding, your Radiant Blasts can also deal the chosen type of damage instead of radiant damage. You may take this Charm multiple times, but you must choose a different damage type each time."
+				"Choose acid, cold, fire, lightning, or thunder. You are resistant to that kind of damage, even while you are not Transformed.",
+				"At 13th level, you become immune instead. Additionally, while you are transformed, your radiant weapons may deal that kind of damage instead of radiant damage.",
+				"If you have the Promise of Understanding, your Radiant Blasts can also deal the chosen type of damage instead of radiant damage.",
+				"You may take this Charm multiple times, but you must choose a different damage type each time."
 			],
 			"featureType": "MC"
 		},
@@ -804,7 +809,7 @@
 			"name": "Elemental Transformation",
 			"entries": [
 				"{@italic You may only have one Transformation effect.}",
-				"When you pick this Charm, choose acid, cold, fire, or lightning. Creatures within 10 feet of you must make a Dexterity saving throw against your Spell Save DC. On a failure They take 4d6 damage of the chosen type, or half as much on a successful save. The damage increases to 6d6 at 9th level, 7d6 at 13th level, and 8d6 at 17th level."
+				"When you pick this Charm, choose acid, cold, fire, or lightning. Creatures within 10 feet of you must make a Dexterity saving throw against your spell save DC. On a failure, they take 4d6 damage of the chosen type, or half as much on a successful save. The damage increases to 6d6 at 9th level, 7d6 at 13th level, and 8d6 at 17th level."
 			],
 			"featureType": "MC"
 		},
@@ -813,7 +818,7 @@
 			"name": "Explosive Transformation",
 			"entries": [
 				"{@italic You may only have one Transformation effect.}",
-				"When you transform, there is a thunderous explosion. Creatures within 10 feet must make a Constitution saving throw. On a failure, they take 2d6 Thunder damage and are pushed 10 feet away from you. On a successful save, they take half damage and are not pushed. The damage increases to 4d6 at 9th level, 5d6 at 13th level, and 6d6 at 17th level."
+				"When you transform, there is a thunderous explosion. Creatures within 10 feet must make a Constitution saving throw. On a failure, they take 2d6 thunder damage and are pushed 10 feet away from you. On a successful save, they take half damage and are not pushed. The damage increases to 4d6 at 9th level, 5d6 at 13th level, and 6d6 at 17th level."
 			],
 			"featureType": "MC"
 		},
@@ -822,7 +827,8 @@
 			"name": "Extra Magic",
 			"entries": [
 				"{@italic Prerequisite: Promise of Understanding}",
-				"Choose two spells from any class's spell list. The spells must be a level you can cast with a casting time of one action, bonus action, or reaction. You add the chosen spells to your list of Spells Known. At 9th, 13th, and 17th level, you may choose to learn 1 additional spell."
+				"Choose two spells from any class's spell list. The spells must be a level you can cast with a casting time of one action, bonus action, or reaction. You add the chosen spells to your list of Spells Known.",
+				"At 9th, 13th, and 17th level, you may choose to learn 1 additional spell."
 			],
 			"featureType": "MC"
 		},
@@ -831,7 +837,7 @@
 			"name": "Fearsome Transformation",
 			"entries": [
 				"{@italic You may only have one Transformation effect.}",
-				"Your transformation is terrible to behold. Creatures within 10 feet of you must make a Wisdom saving throw against your Spell Save DC or become frightened for a number of rounds equal to your Charisma modifier. At the end of their turn, affected creatures may make a new saving throw, ending the fear effect on a successful save."
+				"Your transformation is terrible to behold. Creatures within 10 feet of you must make a Wisdom saving throw against your spell save DC or become frightened for a number of rounds equal to your Charisma modifier. At the end of their turn, affected creatures may make a new saving throw, ending the fear effect on a successful save."
 			],
 			"featureType": "MC"
 		},
@@ -839,7 +845,7 @@
 			"source": "magicalgirl",
 			"name": "Finishing Move",
 			"entries": [
-				"When you hit a creature with a weapon or spell attack, you may declare a Finishing Move before you roll damage. Your target must immediately make a Constitution saving throw. If the enemy has more than 1/4 its hit points remaining, it automatically passes this saving throw. On a successful result, the creature takes normal damage from the attack. On a failed saving throw, the Finishing Move becomes a critical hit. If the amount of damage dealt is enough to kill the creature, you regain one use of this ability. Otherwise, you may not use this ability again until you complete a long rest."
+				"When you hit a creature with a weapon or spell attack, you may declare a Finishing Move before you roll damage. Your target must immediately make a Constitution saving throw. If the enemy has more than 1/4th of its hit points remaining, it automatically passes this saving throw. On a successful result, the creature takes normal damage from the attack. On a failed saving throw, the Finishing Move becomes a critical hit. If the amount of damage dealt is enough to kill the creature, you regain one use of this ability. Otherwise, you may not use this ability again until you complete a long rest."
 			],
 			"prerequisite": [{
 				"level": {
@@ -855,7 +861,8 @@
 			"source": "magicalgirl",
 			"name": "Light Step",
 			"entries": [
-				"You can cast Feather Fall at-will without expending a spell slot. While you are transformed, your jump distance is tripled. At 13th level, you gain a fly speed equal to your walking speed while you are transformed."
+				"You can cast {@spell feather fall|phb} at-will without expending a spell slot. While you are transformed, your jump distance is tripled.",
+				"At 13th level, you gain a fly speed equal to your walking speed while you are transformed."
 			],
 			"featureType": "MC"
 		},
@@ -863,7 +870,7 @@
 			"source": "magicalgirl",
 			"name": "Lingering Magic",
 			"entries": [
-				"When your Transformation ends, any un-used spell slots you have are not wasted. Instead, you may use those Spell Slots in your normal form. These spell slots last until you Transform again, or take a short rest."
+				"When your Transformation ends, any unused spell slots you have are not wasted. Instead, you may use those spell slots in your normal form. These spell slots last until you transform again, or take a short rest."
 			],
 			"featureType": "MC"
 		},
@@ -872,7 +879,8 @@
 			"name": "Mass Appeal",
 			"entries": [
 				"{@italic Prerequisite: Promise of Friendship}",
-				"You may cast Dominate Person or Geas without expending a spell slot. Once you do, you may not cast either spell again until you complete a long rest. If you are at least 13th level, you may cast Mass Suggestion while you are transformed. Once you do, you may not do so again until you complete a long rest."
+				"You may cast {@spell dominate person} or {@spell geas} without expending a spell slot. Once you do, you may not cast either spell again until you complete a long rest.",
+				"If you are at least 13th level, you may cast {@spell mass suggestion|phb} while you are transformed. Once you do, you may not do so again until you complete a long rest."
 			],
 			"prerequisite": [{
 				"level": {
@@ -898,7 +906,7 @@
 			"name": "Misty Transformation",
 			"entries": [
 				"{@italic You may only have one Transformation effect.}",
-				"Swirling fog or thick smoke exudes from you out to a 10-foot radius when you transform. This fog provides 3/4 cover, and lasts for a number of rounds equal to your Charisma modifier, or until it is dispersed by a strong wind."
+				"Swirling fog or thick smoke exudes from you out to a 10-foot radius when you transform. This fog provides three-quarters cover, and lasts for a number of rounds equal to your Charisma modifier, or until it is dispersed by a strong wind."
 			],
 			"featureType": "MC"
 		},
@@ -906,7 +914,8 @@
 			"source": "magicalgirl",
 			"name": "Sacrifice",
 			"entries": [
-				"Add Revivify to your list of spells known. You can cast Revivify without expending a spell slot, and without a material component, by ending your transformation. If you cast Revivify this way, you must also expend all of your hit dice, roll them, and take that much necrotic damage. Additionally, you may not transform again until you take a long rest."
+				"Add {@spell revivify} to your list of spells known. You can cast {@spell revivify} without expending a spell slot, and without a material component, by ending your transformation.",
+				"If you cast {@spell revivify} this way, you must also expend all of your hit dice, roll them, and take that much necrotic damage. Additionally, you may not transform again until you take a long rest."
 			],
 			"prerequisite": [{
 				"level": {
