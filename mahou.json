@@ -236,9 +236,9 @@
 		"startingEquipment": {
 			"additionalFromBackground": true,
 			"default": [
-				"your heirloom, which could be (a) a {@item signet ring}, (b) an {@item amulet}, (c) a set of {@item fine clothes}, or (d) {@filter a martial weapon of your choice|items|source=phb|category=basic|type=martial weapon}",
-				"(a) a {@item quarterstaff} or (b) a {@item dagger}",
-				"(a) a {@item diplomat's pack|phb} or (b) a {@item scholar's pack}",
+				"your heirloom, which could be (a) a {@item signet ring|phb}, (b) an {@item amulet|phb}, (c) a set of {@item fine clothes|phb}, or (d) {@filter a martial weapon of your choice|items|source=phb|category=basic|type=martial weapon}",
+				"(a) a {@item quarterstaff|phb} or (b) a {@item dagger|phb}",
+				"(a) a {@item diplomat's pack|phb} or (b) a {@item scholar's pack|phb}",
 				"a bag with two tomes of lore on subjects of your choice."
 			],
 			"goldAlternative": "2d4 x 10"
