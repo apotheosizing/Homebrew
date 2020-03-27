@@ -781,7 +781,7 @@
 				"{@italic You may only have one Transformation effect.}",
 				"Your transformation is especially bright. Creatures within 15 feet of you that can see you must make a Constitution saving throw against your Spell Save DC. On a failure, that creature is blinded for a number of rounds equal to your Charisma modifier. At the end of their turn, affected creatures may make a new saving throw, ending the blindness on a successful save."
 			],
-			"featureType": "magicalgirl"
+			"featureType": "Magical Charms"
 		},
 		{
 			"source": "magicalgirl",
