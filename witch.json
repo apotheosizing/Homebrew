@@ -465,6 +465,24 @@
 			],
 			"goldAlternative": "2d4 x 10"
 		},
+			"multiclassing": {
+				"requirements": {
+					"int": 13
+				},
+				"proficienciesGained": {
+					"weapons": [
+						"blowguns",
+						"daggers",
+						"quarterstaffs",
+						"sickles"
+					],
+					"tools": [
+						"alchemists' supplies",
+						"herbalism kit",
+						"poisoner's kit"
+					]
+				}
+			},
 		"classFeatures": [
 			[{
 					"name": "Spellcasting",
