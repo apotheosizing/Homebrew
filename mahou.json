@@ -16,6 +16,9 @@
 			"url": "https://homebrewery.naturalcrit.com/share/H17XG_g4Z",
 			"targetSchema": "1.0.0"
 		}],
+		"optionalFeatureTypes": {
+			"MC": "Magical Charms"
+		},
 		"dateAdded": 1546170412,
 		"dateLastModified": 1546170412
 	},
