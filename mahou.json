@@ -828,9 +828,15 @@
 			"source": "magicalgirl",
 			"name": "Extra Magic",
 			"entries": [
-				"{@italic Prerequisite: Promise of Understanding}",
 				"Choose two spells from any class's spell list. The spells must be a level you can cast with a casting time of one action, bonus action, or reaction. You add the chosen spells to your list of Spells Known.",
 				"At 9th, 13th, and 17th level, you may choose to learn one additional spell."
+			],
+			"prerequisite": [{
+						"subclass": {
+							"name": "Promise of Understanding"
+						}
+					}
+				}
 			],
 			"featureType": "MC"
 		},
@@ -881,7 +887,6 @@
 			"source": "magicalgirl",
 			"name": "Mass Appeal",
 			"entries": [
-				"{@italic Prerequisite: Promise of Friendship}",
 				"You may cast {@spell dominate person} or {@spell geas} without expending a spell slot. Once you do, you may not cast either spell again until you complete a long rest.",
 				"If you are at least 13th level, you may cast {@spell mass suggestion|phb} while you are transformed. Once you do, you may not do so again until you complete a long rest."
 			],
@@ -891,20 +896,27 @@
 					"class": {
 						"name": "Magical Girl"
 					},
-					"feature": [
-						"Promise of Friendship"
-					]
+						"subclass": {
+							"name": "Promise of Friendship"
+						}
+					}
 				}
-			}],
+			],
 			"featureType": "MC"
 		},
 		{
 			"source": "magicalgirl",
 			"name": "Enhanced Weapons",
 			"entries": [
-				"{@italic Prerequisite: Promise of Safety}",
 				"Choose one or two weapons you possess, or your radiant weapons. While you are wielding those weapons, they count as magical.",
 				"At 13th level, the weapons become oversized while you are transformed, dealing {@dice 1d8} additional damage."
+			],
+			"prerequisite": [{
+						"subclass": {
+							"name": "Promise of Safety"
+						}
+					}
+				}
 			],
 			"featureType": "MC"
 		},
