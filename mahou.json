@@ -103,87 +103,108 @@
 			{
 				"colLabels": [
 					"{@filter Spells Known|spells|class=Magical Girl}",
+					"Spell Slots",
 					"Slot Level"
 				],
 				"rows": [
 					[
 						0,
+						0,
 						0
 					],
 					[
 						2,
+						1,
 						1
 					],
 					[
 						3,
+						1,
 						1
 					],
 					[
 						3,
+						1,
 						1
 					],
 					[
 						4,
+						1,
 						2
 					],
 					[
 						4,
+						1,
 						2
 					],
 					[
 						5,
+						1,
 						2
 					],
 					[
 						5,
+						1,
 						2
 					],
 					[
 						6,
+						1,
 						3
 					],
 					[
 						6,
+						1,
 						3
 					],
 					[
 						7,
+						2,
 						3
 					],
 					[
 						7,
+						2,
 						3
 					],
 					[
 						8,
+						2,
 						4
 					],
 					[
 						8,
+						2,
 						4
 					],
 					[
 						9,
+						2,
 						4
 					],
 					[
 						9,
+						2,
 						4
 					],
 					[
 						10,
+						2,
 						5
 					],
 					[
 						10,
+						2,
 						5
 					],
 					[
 						11,
+						2,
 						5
 					],
 					[
 						11,
+						2,
 						5
 					]
 				]
@@ -215,9 +236,9 @@
 		"startingEquipment": {
 			"additionalFromBackground": true,
 			"default": [
-				"your heirloom, which could be (a) a signet ring, (b) an amulet, (c) a set of fine clothes, or (d) a martial weapon of your choice.",
-				"(a) a quarterstaff or (b) a dagger.",
-				"(a) a diplomat's pack or (b) a scholar's pack.",
+				"your heirloom, which could be (a) a {@item signet ring}, (b) an {@item amulet}, (c) a set of {@item fine clothes}, or (d) {@filter a martial weapon of your choice|items|source=phb|category=basic|type=martial weapon}",
+				"(a) a {@item quarterstaff} or (b) a {@item dagger}",
+				"(a) a {@item diplomat's pack|phb} or (b) a {@item scholar's pack}",
 				"a bag with two tomes of lore on subjects of your choice."
 			],
 			"goldAlternative": "2d4 x 10"
@@ -650,11 +671,39 @@
 			}
 		],
 		"fluff": [{
-			"entries": [
-				"Despite the name, Magical Girls are not necessarily female, but the most iconic characters of this class are. Magical Girls are mundane people with the extraordinary ability to transform into a powerful alternate form.",
-				"There are two sources of a Magical Girl's power: a magical promise, and a heirloom given to the character. The Magical Girl makes a promise, and is given the heirloom. The heirloom allows the magical girl to transform. Transformation gives the Magical Girl the power to complete her promise. It is a cyclical relationship that constantly reminds the Magical Girl what she is fighting for.",
-				"Naturally, the new form provided by the transformation tends to embody the ideals of the promise. The new form may look and act more like the heirloom’s original owner than the Magical Girl using it."
-			],
+					"entries": [
+						"A demon rages through the hallways of the Arcane College, tearing students in half as they flee. One apprentice stands defiant, placing her fingertips on a jeweled bracelet. With a sudden flash, the girl transforms into a statuesque figure in magnificent white robes. A young squire presents his signet ring to the blackguard. A swirling mist fills the area- and when it clears, a knight in shimmering golden armor stands where the squire was standing. He draws his oversized greatsword, and smirks beneath his armor.",
+						"Despite the name, Magical Girls are not necessarily female, but the most iconic characters of this class are. Magical Girls are mundane people with the extraordinary ability to transform into a powerful alternate form."
+					],
+					"name": "Magical Girl",
+					"type": "section"
+				},
+				{
+					"name": "Keeping a Promise",
+					"entries": [
+						"There are two sources of a Magical Girl's power: a magical promise, and a heirloom given to the character. The Magical Girl makes a promise, and is given the heirloom. The heirloom allows the magical girl to transform. Transformation gives the Magical Girl the power to complete her promise. It is a cyclical relationship that constantly reminds the Magical Girl what she is fighting for.",
+						"Naturally, the new form provided by the transformation tends to embody the ideals of the promise. The new form may look and act more like the heirloom’s original owner than the Magical Girl using it."
+					],
+					"type": "section"
+				},
+				{
+					"name": "The Power of Friendship",
+					"entries": [
+						"A Magical Girl feels empowered by the presence of her friends. These are the ones whom she truly cares about, and may be the reason for her promise.",
+						"When a Magical Girl is not giving their all in combat to protect their ideals, they are often found engaging in a multitude of light hobbies. From making friendship bracelets, to brewing tea, and napping to their heart's content.",
+						"Among most groups of friends, disputes are sure to take place over a conflict of priorities. Most Magical Girls strive to serve as an adequate seer to propose a middleground or compromise to make everyone happy. Magical Girls most often don't have a strong opinion on the sides of these types of disputes and would be most accepting of whichever method their friends would be happiest with. They would rather have everyone get along as a tight-knit family, as opposed to a group of rascals who would be better off separating.",
+						"An act of true seperation from a very close friend, would be heartrendingly painful to a Magical Girl, even to the point where they may lose their own way."
+					],
+					"type": "section"
+				},
+				{
+					"name": "Creating a Magical Girl",
+					"entries": [
+						"As you are creating a Magical Girl, the most important question is “what do you want to transform into?” Is your transformation some kind of beast-like form, a knight in shining armor, or an older, more regal version of your current self? Second, what does your transformation do? Do you rely on martial prowess or magical ability? This should tell you which Magical Promise to make.",
+						"The next step is to consider who your character made a promise to, as well as why. Is your Magical Promise with a ghost that lives in your Heirloom, an extra-planar being such as an angel, or an ideal? What can you do to fulfill that promise? Once your original goal is completed, how can you continue to uphold the terms of your Magical Promise?"
+					],
+					"type": "section"
+				}],
 			"name": "Magical Girl",
 			"type": "section"
 		}],
