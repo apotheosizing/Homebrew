@@ -15,6 +15,9 @@
 			"url": "https://www.dmsguild.com/product/248189/WH-The-Witch-a-character-class-of-natural-arcana-and-the-old-ways-of-magic",
 			"targetSchema": "1.0.0"
 		}],
+		"optionalFeatureTypes": {
+			"JI": "Jinx"
+		},
 		"dateAdded": 1546170412,
 		"dateLastModified": 1546170412
 	},
@@ -2111,7 +2114,7 @@
 			"entries": [
 				"Pull the creature 15 feet towards you in a straight line. This movement does not provoke opportunity attacks."
 			],
-			"featureType": "Jinx"
+			"featureType": "JI"
 		},
 		{
 			"source": "walrockwitch",
@@ -2119,7 +2122,7 @@
 			"entries": [
 				"The creature’s movement speeds are reduced by 20 feet."
 			],
-			"featureType": "Jinx"
+			"featureType": "JI"
 		},
 		{
 			"source": "walrockwitch",
@@ -2135,7 +2138,7 @@
 					}
 				}
 			}],
-			"featureType": "Jinx"
+			"featureType": "JI"
 		},
 		{
 			"source": "walrockwitch",
@@ -2143,7 +2146,7 @@
 			"entries": [
 				"The creature cannot take opportunity attacks."
 			],
-			"featureType": "Jinx"
+			"featureType": "JI"
 		},
 		{
 			"source": "walrockwitch",
@@ -2159,7 +2162,7 @@
 					}
 				}
 			}],
-			"featureType": "Jinx"
+			"featureType": "JI"
 		},
 		{
 			"source": "walrockwitch",
@@ -2167,7 +2170,7 @@
 			"entries": [
 				"The next attack the creature makes is made with disadvantage."
 			],
-			"featureType": "Jinx"
+			"featureType": "JI"
 		},
 		{
 			"source": "walrockwitch",
@@ -2175,7 +2178,7 @@
 			"entries": [
 				"Push the creature 15 feet directly away from you in a straight line. This movement does not provoke opportunity attacks."
 			],
-			"featureType": "Jinx"
+			"featureType": "JI"
 		},
 		{
 			"source": "walrockwitch",
@@ -2191,7 +2194,7 @@
 					}
 				}
 			}],
-			"featureType": "Jinx"
+			"featureType": "JI"
 		},
 		{
 			"source": "walrockwitch",
@@ -2207,7 +2210,7 @@
 					}
 				}
 			}],
-			"featureType": "Jinx"
+			"featureType": "JI"
 		},
 		{
 			"source": "walrockwitch",
@@ -2215,7 +2218,7 @@
 			"entries": [
 				"The creature casts dim light in a 10-foot radius. The next attack made against the creature has advantage."
 			],
-			"featureType": "Jinx"
+			"featureType": "JI"
 		}
 	],
 	"spell": [{
