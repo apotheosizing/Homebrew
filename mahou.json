@@ -16,6 +16,10 @@
 			"url": "https://homebrewery.naturalcrit.com/share/H17XG_g4Z",
 			"targetSchema": "1.0.0"
 		}],
+		
+		"optionalFeatureTypes": {
+			"MC": "Magical Charms"
+		},
 		"dateAdded": 1546170412,
 		"dateLastModified": 1546170412
 	},
@@ -32,7 +36,7 @@
 		],
 		"classTableGroups": [{
 				"colLabels": [
-					"Magical Charmses Known"
+					"{@filter Magical Charms Known|optionalfeatures|feature_type=Magical Charms}"
 				],
 				"rows": [
 					[
@@ -99,7 +103,7 @@
 			},
 			{
 				"colLabels": [
-					"Spells Known",
+					"{@filter Spells Known|spells|class=Magical Girl}",
 					"Slot Level"
 				],
 				"rows": [
@@ -365,7 +369,7 @@
 				"name": "Magical Charms",
 				"entries": [
 					"A magical girl's powers adjust themselves to be more in tune with their wielder's personality.",
-					"At 3rd level, you gain two magical charms of your choice. Your magical charm options can be found on the {@filter Optional Features page|optionalfeatures|feature_type=magical_charm}. You may only take a charm once, unless the charm says otherwise. You gain an additional charm at 9th, 13th, and 17th levels."
+					"At 3rd level, you gain two magical charms of your choice. Your magical charm options can be found on the {@filter Optional Features page|optionalfeatures|feature_type=Magical Charms}. You may only take a charm once, unless the charm says otherwise. You gain an additional charm at 9th, 13th, and 17th levels."
 				]
 			}],
 			[{
