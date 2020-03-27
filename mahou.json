@@ -784,7 +784,7 @@
 			"featureType": "magicalgirl"
 		},
 		{
-			"source": "MG",
+			"source": "magicalgirl",
 			"name": "Durable Form",
 			"entries": [
 				"When you transform, you gain a number of Temporary Hit points equal to 2d4 plus your Charisma modifier. The number of dice increases to 3d4 at 9th level, 4d4 at 13th level, and 5d4 at 17th level."
