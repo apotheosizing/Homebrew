@@ -1468,7 +1468,7 @@
 			"entriesHigherLevel": [{
 				"name": "At Higher Levels",
 				"entries": [
-					"When you cast this spell using a spell slot of 6th level or higher, each instance of bludgeoning damage increases by {scaledice 5d10|5-9|1d10} per spell slot level above 5th."
+					"When you cast this spell using a spell slot of 6th level or higher, each instance of bludgeoning damage increases by {@scaledice 5d10|5-9|1d10} per spell slot level above 5th."
 				]
 			}],
 			"damageInflict": [
