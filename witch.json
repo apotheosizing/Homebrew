@@ -34,7 +34,7 @@
 		],
 		"classTableGroups": [{
 				"colLabels": [
-					"Jinxes Known"
+					"{@filter Jinxes Known|optionalfeatures|source=wh}"
 				],
 				"rows": [
 					[
