@@ -35,7 +35,7 @@
 		],
 		"classTableGroups": [{
 				"colLabels": [
-					"{@filter Magical Charms Known|optionalfeatures|feature_type=Magical Charms}"
+					"{@filter Magical Charms Known|optionalfeatures|feature_type=magical charm}"
 				],
 				"rows": [
 					[
