@@ -35,7 +35,7 @@
 		],
 		"classTableGroups": [{
 				"colLabels": [
-					"{@filter Magical Charms Known|optionalfeatures|source=Magical Girl}"
+					"{@link Magical Charms Known|https://noads.5e.tools/optionalfeatures.html#blankhash,flstsource:bgdia=0~erlw=0~gos=0~nessusaryevils=0~phb=0~whiffcity=0~walrockwitch=0~xge=0}"
 				],
 				"rows": [
 					[
@@ -299,7 +299,7 @@
 										"up to two {@filter thrown weapons|items|category=basic|property=thrown} which, if thrown, dissipate and reappear in your hands at the end of your turn",
 										"any {@filter nonmagical weapon with the ammunition property|items|category=basic|property=ammunition}, which has unlimited ammunition",
 										"two {@filter light weapons|items|category=basic|property=light}",
-										"up to two {@filter one-handed weapons|items|category=basic|type=melee weapon}, or {@filter one-handed weapon|items|category=basic|type=melee weapon} and a {@filter shield|items|category=basic|type=shield}",
+										"up to two {@link one-handed weapons|https://noads.5e.tools/items.html#blankhash,flsttype:melee%20weapon=1,flstproperty:two-handed=2,flstcategory:basic=1~specific%20variant=0}, or {@link one-handed weapon|https://noads.5e.tools/items.html#blankhash,flsttype:melee%20weapon=1,flstproperty:two-handed=2,flstcategory:basic=1~specific%20variant=0} and a {@filter shield|items|category=basic|type=shield}",
 										"a {@filter two-handed weapon|items|category=basic|property=two-handed}"
 									]
 								},
@@ -407,7 +407,7 @@
 				"name": "Magical Charms",
 				"entries": [
 					"A magical girl's powers adjust themselves to be more in tune with their wielder's personality.",
-					"At 3rd level, you gain two magical charms of your choice. Your magical charm options can be found on the {@filter Optional Features page|optionalfeatures|feature_type=Magical Charms}. You may only take a charm once, unless the charm says otherwise. You gain an additional charm at 9th, 13th, and 17th levels."
+					"At 3rd level, you gain two magical charms of your choice. Your magical charm options can be found on the {@link Optional Features page|https://noads.5e.tools/optionalfeatures.html#blankhash,flstsource:bgdia=0~erlw=0~gos=0~nessusaryevils=0~phb=0~whiffcity=0~walrockwitch=0~xge=0}. You may only take a charm once, unless the charm says otherwise. You gain an additional charm at 9th, 13th, and 17th levels."
 				]
 			}],
 			[{
