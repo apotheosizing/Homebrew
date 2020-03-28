@@ -35,7 +35,7 @@
 		],
 		"classTableGroups": [{
 				"colLabels": [
-					"{@filter Magical Charms Known|optionalfeatures|source=mg}"
+					"{@filter Magical Charms Known|optionalfeatures|source=Magical Girl}"
 				],
 				"rows": [
 					[
