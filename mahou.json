@@ -258,24 +258,41 @@
 					"entries": [
 						"At 1st level, as a bonus action you may undergo a magical transformation into your alternate form. The transformation generally has a cosmetic change. This could be something minor, such as a difference in hair color, or it could be a major change, such as a new outfit suddenly appearing over your clothing. Transforming requires the magical girl's heirloom. In order to transform, you must be able to take actions, and your heirloom must be on your person. You have two uses of your Transformation at first level, which return after a short or long rest. While you are transformed, you gain the following traits:",
 						{
-							"type": "entries",
-							"name": "Armor Class",
-							"entries": ["While you are transformed and not wearing armor, your armor class is equal to 10 + your Dexterity Modifier + your Charisma modifier. You can use a shield and still gain this benefit."]
+									"type": "entries",
+									"entries": [{
+										"type": "entries",
+										"name": "Armor Class",
+										"entries": [
+											"While you are transformed and not wearing armor, your armor class is equal to 10 + your Dexterity Modifier + your Charisma modifier. You can use a shield and still gain this benefit."
+										]
+									}]
 						},
 						{
-							"type": "entries",
-							"name": "Duration",
-							"entries": ["You can maintain your Transformation for up to one hour. If you are knocked unconscious, your transformation ends early."]
+									"type": "entries",
+									"entries": [{
+										"type": "entries",
+										"name": "Duration",
+										"entries": [
+											"You can maintain your transformation for up to one hour. If you are knocked unconscious, your transformation ends early."
+										]
+									}]
 						},
 						{
-							"type": "entries",
-							"name": "Size",
-							"entries": ["You become a medium humanoid creature, regardless of what your original form was."]
+									"type": "entries",
+									"entries": [{
+										"type": "entries",
+										"name": "Size",
+										"entries": [
+											"You become a Medium humanoid creature, regardless of what your original form was."
+										]
+									}]
 						},
 						{
-							"type": "entries",
-							"name": "Radiant Weapons",
-							"entries": ["When you transform, you may choose to summon one or more weapons from the list below:",
+									"type": "entries",
+									"entries": [{
+										"type": "entries",
+										"name": "Radiant Weapons",
+										"entries": ["When you transform, you may choose to summon one or more weapons from the list below:",
 								{
 									"type": "list",
 									"items": [
@@ -289,6 +306,7 @@
 								"These weapons are made of radiant energy, and shed bright light in a 5-foot radius. Since these weapons are made of light, they deal radiant damage, instead of their normal damage type. These radiant weapons cannot be wielded by anyone other than you, and dissipate as soon as they leave your hand.",
 								"While you are wielding your radiant weapons, you may transform your current weapon (or weapons) into a different option on the list above, or dispel your radiant weapons completely, as a bonus action. If you do not have your radiant weapons in hand, you may use your action to conjure them."
 							]
+									}]
 						}
 					]
 				}
