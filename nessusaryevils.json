@@ -1468,7 +1468,7 @@
 			"entriesHigherLevel": [{
 				"name": "At Higher Levels",
 				"entries": [
-					"When you cast this spell using a spell slot of 6th level or higher, each instance of bludgeoning damage increases by {scaledice {@dice 5d10}|5-9|{@dice 1d10}} per spell slot level above 5th."
+					"When you cast this spell using a spell slot of 6th level or higher, each instance of bludgeoning damage increases by {scaledice 5d10|5-9|1d10} per spell slot level above 5th."
 				]
 			}],
 			"damageInflict": [
@@ -2988,7 +2988,7 @@
 				"type": "instant"
 			}],
 			"entries": [
-				"You encase your weapon in ice, transforming it into a deadly spike, and rush up to 30 feet towards a creature you can see. Make a melee spell attack against the target. If you hit, the ice spike shatters, inflicting {@damage 6d6} cold damage and knocking the target {@condition prone}. If the creature does not stand during their next turn, the ice shards encase them, {@condition restrained|PHB|restraining} the target until the end of their following turn. If you are mounted when you cast this spell, the movement applies to your mount and your attack inflicts an additional {@damage 2d6} cold damage."
+				"You encase your weapon in ice, transforming it into a deadly spike, and rush up to 30 feet towards a creature you can see. Make a melee spell attack against the target. If you hit, the ice spike shatters, inflicting {@damage 3d6} cold damage and knocking the target {@condition prone}. If the creature does not stand during their next turn, the ice shards encase them, {@condition restrained|PHB|restraining} the target until the end of their following turn. If you are mounted when you cast this spell, the movement applies to your mount and your attack inflicts an additional {@damage 2d6} cold damage."
 			],
 			"entriesHigherLevel": [{
 				"name": "At Higher Levels",
