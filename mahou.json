@@ -35,7 +35,7 @@
 		],
 		"classTableGroups": [{
 				"colLabels": [
-					"{@filter Magical Charms Known|optionalfeatures|feature_type=magical charm}"
+					"{@filter Magical Charms Known|optionalfeatures|source=mg}"
 				],
 				"rows": [
 					[
@@ -299,8 +299,8 @@
 										"up to two {@filter thrown weapons|items|category=basic|property=thrown} which, if thrown, dissipate and reappear in your hands at the end of your turn",
 										"any {@filter nonmagical weapon with the ammunition property|items|category=basic|property=ammunition}, which has unlimited ammunition",
 										"two {@filter light weapons|items|category=basic|property=light}",
-										"up to two {@filter one-handed weapons|items|type=melee weapon}, or one-handed weapon and a {@filter shield|items|type=shield}",
-										"a {@filter two-handed weapon|items|property=two-handed}"
+										"up to two {@filter one-handed weapons|items|category=basic|type=melee weapon}, or {@filter one-handed weapon|items|category=basic|type=melee weapon} and a {@filter shield|items|category=basic|type=shield}",
+										"a {@filter two-handed weapon|items|category=basic|property=two-handed}"
 									]
 								},
 								"These weapons are made of radiant energy, and shed bright light in a 5-foot radius. Since these weapons are made of light, they deal radiant damage, instead of their normal damage type. These radiant weapons cannot be wielded by anyone other than you, and dissipate as soon as they leave your hand.",
