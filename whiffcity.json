@@ -61,7 +61,8 @@
 		}
 	],
 	"subclass": [{
-			"class": "Warlock",
+			"className": "Warlock",
+		        "classSource": "PHB",
 			"name": "Slumbering",
 			"source": "whiffcity",
 			"subclassFeatures": [
@@ -162,7 +163,8 @@
 			"shortName": "Slumbering (WC)"
 		},
 		{
-			"class": "Warlock",
+			"className": "Warlock",
+			"classSource": "PHB",
 			"name": "Flesh",
 			"source": "whiffcity",
 			"subclassFeatures": [
