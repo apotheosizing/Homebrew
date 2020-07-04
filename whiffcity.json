@@ -65,10 +65,16 @@
 		        "classSource": "PHB",
 			"name": "Slumbering",
 			"source": "whiffcity",
-			"subclassFeatures": [
-				[{
-					"name": "The Slumbering",
-					"entries": [
+			"subclassFeature": [
+		{
+			"name": "Slumbering",
+			"source": "whiffcity",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Slumbering",
+			"subclassSource": "whiffcity",
+			"level": 1,
+			"entries": [
 						"Your patron is one with the restful peace of the night, as well as the rejuvenation of the waking dawn. The cycle of exhaustion, rest, and renewal is the domain of the serene Slumbering patron. Beings of this type include Uvean, Voraan, and Okallo of Elihyel, Filianore, Hypnos, Khepri, and Nut.",
 						{
 							"type": "entries",
