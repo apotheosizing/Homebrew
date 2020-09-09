@@ -98,7 +98,7 @@
 				"The Flesh|Warlock||Flesh|whiffcity|1",
 				"Shapechanger|Warlock||Flesh|whiffcity|6",
 				"Meat Sense|Warlock||Flesh|whiffcity|6",
-				"Enhanced Flesh|Warlock||Flesh|whiffcity|10",
+				"Enhanced Mutations|Warlock||Flesh|whiffcity|10",
 				"Eruption of Flesh|Warlock||Flesh|whiffcity|14"
 			],
 			"className": "Warlock",
@@ -427,9 +427,17 @@
 			"subclassSource": "whiffcity",
 			"level": 6,
 			"header": 1
-		}, {
-			"type": "entries",
-			"name": "Enhanced Mutation",
+		},
+		{
+			"name": "Enhanced Mutations",
+			"source": "whiffcity",
+			"page": 1,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Flesh",
+			"subclassSource": "whiffcity",
+			"level": 10,
+			"header": 2,
 			"entries": [
 				"By 10th level, the secrets held by your own body are hidden no longer. You have unlocked the potential deep within your bones and organs and can shape yourself into new and stranger forms.",
 				"A new suite of Mutations becomes available to you. These Mutations each cost two Mutation Points.",
@@ -472,549 +480,541 @@
 							"Wings",
 							"You have a flying speed of 30 feet when not wearing heavy or medium armour."
 						]
-					],
-					"source": "whiffcity",
-					"page": 1,
-					"className": "Warlock",
-					"classSource": "PHB",
-					"subclassShortName": "Flesh",
-					"subclassSource": "whiffcity",
-					"level": 10,
-					"header": 2
+					]
+				}
+			]
+		},
+		{
+			"name": "Eruption of Flesh",
+			"source": "whiffcity",
+			"page": 1,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Flesh",
+			"subclassSource": "whiffcity",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, your mastery of meat lies not only in your body but extends to the body of the world itself, allowing you can command a fragment of its power directly.",
+				"As an action, you can summon forth meat from the world's core and cause it to erupt through your own body in the form of a tentacle. You decide the exact location of origin and its presence doesn't affect your senses or locomotion.",
+				"As a bonus action on subsequent turns, you can cause one of the following effects with it, using your game statistics:",
+				"{@bold Blood Spray.} The tentacle spews a mist of blood 10 feet in every direction from you. Plants that aren't creatures become flesh in the range. Any creature in the mist must succeed on a Constitution saving throw or take {@dice 2d6} + your Charisma modifier necrotic damage.",
+				"{@bold Bone Spear.} A sharpened bone spear is propelled from the tentacle toward one creature within 100 feet of you. Make a ranged spell attack. On a hit, the target takes {@dice 3d6} piercing damage. This damage is magical.",
+				"{@bold Leech.} A lamprey-like mouth forms on the end of the tentacle, attaching itself to a creature of your choice within 20 feet of you. The creature must make a Dexterity saving throw against to your spell save DC. On a failure, the creature takes damage equal to {@dice 2d6} + your Charisma modifier, and you gain temporary hit points equal to the damage dealt.",
+				"{@bold Whip.} The tentacle lashes out at one creature within 20 feet of you. Make a melee spell attack. On a hit, the target takes {@dice 3d8} bludgeoning damage. This damage is magical.",
+				"The tentacle lasts for one minute or until dispelled as a free action. Once you use this feature, you must finish a long rest before you can use it again."
+			]
+		}
+	],
+	"spell": [{
+			"name": "Unknowable",
+			"source": "whiffcity",
+			"srd": true,
+			"level": 7,
+			"school": "I",
+			"time": [{
+				"number": 1,
+				"unit": "action"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a faceless doll"
+			},
+			"duration": [{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 10
 				},
+				"concentration": true
+			}],
+			"entries": [
+				"You mask nearly all marks of your presence from the senses. Until the spell ends, you and all that you are wearing or carrying:",
 				{
-					"name": "Eruption of Flesh",
-					"source": "whiffcity",
-					"page": 1,
-					"className": "Warlock",
-					"classSource": "PHB",
-					"subclassShortName": "Flesh",
-					"subclassSource": "whiffcity",
-					"level": 14,
-					"header": 2,
-					"entries": [
-						"At 14th level, your mastery of meat lies not only in your body but extends to the body of the world itself, allowing you can command a fragment of its power directly.",
-						"As an action, you can summon forth meat from the world's core and cause it to erupt through your own body in the form of a tentacle. You decide the exact location of origin and its presence doesn't affect your senses or locomotion.",
-						"As a bonus action on subsequent turns, you can cause one of the following effects with it, using your game statistics:",
-						"{@bold Blood Spray.} The tentacle spews a mist of blood 10 feet in every direction from you. Plants that aren't creatures become flesh in the range. Any creature in the mist must succeed on a Constitution saving throw or take {@dice 2d6} + your Charisma modifier necrotic damage.",
-						"{@bold Bone Spear.} A sharpened bone spear is propelled from the tentacle toward one creature within 100 feet of you. Make a ranged spell attack. On a hit, the target takes {@dice 3d6} piercing damage. This damage is magical.",
-						"{@bold Leech.} A lamprey-like mouth forms on the end of the tentacle, attaching itself to a creature of your choice within 20 feet of you. The creature must make a Dexterity saving throw against to your spell save DC. On a failure, the creature takes damage equal to {@dice 2d6} + your Charisma modifier, and you gain temporary hit points equal to the damage dealt.",
-						"{@bold Whip.} The tentacle lashes out at one creature within 20 feet of you. Make a melee spell attack. On a hit, the target takes {@dice 3d8} bludgeoning damage. This damage is magical.",
-						"The tentacle lasts for one minute or until dispelled as a free action. Once you use this feature, you must finish a long rest before you can use it again."
+					"type": "list",
+					"items": ["Become invisible.",
+						"Cannot be heard or smelled.",
+						"Cannot be detected by tremorsense, blindsight,  or scrying sensors.",
+						"Cannot be tracked and leave no traces of passage.",
+						"Cannot be clung to by non-magical materials such as arrows or sand."
 					]
 				}
 			],
-			"spell": [{
-					"name": "Unknowable",
-					"source": "whiffcity",
-					"srd": true,
-					"level": 7,
-					"school": "I",
-					"time": [{
-						"number": 1,
-						"unit": "action"
-					}],
-					"range": {
-						"type": "point",
-						"distance": {
-							"type": "self"
-						}
+			"conditionInflict": [
+				"invisible"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [{
+						"name": "Druid",
+						"source": "PHB"
 					},
-					"components": {
-						"v": true,
-						"s": true,
-						"m": "a faceless doll"
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
 					},
-					"duration": [{
-						"type": "timed",
-						"duration": {
-							"type": "minute",
-							"amount": 10
-						},
-						"concentration": true
-					}],
-					"entries": [
-						"You mask nearly all marks of your presence from the senses. Until the spell ends, you and all that you are wearing or carrying:",
-						{
-							"type": "list",
-							"items": ["Become invisible.",
-								"Cannot be heard or smelled.",
-								"Cannot be detected by tremorsense, blindsight,  or scrying sensors.",
-								"Cannot be tracked and leave no traces of passage.",
-								"Cannot be clung to by non-magical materials such as arrows or sand."
-							]
-						}
-					],
-					"conditionInflict": [
-						"invisible"
-					],
-					"areaTags": [
-						"ST"
-					],
-					"classes": {
-						"fromClassList": [{
-								"name": "Druid",
-								"source": "PHB"
-							},
-							{
-								"name": "Sorcerer",
-								"source": "PHB"
-							},
-							{
-								"name": "Warlock",
-								"source": "PHB"
-							},
-							{
-								"name": "Wizard",
-								"source": "PHB"
-							}
-						]
+					{
+						"name": "Warlock",
+						"source": "PHB"
 					},
-					"uniqueId": "3ec9b671c842b7662951049751aae013"
-				},
-				{
-					"name": "Astral Smite",
-					"source": "whiffcity",
-					"level": 6,
-					"school": "V",
-					"time": [{
-						"number": 1,
-						"unit": "action"
-					}],
-					"range": {
-						"type": "point",
-						"distance": {
-							"type": "feet",
-							"amount": 120
-						}
-					},
-					"components": {
-						"v": true,
-						"s": true
-					},
-					"duration": [{
-						"type": "instant"
-					}],
-					"entries": [
-						"You fire several bolts of ghostly energy at a creature within range. You do not have to be able to see the creature to target them but there must be a straight, unobstructed path from you to the target. The spell can also target a creature on the ethereal plane from the material plane. The target must make a Dexterity saving throw. A creature takes {@damage 12d6} force damage on a failed save, or half as much on a successful save. A creature on the ethereal plane or in a gaseous form has vulnerability to this damage."
-					],
-					"entriesHigherLevel": [{
-						"name": "At Higher Levels",
-						"entries": [
-							"When you cast this spell using a spell slot of 7th level or higher, the damage increases by {@dice 1d6} for each slot level above 6th."
-						]
-					}],
-					"damageInflict": [
-						"force"
-					],
-					"conditionInflict": [
-						"frightened"
-					],
-					"savingThrow": [
-						"dexterity"
-					],
-					"classes": {
-						"fromClassList": [{
-								"name": "Cleric",
-								"source": "PHB"
-							},
-							{
-								"name": "Druid",
-								"source": "PHB"
-							},
-							{
-								"name": "Sorcerer",
-								"source": "PHB"
-							},
-							{
-								"name": "Warlock",
-								"source": "PHB"
-							}
-						]
-					},
-					"uniqueId": "a584a2996205ec1b1c043961942cf732"
-				},
-				{
-					"name": "Delay Teleportation",
-					"source": "whiffcity",
-					"level": 7,
-					"school": "A",
-					"time": [{
-						"number": 1,
-						"unit": "minute"
-					}],
-					"range": {
-						"type": "radius",
-						"distance": {
-							"type": "feet",
-							"amount": 30
-						}
-					},
-					"components": {
-						"s": true
-					},
-					"duration": [{
-						"type": "timed",
-						"duration": {
-							"type": "hour",
-							"amount": 8
-						}
-					}],
-					"entries": [
-						"You protect your immediate vicinity against teleportation. An invisible 30-foot radius sphere centred on you appears and follows you for the duration of the spell. Whenever a creature attempts to teleport within the sphere, it must make a Charisma saving throw. If it fails, the creature's teleportation is delayed. It lingers on the Astral plane and will teleport to its destination at the end of its next turn. At the same time, you can reposition the destination of the teleportation anywhere within the circle and learn exactly how many creatures are teleporting there."
-					],
-					"savingThrow": [
-						"charisma"
-					],
-					"areaTags": [
-						"S"
-					],
-					"classes": {
-						"fromClassList": [{
-								"name": "Warlock",
-								"source": "PHB"
-							},
-							{
-								"name": "Wizard",
-								"source": "PHB"
-							}
-						]
-					},
-					"uniqueId": "809fad5e1becc88681e8aceeff642d88"
-				},
-				{
-					"name": "Wall of Skeletons",
-					"source": "whiffcity",
-					"level": 5,
-					"school": "C",
-					"time": [{
-						"number": 1,
-						"unit": "action"
-					}],
-					"range": {
-						"type": "point",
-						"distance": {
-							"type": "feet",
-							"amount": 90
-						}
-					},
-					"components": {
-						"v": true,
-						"s": true,
-						"m": "a rattle"
-					},
-					"duration": [{
-						"type": "timed",
-						"duration": {
-							"type": "minute",
-							"amount": 10,
-							"upTo": true
-						},
-						"concentration": true
-					}],
-					"entries": [
-						"You create a bony wall of countless skeletons within range. The wall is 1 foot thick and is composed of ten 10-foot-by-20-foot panels. Each panel must be contiguous with at least one other panel.",
-						"If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use its reaction to move up to its speed so that it is no longer enclosed by the wall.",
-						"The wall can have any shape you desire, though it can't occupy the same space as a creature or object. The wall doesn't need to be vertical or rest on any firm foundation.",
-						"When the creature moves within 5 feet of the wall or starts its turn there, it must make a Dexterity saving throw, taking {@damage 2d8} slashing damage on a failed save as the skeletons lash out at the target. On your turn, you can use your action to make a melee spell attack against each creature within 5 feet of the wall, dealing {@damage 2d8} slashing damage on a hit.",
-						"The wall is an object made of bones that can be damaged and thus breached. Each panel has AC 13, 39 hit points, and vulnerability to bludgeoning damage. Reducing a panel to 0 hit points destroys it and might cause connected panels to collapse at the DM's discretion."
-					],
-					"entriesHigherLevel": [{
-						"name": "At Higher Levels",
-						"entries": [
-							"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@dice 1d8} for each slot level above 5th."
-						]
-					}],
-					"damageInflict": [
-						"slashing"
-					],
-					"savingThrow": [
-						"dexterity"
-					],
-					"miscTags": [
-						"SCL"
-					],
-					"areaTags": [
-						"W"
-					],
-					"classes": {
-						"fromClassList": [{
-								"name": "Warlock",
-								"source": "PHB"
-							},
-							{
-								"name": "Wizard",
-								"source": "PHB"
-							},
-							{
-								"name": "Sorcerer",
-								"source": "PHB"
-							}
-						]
-					},
-					"uniqueId": "ac967030c7f2709f752ef7cd3813b147"
-				},
-				{
-					"name": "Uriel",
-					"source": "whiffcity",
-					"level": 9,
-					"school": "V",
-					"time": [{
-						"number": 1,
-						"unit": "action"
-					}],
-					"range": {
-						"type": "point",
-						"distance": {
-							"type": "feet",
-							"amount": 90
-						}
-					},
-					"components": {
-						"v": true,
-						"s": true,
-						"m": {
-							"text": "a holy symbol worth at least 500 gp",
-							"consumed": true,
-							"cost": 50000
-						}
-					},
-					"duration": [{
-						"type": "instant"
-					}],
-					"entries": [
-						"You call forth the heavenly flame of the mightiest angels. Each creature in a 15-foot-radius, 90-foot-high cylinder centred on a point within range must succeed on a Constitution saving throw or take {@damage 20d12} fire or radiant damage (your choice), or {@dice 10d12} of each, and is blinded and deafened for 10 minutes. A creature that succeeds on its saving throw takes half as much damage and isn't blinded and deafened."
-					],
-					"damageInflict": [
-						"fire",
-						"radiant"
-					],
-					"conditionInflict": [
-						"blinded",
-						"deafened"
-					],
-					"savingThrow": [
-						"constitution"
-					],
-					"areaTags": [
-						"Y"
-					],
-					"classes": {
-						"fromClassList": [{
-								"name": "Warlock",
-								"source": "PHB"
-							},
-							{
-								"name": "Cleric",
-								"source": "PHB"
-							}
-						]
-					},
-					"uniqueId": "26849c2b475f3b6cba109ac63bdc33c2"
-				},
-				{
-					"name": "Lightweight Cargo",
-					"source": "whiffcity",
-					"level": 1,
-					"school": "T",
-					"time": [{
-						"number": 1,
-						"unit": "action"
-					}],
-					"range": {
-						"type": "point",
-						"distance": {
-							"type": "touch"
-						}
-					},
-					"components": {
-						"v": true,
-						"s": true,
-						"m": "a feather"
-					},
-					"duration": [{
-						"type": "timed",
-						"duration": {
-							"type": "hour",
-							"amount": 1
-						}
-					}],
-					"meta": {
-						"ritual": true
-					},
-					"entries": [
-						"You touch an object that can fit inside a 10 ft cube. Its weight is halved for the duration. The spell ends early if you cast it again."
-					],
-					"entriesHigherLevel": [{
-						"name": "At Higher Levels",
-						"entries": [
-							"When you cast this spell using a spell slot of 2nd level or higher, you can target an object that can fit inside a cube 5 ft larger for each slot level above 1st."
-						]
-					}],
-					"miscTags": [
-						"SCL"
-					],
-					"classes": {
-						"fromClassList": [{
-								"name": "Artificer",
-								"source": "ERLW"
-							},
-							{
-								"name": "Bard",
-								"source": "PHB"
-							},
-							{
-								"name": "Druid",
-								"source": "PHB"
-							},
-							{
-								"name": "Sorcerer",
-								"source": "PHB"
-							},
-							{
-								"name": "Wizard",
-								"source": "PHB"
-							}
-						]
-					},
-					"uniqueId": "bfb456f5f50984a0dbbd9877e27ca393"
-				},
-				{
-					"name": "Under Divine Flag",
-					"source": "whiffcity",
-					"level": 2,
-					"school": "E",
-					"time": [{
-						"number": 1,
-						"unit": "action"
-					}],
-					"range": {
-						"type": "point",
-						"distance": {
-							"type": "feet",
-							"amount": 10
-						}
-					},
-					"components": {
-						"v": true,
-						"m": "a steel bar"
-					},
-					"duration": [{
-						"type": "timed",
-						"duration": {
-							"type": "hour",
-							"amount": 1,
-							"upTo": true
-						},
-						"concentration": true
-					}],
-					"meta": {
-						"ritual": true
-					},
-					"entries": [
-						"You steel the resolve of your allies with words of glory and zeal. For the duration, any number of willing creatures you choose within range are immune to being frightened. The spell ends early if you cast it again."
-					],
-					"areaTags": [
-						"MT"
-					],
-					"classes": {
-						"fromClassList": [{
-							"name": "Paladin",
-							"source": "PHB"
-						}]
-					},
-					"uniqueId": "e05845e303abd448ef7a7095558fee72"
-				},
-				{
-					"name": "Appraisal",
-					"source": "whiffcity",
-					"level": 1,
-					"school": "D",
-					"time": [{
-						"number": 1,
-						"unit": "minute"
-					}],
-					"range": {
-						"type": "point",
-						"distance": {
-							"type": "touch"
-						}
-					},
-					"components": {
-						"v": true,
-						"s": true,
-						"m": {
-							"text": "a scale worth at least 50 gp",
-							"cost": 5000
-						}
-					},
-					"duration": [{
-						"type": "instant"
-					}],
-					"meta": {
-						"ritual": true
-					},
-					"entries": [
-						"You choose one object that you must touch throughout the casting of the spell. If it is a non-magical item then you learn how much it is worth in gp and what non-magical precious metals or stones (if any) are present in the object. If it is a magical item or some other magic-imbued object, you learn roughly how much it is worth in gp."
-					],
-					"classes": {
-						"fromClassList": [{
-								"name": "Artificer",
-								"source": "ERLW"
-							},
-							{
-								"name": "Bard",
-								"source": "PHB"
-							},
-							{
-								"name": "Wizard",
-								"source": "PHB"
-							}
-						]
-					},
-					"uniqueId": "664ca3aac978a8e8f6e80830a70ce01c"
-				},
-				{
-					"name": "Create McFood and McWater",
-					"source": "whiffcity",
-					"level": 4,
-					"school": "C",
-					"time": [{
-						"number": 1,
-						"unit": "action"
-					}],
-					"range": {
-						"type": "point",
-						"distance": {
-							"type": "feet",
-							"amount": 30
-						}
-					},
-					"components": {
-						"v": true,
-						"s": true,
-						"m": "a piece of golden string, wire, or fabric shaped like an M"
-					},
-					"duration": [{
-						"type": "instant"
-					}],
-					"entries": [
-						"You create 45 pounds of burgers and fries and 30 gallons of carbonated drink on the ground or in containers within range, enough to sustain up to fifteen humanoids or five steeds for 24 hours. The food is quite tasty, if a bit fattening, and spoils if uneaten after 72 hours. The carbonated drink is clean and doesn't go bad."
-					],
-					"classes": {
-						"fromClassList": [{
-								"name": "Cleric",
-								"source": "PHB"
-							},
-							{
-								"name": "Paladin",
-								"source": "PHB"
-							}
-						]
-					},
-					"uniqueId": "dee6f551ed857ff292519556ee4e6083"
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "3ec9b671c842b7662951049751aae013"
+		},
+		{
+			"name": "Astral Smite",
+			"source": "whiffcity",
+			"level": 6,
+			"school": "V",
+			"time": [{
+				"number": 1,
+				"unit": "action"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
 				}
-			]
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [{
+				"type": "instant"
+			}],
+			"entries": [
+				"You fire several bolts of ghostly energy at a creature within range. You do not have to be able to see the creature to target them but there must be a straight, unobstructed path from you to the target. The spell can also target a creature on the ethereal plane from the material plane. The target must make a Dexterity saving throw. A creature takes {@damage 12d6} force damage on a failed save, or half as much on a successful save. A creature on the ethereal plane or in a gaseous form has vulnerability to this damage."
+			],
+			"entriesHigherLevel": [{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 7th level or higher, the damage increases by {@dice 1d6} for each slot level above 6th."
+				]
+			}],
+			"damageInflict": [
+				"force"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"classes": {
+				"fromClassList": [{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "a584a2996205ec1b1c043961942cf732"
+		},
+		{
+			"name": "Delay Teleportation",
+			"source": "whiffcity",
+			"level": 7,
+			"school": "A",
+			"time": [{
+				"number": 1,
+				"unit": "minute"
+			}],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [{
+				"type": "timed",
+				"duration": {
+					"type": "hour",
+					"amount": 8
+				}
+			}],
+			"entries": [
+				"You protect your immediate vicinity against teleportation. An invisible 30-foot radius sphere centred on you appears and follows you for the duration of the spell. Whenever a creature attempts to teleport within the sphere, it must make a Charisma saving throw. If it fails, the creature's teleportation is delayed. It lingers on the Astral plane and will teleport to its destination at the end of its next turn. At the same time, you can reposition the destination of the teleportation anywhere within the circle and learn exactly how many creatures are teleporting there."
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "809fad5e1becc88681e8aceeff642d88"
+		},
+		{
+			"name": "Wall of Skeletons",
+			"source": "whiffcity",
+			"level": 5,
+			"school": "C",
+			"time": [{
+				"number": 1,
+				"unit": "action"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a rattle"
+			},
+			"duration": [{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 10,
+					"upTo": true
+				},
+				"concentration": true
+			}],
+			"entries": [
+				"You create a bony wall of countless skeletons within range. The wall is 1 foot thick and is composed of ten 10-foot-by-20-foot panels. Each panel must be contiguous with at least one other panel.",
+				"If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use its reaction to move up to its speed so that it is no longer enclosed by the wall.",
+				"The wall can have any shape you desire, though it can't occupy the same space as a creature or object. The wall doesn't need to be vertical or rest on any firm foundation.",
+				"When the creature moves within 5 feet of the wall or starts its turn there, it must make a Dexterity saving throw, taking {@damage 2d8} slashing damage on a failed save as the skeletons lash out at the target. On your turn, you can use your action to make a melee spell attack against each creature within 5 feet of the wall, dealing {@damage 2d8} slashing damage on a hit.",
+				"The wall is an object made of bones that can be damaged and thus breached. Each panel has AC 13, 39 hit points, and vulnerability to bludgeoning damage. Reducing a panel to 0 hit points destroys it and might cause connected panels to collapse at the DM's discretion."
+			],
+			"entriesHigherLevel": [{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@dice 1d8} for each slot level above 5th."
+				]
+			}],
+			"damageInflict": [
+				"slashing"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"W"
+			],
+			"classes": {
+				"fromClassList": [{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "ac967030c7f2709f752ef7cd3813b147"
+		},
+		{
+			"name": "Uriel",
+			"source": "whiffcity",
+			"level": 9,
+			"school": "V",
+			"time": [{
+				"number": 1,
+				"unit": "action"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a holy symbol worth at least 500 gp",
+					"consumed": true,
+					"cost": 50000
+				}
+			},
+			"duration": [{
+				"type": "instant"
+			}],
+			"entries": [
+				"You call forth the heavenly flame of the mightiest angels. Each creature in a 15-foot-radius, 90-foot-high cylinder centred on a point within range must succeed on a Constitution saving throw or take {@damage 20d12} fire or radiant damage (your choice), or {@dice 10d12} of each, and is blinded and deafened for 10 minutes. A creature that succeeds on its saving throw takes half as much damage and isn't blinded and deafened."
+			],
+			"damageInflict": [
+				"fire",
+				"radiant"
+			],
+			"conditionInflict": [
+				"blinded",
+				"deafened"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"Y"
+			],
+			"classes": {
+				"fromClassList": [{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "26849c2b475f3b6cba109ac63bdc33c2"
+		},
+		{
+			"name": "Lightweight Cargo",
+			"source": "whiffcity",
+			"level": 1,
+			"school": "T",
+			"time": [{
+				"number": 1,
+				"unit": "action"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a feather"
+			},
+			"duration": [{
+				"type": "timed",
+				"duration": {
+					"type": "hour",
+					"amount": 1
+				}
+			}],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You touch an object that can fit inside a 10 ft cube. Its weight is halved for the duration. The spell ends early if you cast it again."
+			],
+			"entriesHigherLevel": [{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 2nd level or higher, you can target an object that can fit inside a cube 5 ft larger for each slot level above 1st."
+				]
+			}],
+			"miscTags": [
+				"SCL"
+			],
+			"classes": {
+				"fromClassList": [{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "bfb456f5f50984a0dbbd9877e27ca393"
+		},
+		{
+			"name": "Under Divine Flag",
+			"source": "whiffcity",
+			"level": 2,
+			"school": "E",
+			"time": [{
+				"number": 1,
+				"unit": "action"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "a steel bar"
+			},
+			"duration": [{
+				"type": "timed",
+				"duration": {
+					"type": "hour",
+					"amount": 1,
+					"upTo": true
+				},
+				"concentration": true
+			}],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You steel the resolve of your allies with words of glory and zeal. For the duration, any number of willing creatures you choose within range are immune to being frightened. The spell ends early if you cast it again."
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [{
+					"name": "Paladin",
+					"source": "PHB"
+				}]
+			},
+			"uniqueId": "e05845e303abd448ef7a7095558fee72"
+		},
+		{
+			"name": "Appraisal",
+			"source": "whiffcity",
+			"level": 1,
+			"school": "D",
+			"time": [{
+				"number": 1,
+				"unit": "minute"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a scale worth at least 50 gp",
+					"cost": 5000
+				}
+			},
+			"duration": [{
+				"type": "instant"
+			}],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You choose one object that you must touch throughout the casting of the spell. If it is a non-magical item then you learn how much it is worth in gp and what non-magical precious metals or stones (if any) are present in the object. If it is a magical item or some other magic-imbued object, you learn roughly how much it is worth in gp."
+			],
+			"classes": {
+				"fromClassList": [{
+						"name": "Artificer",
+						"source": "ERLW"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "664ca3aac978a8e8f6e80830a70ce01c"
+		},
+		{
+			"name": "Create McFood and McWater",
+			"source": "whiffcity",
+			"level": 4,
+			"school": "C",
+			"time": [{
+				"number": 1,
+				"unit": "action"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of golden string, wire, or fabric shaped like an M"
+			},
+			"duration": [{
+				"type": "instant"
+			}],
+			"entries": [
+				"You create 45 pounds of burgers and fries and 30 gallons of carbonated drink on the ground or in containers within range, enough to sustain up to fifteen humanoids or five steeds for 24 hours. The food is quite tasty, if a bit fattening, and spoils if uneaten after 72 hours. The carbonated drink is clean and doesn't go bad."
+			],
+			"classes": {
+				"fromClassList": [{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "dee6f551ed857ff292519556ee4e6083"
 		}
 	]
 }
