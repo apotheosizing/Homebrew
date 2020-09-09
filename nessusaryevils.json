@@ -6182,58 +6182,58 @@
 	"subclass": [{
 			"name": "Oath of the Illrigger",
 			"subclassFeatures": [
-				"Oath of the Illrigger|Paladin||Illrigger|nessusaryevils|3",
-				"Devilish Aura|Paladin||Illrigger|nessusaryevils|7",
-				"Infernal Seal|Paladin||Illrigger|nessusaryevils|15",
-				"Legionnaire from Hell|Paladin||Illrigger|nessusaryevils|20"
+				"Oath of the Illrigger|Paladin||Illrigger|NessusaryEvils|3",
+				"Devilish Aura|Paladin||Illrigger|NessusaryEvils|7",
+				"Infernal Seal|Paladin||Illrigger|NessusaryEvils|15",
+				"Legionnaire from Hell|Paladin||Illrigger|NessusaryEvils|20"
 			],
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"shortName": "Illrigger",
 			"spells": [{
 				"prepared": {
 					"3": [
-						"defiant smite|nessusaryevils",
-						"hunter's pace|nessusaryevils"
+						"defiant smite|NessusaryEvils",
+						"hunter's pace|NessusaryEvils"
 					],
 					"5": [
-						"accursed wish|nessusaryevils",
-						"devilish hunt|nessusaryevils"
+						"accursed wish|NessusaryEvils",
+						"devilish hunt|NessusaryEvils"
 					],
 					"9": [
-						"blasphemy|nessusaryevils",
-						"funeral pyre|nessusaryevils"
+						"blasphemy|NessusaryEvils",
+						"funeral pyre|NessusaryEvils"
 					],
 					"13": [
-						"ashen pack|nessusaryevils",
-						"haunt|nessusaryevils"
+						"ashen pack|NessusaryEvils",
+						"haunt|NessusaryEvils"
 					],
 					"17": [
-						"implement of cruelty|nessusaryevils",
-						"nemesis|nessusaryevils"
+						"implement of cruelty|NessusaryEvils",
+						"nemesis|NessusaryEvils"
 					]
 				}
 			}],
 			"additionalSpells": [{
 				"prepared": {
 					"3": [
-						"defiant smite|nessusaryevils",
-						"hunter's pace|nessusaryevils"
+						"defiant smite|NessusaryEvils",
+						"hunter's pace|NessusaryEvils"
 					],
 					"5": [
-						"accursed wish|nessusaryevils",
-						"devilish hunt|nessusaryevils"
+						"accursed wish|NessusaryEvils",
+						"devilish hunt|NessusaryEvils"
 					],
 					"9": [
-						"blasphemy|nessusaryevils",
-						"funeral pyre|nessusaryevils"
+						"blasphemy|NessusaryEvils",
+						"funeral pyre|NessusaryEvils"
 					],
 					"13": [
-						"ashen pack|nessusaryevils",
-						"haunt|nessusaryevils"
+						"ashen pack|NessusaryEvils",
+						"haunt|NessusaryEvils"
 					],
 					"17": [
-						"implement of cruelty|nessusaryevils",
-						"nemesis|nessusaryevils"
+						"implement of cruelty|NessusaryEvils",
+						"nemesis|NessusaryEvils"
 					]
 				}
 			}],
@@ -6243,7 +6243,7 @@
 		{
 			"name": "The Raven Queen (NE)",
 			"shortName": "Raven Queen (NE)",
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"subclassSpells": [
 				"False Life",
 				"Sanctuary",
@@ -6257,10 +6257,10 @@
 				"Cone of Cold"
 			],
 			"subclassFeatures": [
-				"The Raven Queen|Warlock||Raven Queen (NE)|nessusaryevils|1",
-				"Soul of the Raven|Warlock||Raven Queen (NE)|nessusaryevils|6",
-				"Raven's Shield|Warlock||Raven Queen (NE)|nessusaryevils|10",
-				"Audience with the Queen|Warlock||Raven Queen (NE)|nessusaryevils|14"
+				"The Raven Queen|Warlock||Raven Queen (NE)|NessusaryEvils|1",
+				"Soul of the Raven|Warlock||Raven Queen (NE)|NessusaryEvils|6",
+				"Raven's Shield|Warlock||Raven Queen (NE)|NessusaryEvils|10",
+				"Audience with the Queen|Warlock||Raven Queen (NE)|NessusaryEvils|14"
 			],
 			"className": "Warlock",
 			"classSource": "PHB"
@@ -6268,7 +6268,7 @@
 		{
 			"name": "The Hexblade (NE)",
 			"shortName": "Hexblade (NE)",
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"subclassSpells": [
 				"Shield",
 				"Venonous Spite",
@@ -6282,10 +6282,10 @@
 				"Punishing Smite"
 			],
 			"subclassFeatures": [
-				"The Hexblade|Warlock||Hexblade (NE)|nessusaryevils|1",
-				"Accursed Spectre|Warlock||Hexblade (NE)|nessusaryevils|6",
-				"Armour of Hexes|Warlock||Hexblade (NE)|nessusaryevils|10",
-				"Master of Hexes|Warlock||Hexblade (NE)|nessusaryevils|14"
+				"The Hexblade|Warlock||Hexblade (NE)|NessusaryEvils|1",
+				"Accursed Spectre|Warlock||Hexblade (NE)|NessusaryEvils|6",
+				"Armour of Hexes|Warlock||Hexblade (NE)|NessusaryEvils|10",
+				"Master of Hexes|Warlock||Hexblade (NE)|NessusaryEvils|14"
 			],
 			"className": "Warlock",
 			"classSource": "PHB"
@@ -6293,34 +6293,34 @@
 	],
 	"subclassFeature": [{
 			"name": "Oath of the Illrigger",
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Ilrigger",
-			"subclassSource": "nessusaryevils",
+			"subclassSource": "NessusaryEvils",
 			"level": 3,
 			"entries": [
 				"Illriggers are an ancient order of paladins that swear their allegiance to one of the Lords of the Nine, the archduxes of hell. In supplication to their infernal masters, they carry their lords' command and lead their armies into battle to beat back the seirimic horde. Such paladins hold their oaths with a fierce conviction, for they believe that, without people like them, seirim would overwhelm the forces of hell and spill out into the other planes of existence, decimating every world like a plague.", "Oftentimes, an archdux will recruit soldiers and mercenaries from the Material Plane to join the ranks of the Illriggers, targeting individuals who have strong bonds with their brothers-in-arms. This way, should the archdux ever need supplemental forces for the armies of hell, they can call upon their loyal Illrigger, who in turn recruits their ardent allies to fight alongside them through hell and back.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of the Illrigger|Paladin||Illrigger|nessusaryevils|3"
+					"subclassFeature": "Tenets of the Illrigger|Paladin||Illrigger|NessusaryEvils|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin||Illrigger|nessusaryevils|3"
+					"subclassFeature": "Oath Spells|Paladin||Illrigger|NessusaryEvils|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Language|Paladin||Illrigger|nessusaryevils|3"
+					"subclassFeature": "Bonus Language|Paladin||Illrigger|NessusaryEvils|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Infernal Implement|Paladin||Illrigger|nessusaryevils|3"
+					"subclassFeature": "Channel Divinity: Infernal Implement|Paladin||Illrigger|NessusaryEvils|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Invoke Authority|Paladin||Illrigger|nessusaryevils|3"
+					"subclassFeature": "Channel Divinity: Invoke Authority|Paladin||Illrigger|NessusaryEvils|3"
 				}
 			]
 		},
@@ -6370,12 +6370,12 @@
 					}]
 				}
 			],
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Illrigger",
-			"subclassSource": "nessusaryevils",
+			"subclassSource": "NessusaryEvils",
 			"level": 3,
 			"header": 1
 		},
@@ -6398,33 +6398,33 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell defiant smite|nessusaryevils}, {@spell hunter's pace|nessusaryevils}"
+							"{@spell defiant smite|NessusaryEvils}, {@spell hunter's pace|NessusaryEvils}"
 						],
 						[
 							"5th",
-							"{@spell accursed wish|nessusaryevils}, {@spell devilish hunt|nessusaryevils}"
+							"{@spell accursed wish|NessusaryEvils}, {@spell devilish hunt|NessusaryEvils}"
 						],
 						[
 							"9th",
-							"{@spell blasphemy|nessusaryevils}, {@spell funeral pyre|nessusaryevils}"
+							"{@spell blasphemy|NessusaryEvils}, {@spell funeral pyre|NessusaryEvils}"
 						],
 						[
 							"13th",
-							"{@spell ashen pack|nessusaryevils}, {@spell haunt|nessusaryevils}"
+							"{@spell ashen pack|NessusaryEvils}, {@spell haunt|NessusaryEvils}"
 						],
 						[
 							"17th",
-							"{@spell implement of cruelty|nessusaryevils}, {@spell nemesis|nessusaryevils}"
+							"{@spell implement of cruelty|NessusaryEvils}, {@spell nemesis|NessusaryEvils}"
 						]
 					]
 				}
 			],
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Illrigger",
-			"subclassSource": "nessusaryevils",
+			"subclassSource": "NessusaryEvils",
 			"level": 3,
 			"header": 1
 		},
@@ -6434,12 +6434,12 @@
 			"entries": [
 				"Starting at 3rd level after you swear this Oath, you can speak, read, and write Infernal."
 			],
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Illrigger",
-			"subclassSource": "nessusaryevils",
+			"subclassSource": "NessusaryEvils",
 			"level": 3,
 			"header": 1
 		},
@@ -6450,12 +6450,12 @@
 				"You can use your Channel Divinity to call to your hand a weapon from the arsenal of the archdux you swore your oath to. As a bonus action, you present your holy symbol and invoke their terrible name. In a flash of fire and brimstone, the weapon appears in your hand. This magic weapon can be any simple or martial weapon, and you gain a bonus equal to half your proficiency bonus (rounded down), to attack and damage rolls you make with this magic weapon.",
 				"When you hit a hostile creature with this weapon, your weapon places a minor curse upon the creature. Until the beginning of your next turn, the creature subtracts 1d4 from attack rolls which target creatures other than you. Additionally, when you use your Divine Smite or Improved Divine Smite feature while wielding this weapon, you can cause those features to deal fire or necrotic damage instead of radiant. Your Infernal Implement persists until you take a short or long rest, at which point it melts into smoke and dissipates."
 			],
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Illrigger",
-			"subclassSource": "nessusaryevils",
+			"subclassSource": "NessusaryEvils",
 			"level": 3,
 			"header": 1
 		},
@@ -6466,23 +6466,23 @@
 				"As an action using your Channel Divinity, you can present your holy symbol and speak the terrible name of your archduke, forcing a devil that you can see within 30 feet of you to make a Wisdom saving throw.",
 				"A devil with a challenge rating greater than half your paladin level (rounded down) automatically succeeds on this saving throw. On a failed save, the devil is bound to your will, as if a {@spell dominate monster} spell had been cast upon them. This effect lasts for 1 minute, as long as you are on the same plane of existence as the devil. It ends early if the devil drops to 0 hit points."
 			],
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Illrigger",
-			"subclassSource": "nessusaryevils",
+			"subclassSource": "NessusaryEvils",
 			"level": 3,
 			"header": 1
 		},
 		{
 			"name": "Devilish Aura",
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Illrigger",
-			"subclassSource": "nessusaryevils",
+			"subclassSource": "NessusaryEvils",
 			"level": 7,
 			"header": 2,
 			"entries": [
@@ -6498,12 +6498,12 @@
 		},
 		{
 			"name": "Infernal Seal",
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Illrigger",
-			"subclassSource": "nessusaryevils",
+			"subclassSource": "NessusaryEvils",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -6513,12 +6513,12 @@
 		},
 		{
 			"name": "Legionnaire from Hell",
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"subclassShortName": "Illrigger",
-			"subclassSource": "nessusaryevils",
+			"subclassSource": "NessusaryEvils",
 			"level": 20,
 			"header": 2,
 			"entries": [
@@ -6534,12 +6534,12 @@
 		},
 		{
 			"name": "The Raven Queen",
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Raven Queen (NE)",
-			"subclassSource": "nessusaryevils",
+			"subclassSource": "NessusaryEvils",
 			"level": 1,
 			"entries": [
 				"Your patron is the Raven Queen, a mysterious being who rules the Shadowfel from a palace of ice deep within that dread realm. The Raven Queen watches over the world, anticipating each creature's death and ensuring that it meets its end at the proscribed time and place. As the ruler of the Shadowfel, she dwells in a decayed, dark reflection of the world. Her ability to reach into the world is limited. Thus, she turns to mortal warlocks to serve her will. Warlocks sworn to the Raven Queen receive visions and whispers from her in their dreams, sending them on quests and warning them of impending dangers.", "The Raven Queen's followers are expected to serve her will in the world. She concerns herself with ensuring that those fated to die pass from the world as expected, and bids her agents to defeat those who seek to cheat death through undeath or other imitations of immortality. She hates intelligent undead and expects her followers to strike them down, whereas mindless undead such as skeletons and zombies are little more than stumbling automatons in her eyes.",
@@ -6586,7 +6586,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Sentinel Raven|Warlock||Raven Queen (NE)|nessusaryevils|1"
+					"subclassFeature": "Sentinel Raven|Warlock||Raven Queen (NE)|NessusaryEvils|1"
 				}
 			]
 		},
@@ -6600,23 +6600,23 @@
 				"The raven doesn't require sleep. While it is within 100 feet of you, it can awaken you from sleep as a bonus action. The raven vanishes when it dies, if you die, or if the two of you are separated by more than 5 miles.",
 				"At the end of a short or long rest, you can call the raven back to you—no matter where it is or whether it died—and it reappears within 5 feet of you."
 			],
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Raven Queen (NE)",
-			"subclassSource": "nessusaryevils",
+			"subclassSource": "NessusaryEvils",
 			"level": 1,
 			"header": 1
 		},
 		{
 			"name": "Soul of the Raven",
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Raven Queen (NE)",
-			"subclassSource": "nessusaryevils",
+			"subclassSource": "NessusaryEvils",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -6625,12 +6625,12 @@
 		},
 		{
 			"name": "Raven's Shield",
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Raven Queen (NE)",
-			"subclassSource": "nessusaryevils",
+			"subclassSource": "NessusaryEvils",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -6639,12 +6639,12 @@
 		},
 		{
 			"name": "Audience with the Queen",
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Raven Queen (NE)",
-			"subclassSource": "nessusaryevils",
+			"subclassSource": "NessusaryEvils",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -6666,12 +6666,12 @@
 		},
 		{
 			"name": "The Hexblade",
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Hexblade (NE)",
-			"subclassSource": "nessusaryevils",
+			"subclassSource": "NessusaryEvils",
 			"level": 1,
 			"entries": [
 				"You have made your pact with a mysterious entity from the Shadowfell—a force that manifests in sentient magic weapons carved from the stuff of shadow. The mighty sword Blackrazor is the most notable of these weapons, which have been spread across the multiverse over the ages. The shadowy force behind these weapons can offer power to warlocks who form pacts with it. Many hexblade warlocks create weapons that emulate those formed in the Shadowfell. Others forgo such arms, content to weave the dark magic of that plane into their spellcasting.", "Because the Raven Queen is known to have forged the first of these weapons, many sages speculate that she and the force are one and that the weapons, along with hexblade warlocks, are tools she uses to manipulate events on the Material Plane to her inscrutable ends.",
@@ -6694,23 +6694,23 @@
 							"rows": [
 								[
 									"1st",
-									"{@spell shield}, {@spell venomous spite|nessusaryevils}"
+									"{@spell shield}, {@spell venomous spite|NessusaryEvils}"
 								],
 								[
 									"2nd",
-									"{@spell dark secret|nessusaryevils}, {@spell shadow armour|nessusaryevils}"
+									"{@spell dark secret|NessusaryEvils}, {@spell shadow armour|NessusaryEvils}"
 								],
 								[
 									"3rd",
-									"{@spell creeping dark|nessusaryevils}, {@spell fox's fangs|nessusaryevils}"
+									"{@spell creeping dark|NessusaryEvils}, {@spell fox's fangs|NessusaryEvils}"
 								],
 								[
 									"4th",
-									"{@spell skin of flint|nessusaryevils}, {@spell windblade|nessusaryevils}"
+									"{@spell skin of flint|NessusaryEvils}, {@spell windblade|NessusaryEvils}"
 								],
 								[
 									"5th",
-									"{@spell forgotten pain|nessusaryevils}, {@spell punishing smite|nessusaryevils}"
+									"{@spell forgotten pain|NessusaryEvils}, {@spell punishing smite|NessusaryEvils}"
 								]
 							]
 						}
@@ -6718,11 +6718,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hexblade's Curse|Warlock||Hexblade (NE)|nessusaryevils|1"
+					"subclassFeature": "Hexblade's Curse|Warlock||Hexblade (NE)|NessusaryEvils|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Hex Warrior|Warlock||Hexblade (NE)|nessusaryevils|1"
+					"subclassFeature": "Hex Warrior|Warlock||Hexblade (NE)|NessusaryEvils|1"
 				}
 			]
 		},
@@ -6741,12 +6741,12 @@
 				},
 				"You can't use this feature again until you finish a short or long rest."
 			],
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Hexblade (NE)",
-			"subclassSource": "nessusaryevils",
+			"subclassSource": "NessusaryEvils",
 			"level": 1,
 			"header": 1
 		},
@@ -6757,23 +6757,23 @@
 				"At 1st level, you acquire the training necessary to effectively arm yourself for battle. You gain proficiency with medium armor, shields, and martial weapons.",
 				"The influence of your patron also allows you to mystically channel your will through a particular weapon. Whenever you finish a long rest, you can touch one weapon that you are proficient with and that lacks the two-handed property. When you attack with that weapon, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls. This benefit lasts until you finish a long rest. If you later gain the Pact of the Blade feature, this benefit extends to every pact weapon you conjure with that feature, no matter the weapon's type."
 			],
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Hexblade (NE)",
-			"subclassSource": "nessusaryevils",
+			"subclassSource": "NessusaryEvils",
 			"level": 1,
 			"header": 1
 		},
 		{
 			"name": "Accursed Spectre",
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Hexblade (NE)",
-			"subclassSource": "nessusaryevils",
+			"subclassSource": "NessusaryEvils",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -6784,12 +6784,12 @@
 		},
 		{
 			"name": "Armour of Hexes",
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Hexblade (NE)",
-			"subclassSource": "nessusaryevils",
+			"subclassSource": "NessusaryEvils",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -6798,12 +6798,12 @@
 		},
 		{
 			"name": "Master of Hexes",
-			"source": "nessusaryevils",
+			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Hexblade (NE)",
-			"subclassSource": "nessusaryevils",
+			"subclassSource": "NessusaryEvils",
 			"level": 14,
 			"header": 2,
 			"entries": [
