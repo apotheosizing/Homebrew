@@ -11,7 +11,7 @@
 			"convertedBy": [
 				"apotheosis"
 			],
-			"version": "1.0.4",
+			"version": "1.0",
 			"url": "https://github.com/apotheosizing/Homebrew",
 			"color": "#89CFF0"
 		}],
@@ -97,6 +97,7 @@
 			"subclassFeatures": [
 				"The Flesh|Warlock||Flesh|whiffcity|1",
 				"Shapechanger|Warlock||Flesh|whiffcity|6",
+				"Meat Sense|Warlock||Flesh|whiffcity|6",
 				"Enhanced Flesh|Warlock||Flesh|whiffcity|10",
 				"Eruption of Flesh|Warlock||Flesh|whiffcity|14"
 			],
@@ -408,13 +409,25 @@
 			"header": 2,
 			"entries": [
 				"By 6th level, your expertise with changing your own shape has allowed you to prevent others from doing it to you against your will.",
-				"You are no longer affected by spells that alter your physical form - such as {@spell polymorph} or {@spell enlarge/reduce} - unless you wish to be.",
-				"Also at 6th level, you can use an action to mentally call out to other creatures in tune with the Endless Meat. You learn the location and number of any such creatures within 100 feet.",
-				"You also can stand upon your shared fleshiness to foster good will with any creature afflicted the Meat, gaining advantage on all Charisma checks made with such a 'meat-ure'."
-
+				"You are no longer affected by spells that alter your physical form - such as {@spell polymorph} or {@spell enlarge/reduce} - unless you wish to be."
 			]
 		},
 		{
+			"type": "entries",
+			"name": "Meat Sense",
+			"entries": [
+				"Also at 6th level, you can use an action to mentally call out to other creatures in tune with the Endless Meat. You learn the location and number of any such creatures within 100 feet.",
+				"You also can stand upon your shared fleshiness to foster good will with any creature afflicted the Meat, gaining advantage on all Charisma checks made with such a 'meat-ure'."
+			],
+			"source": "whiffcity",
+			"page": 1,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Flesh",
+			"subclassSource": "whiffcity",
+			"level": 6,
+			"header": 1
+		}, {
 			"name": "Enhanced Flesh",
 			"source": "whiffcity",
 			"page": 1,
@@ -482,10 +495,10 @@
 						"At 14th level, your mastery of meat lies not only in your body but extends to the body of the world itself, allowing you can command a fragment of its power directly.",
 						"As an action, you can summon forth meat from the world's core and cause it to erupt through your own body in the form of a tentacle. You decide the exact location of origin and its presence doesn't affect your senses or locomotion.",
 						"As a bonus action on subsequent turns, you can cause one of the following effects with it, using your game statistics:",
-						"{@bold Blood Spray.} The tentacle spews a mist of blood 10 feet in every direction from you. Plants that aren't creatures become flesh in the range. Any creature in the mist must succeed on a Constitution saving throw or take {@dice 2d6} + your Charisma modifier necrotic damage.",
-						"{@bold Bone Spike.} A sharpened bone spear is propelled from the tentacle toward one creature within 100 feet of you. Make a ranged spell attack. On a hit, the target takes {@dice 3d6} piercing damage. This damage is magical.",
-						"{@bold Leech.} A lamprey-like mouth forms on the end of the tentacle, attaching itself to a creature of your choice within 20 feet of you. The creature must make a Dexterity saving throw against to your spell save DC. On a failure, the creature takes damage equal to {@dice 2d6} + your Charisma modifier, and you gain temporary hit points equal to the damage dealt.",
-						"{@bold Whip.} The tentacle lashes out at one creature within 20 feet of you. Make a melee spell attack. On a hit, the target takes {@dice 3d8} bludgeoning damage. This damage is magical.",
+						"Blood Spray: The tentacle spews a mist of blood 10 feet in every direction from you. Plants that aren't creatures become flesh in the range. Any creature in the mist must succeed on a Constitution saving throw or take {@dice 2d6} + your Charisma modifier necrotic damage.",
+						"Bone Spear: A sharpened bone spear is propelled from the tentacle toward one creature within 100 feet of you. Make a ranged spell attack. On a hit, the target takes {@dice 3d6} piercing damage. This damage is magical.",
+						"Leech: A lamprey-like mouth forms on the end of the tentacle, attaching itself to a creature of your choice within 20 feet of you. The creature must make a Dexterity saving throw against to your spell save DC. On a failure, the creature takes damage equal to {@dice 2d6} + your Charisma modifier, and you gain temporary hit points equal to the damage dealt.",
+						"Whip: The tentacle lashes out at one creature within 20 feet of you. Make a melee spell attack. On a hit, the target takes {@dice 3d8} bludgeoning damage. This damage is magical.",
 						"The tentacle lasts for one minute or until dispelled as a free action. Once you use this feature, you must finish a long rest before you can use it again."
 					]
 				}
