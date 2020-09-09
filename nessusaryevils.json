@@ -12,21 +12,19 @@
 			"convertedBy": [
 				"apotheosis"
 			],
-			"version": "1.0.2",
+			"version": "1.0.3",
 			"url": "https://github.com/apotheosizing/Homebrew",
 			"color": "971515",
-			"targetSchema": "1.1.0"
+			"targetSchema": "1.0.0"
 		}],
 		"dateAdded": 1582296841,
 		"dateLastModified": 1582296841
 	},
 	"optionalfeature": [{
 		"name": "Agonizing Blast",
-		"prerequisite": [
-				{
-					"patron": "a cantrip that requires a spell attack roll"
-				}
-			],
+		"prerequisite": [{
+			"patron": "a cantrip that requires a spell attack roll"
+		}],
 		"entries": [
 			"Choose one of your warlock cantrips. Its mechanics are changed from the moment you take this invocation; it now scales in the same way as eldritch blast. If it would apply any additional effects, such as disadvantage, this can only be applied to one beam. In addition, when you cast this cantrip, add your spellcasting ability modifier to the damage it deals on a hit."
 		],
@@ -6182,385 +6180,635 @@
 		}
 	],
 	"subclass": [{
-			"class": "Paladin",
 			"name": "Oath of the Illrigger",
-			"source": "NessusaryEvils",
 			"subclassFeatures": [
-				[{
-					"name": "Oath of the Illrigger",
-					"entries": [
-						"Illriggers are an ancient order of paladins that swear their allegiance to one of the Lords of the Nine, the archduxes of hell. In supplication to their infernal masters, they carry their lords' command and lead their armies into battle to beat back the seirimic horde. Such paladins hold their oaths with a fierce conviction, for they believe that, without people like them, seirim would overwhelm the forces of hell and spill out into the other planes of existence, decimating every world like a plague.", "Oftentimes, an archdux will recruit soldiers and mercenaries from the Material Plane to join the ranks of the Illriggers, targeting individuals who have strong bonds with their brothers-in-arms. This way, should the archdux ever need supplemental forces for the armies of hell, they can call upon their loyal Illrigger, who in turn recruits their ardent allies to fight alongside them through hell and back.",
-						{
-							"type": "entries",
-							"name": "Tenets of the Illrigger",
-							"entries": [
-								"The tenets of the Illriggers are kept secret, and used as a kind of passphrase between Illriggers so that they know they can speak freely, one infernal paladin to another.",
-								{
-									"type": "entries",
-									"entries": [{
-										"type": "entries",
-										"name": "Hold the Line",
-										"entries": [
-											"Wherever seirim are met, they must be eradicated. Their chaos must not be allowed to infect the Multiverse and tip the scales of the Blood War in their favor."
-										]
-									}]
-								},
-								{
-									"type": "entries",
-									"entries": [{
-										"type": "entries",
-										"name": "Consolidate Power",
-										"entries": [
-											"Mortals on the Material Plane squabble for power, blind to the true threats of the multiverse. You've seen beyond the mortal veil, and choose to seek out and amass power in tribute to your archdux. Such conquest is among the most important tasks you have on the Material Plane."
-										]
-									}]
-								},
-								{
-									"type": "entries",
-									"entries": [{
-										"type": "entries",
-										"name": "Judge, Jury, and Executioner",
-										"entries": [
-											"You swear to be the embodiment of your archdux's will wherever you are. You are beholden to no law or master before them. If you see a course of action that would further your archdux's goals, you will take it, consequences be damned."
-										]
-									}]
-								},
-								{
-									"type": "entries",
-									"entries": [{
-										"type": "entries",
-										"name": "Unwavering Loyalty",
-										"entries": [
-											"Never forget who you swore fealty to. Be vigilant and maintain constant adherence to their will, for their vengeance shall be swift at even the mere thought of disobedience or treachery."
-										]
-									}]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Bonus Language",
-							"entries": [
-								"Starting at 3rd level after you swear this Oath, you can speak, read, and write Infernal."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Oath Spells",
-							"entries": [
-								"You gain oath spells at the paladin levels listed.",
-								{
-									"type": "table",
-									"caption": "Oath of the Illrigger Spells",
-									"colLabels": [
-										"Paladin Level",
-										"Spells"
-									],
-									"colStyles": [
-										"col-3 text-center",
-										"col-9"
-									],
-									"rows": [
-										[
-											"3rd",
-											"{@spell defiant smite|nessusaryevils}, {@spell hunter's pace|nessusaryevils}"
-										],
-										[
-											"5th",
-											"{@spell accursed wish|nessusaryevils}, {@spell devilish hunt|nessusaryevils}"
-										],
-										[
-											"9th",
-											"{@spell blasphemy|nessusaryevils}, {@spell funeral pyre|nessusaryevils}"
-										],
-										[
-											"13th",
-											"{@spell ashen pack|nessusaryevils}, {@spell haunt|nessusaryevils}"
-										],
-										[
-											"17th",
-											"{@spell implement of cruelty|nessusaryevils}, {@spell nemesis|nessusaryevils}"
-										]
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Channel Divinity: Infernal Implement",
-							"entries": [
-								"You can use your Channel Divinity to call to your hand a weapon from the arsenal of the archdux you swore your oath to. As a bonus action, you present your holy symbol and invoke their terrible name. In a flash of fire and brimstone, the weapon appears in your hand. This magic weapon can be any simple or martial weapon, and you gain a bonus equal to half your proficiency bonus (rounded down), to attack and damage rolls you make with this magic weapon.",
-								"When you hit a hostile creature with this weapon, your weapon places a minor curse upon the creature. Until the beginning of your next turn, the creature subtracts 1d4 from attack rolls which target creatures other than you. Additionally, when you use your Divine Smite or Improved Divine Smite feature while wielding this weapon, you can cause those features to deal fire or necrotic damage instead of radiant. Your Infernal Implement persists until you take a short or long rest, at which point it melts into smoke and dissipates."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Channel Divinity: Invoke Authority",
-							"entries": [
-								"As an action using your Channel Divinity, you can present your holy symbol and speak the terrible name of your archduke, forcing a devil that you can see within 30 feet of you to make a Wisdom saving throw.",
-								"A devil with a challenge rating greater than half your paladin level (rounded down) automatically succeeds on this saving throw. On a failed save, the devil is bound to your will, as if a {@spell dominate monster} spell had been cast upon them. This effect lasts for 1 minute, as long as you are on the same plane of existence as the devil. It ends early if the devil drops to 0 hit points.."
-							]
-						}
-					]
-				}],
-				[{
-					"entries": [{
-						"type": "entries",
-						"name": "Devilish Aura",
-						"entries": [
-							"Starting at 7th level, you emanate an aura of infernal might. The aura extends 10 feet from you in every direction, but not through total cover. Creatures within the aura feel its effects, but you yourself do not gain its benefits:",
-							{
-								"type": "list",
-								"items": ["Seirim within your aura are placed under the effects of the {@spell bane} spell.",
-									"Friendly creatures deal an additional 1d6 fire damage when they hit with a weapon attack. Good-aligned creatures gain no benefit from this aura."
-								]
-							},
-							"At 18th level, the range of this aura increases to 30 feet."
-						]
-					}]
-				}],
-				[{
-					"entries": [{
-						"type": "entries",
-						"name": "Infernal Seal",
-						"entries": [
-							"Starting at 15th level, when you hit a creature with an attack, you can place an infernal seal on them as a bonus action. On any subsequent turn you can consume the seal as an action. Until the seal is consumed, the creature takes an additional 1d6 fire damage when you hit them with a weapon attack. When you use your action to consume the seal, the target must make a Constitution saving throw against your  paladin spell save DC or take 6d8 fire damage, taking half as much damage on a success. A creature who is slain while under the effects of your infernal seal has their soul condemned to the hells. Their soul is no longer free to return should a creature try to resurrect them by any means short of a {@spell wish} spell.",
-							"You can use this feature a number of times equal to your Charisma modifier. You regain all expended uses when you complete a long rest."
-						]
-					}]
-				}],
-				[{
-					"entries": [{
-						"type": "entries",
-						"name": "Legionnaire from Hell",
-						"entries": [
-							"At 20th level, you become completely consumed by the infernal powers of your Oath, which grants you the following benefits:",
-							{
-								"type": "list",
-								"items": [
-									"You are immune to fire damage and your native plane becomes the layer of hell that your archdux rules over.",
-									"When you reduce a creature to 0 hit points with your Infernal Implement, you regain 2d10 + 10 hit points."
-								]
-							}
-						]
-					}]
-				}]
+				"Oath of the Illrigger|Paladin||Illrigger|nessusaryevils|3",
+				"Devilish Aura|Paladin||Illrigger|nessusaryevils|7",
+				"Infernal Seal|Paladin||Illrigger|nessusaryevils|15",
+				"Legionnaire from Hell|Paladin||Illrigger|nessusaryevils|20"
 			],
-			"shortName": "Illrigger (NE)"
+			"source": "nessusaryevils",
+			"shortName": "Illrigger",
+			"spells": [{
+				"prepared": {
+					"3": [
+						"defiant smite|nessusaryevils",
+						"hunter's pace|nessusaryevils"
+					],
+					"5": [
+						"accursed wish|nessusaryevils",
+						"devilish hunt|nessusaryevils"
+					],
+					"9": [
+						"blasphemy|nessusaryevils",
+						"funeral pyre|nessusaryevils"
+					],
+					"13": [
+						"ashen pack|nessusaryevils",
+						"haunt|nessusaryevils"
+					],
+					"17": [
+						"implement of cruelty|nessusaryevils",
+						"nemesis|nessusaryevils"
+					]
+				}
+			}],
+			"additionalSpells": [{
+				"prepared": {
+					"3": [
+						"defiant smite|nessusaryevils",
+						"hunter's pace|nessusaryevils"
+					],
+					"5": [
+						"accursed wish|nessusaryevils",
+						"devilish hunt|nessusaryevils"
+					],
+					"9": [
+						"blasphemy|nessusaryevils",
+						"funeral pyre|nessusaryevils"
+					],
+					"13": [
+						"ashen pack|nessusaryevils",
+						"haunt|nessusaryevils"
+					],
+					"17": [
+						"implement of cruelty|nessusaryevils",
+						"nemesis|nessusaryevils"
+					]
+				}
+			}],
+			"className": "Paladin",
+			"classSource": "PHB"
 		},
 		{
-			"class": "Warlock",
-			"name": "Raven Queen",
-			"source": "NessusaryEvils",
-			"subclassFeatures": [
-				[{
-					"name": "The Raven Queen",
-					"entries": [
-						"Your patron is the Raven Queen, a mysterious being who rules the Shadowfel from a palace of ice deep within that dread realm. The Raven Queen watches over the world, anticipating each creature's death and ensuring that it meets its end at the proscribed time and place. As the ruler of the Shadowfel, she dwells in a decayed, dark reflection of the world. Her ability to reach into the world is limited. Thus, she turns to mortal warlocks to serve her will. Warlocks sworn to the Raven Queen receive visions and whispers from her in their dreams, sending them on quests and warning them of impending dangers.", "The Raven Queen's followers are expected to serve her will in the world. She concerns herself with ensuring that those fated to die pass from the world as expected, and bids her agents to defeat those who seek to cheat death through undeath or other imitations of immortality. She hates intelligent undead and expects her followers to strike them down, whereas mindless undead such as skeletons and zombies are little more than stumbling automatons in her eyes.",
-						{
-							"type": "entries",
-							"name": "Sentinel Raven",
-							"entries": [
-								"Starting at 1st level, you gain the service of a spirit sent by the Raven Queen to watch over you. The spirit assumes the form and game statistics of a raven, and it always obeys your commands, which you can give telepathically while it is within 100 feet of you.",
-								"While the raven is perched on your shoulder, you gain darkvision with a range of 30 feet and a bonus to your passive Wisdom (Perception) score and to Wisdom (Perception) checks. The bonus equals your Charisma modifier. While perched on your shoulder, the raven can't be targeted by any attack or other harmful effect; only you can cast spells on it; it can't take damage; and it is incapacitated.",
-								"You can see through the raven's eyes and hear what it hears while it is within 100 feet of you. In combat, you roll initiative for the raven and control how it acts. If it is slain by a creature, you gain advantage on all attack rolls against the killer for the next 24 hours.",
-								"The raven doesn't require sleep. While it is within 100 feet of you, it can awaken you from sleep as a bonus action. The raven vanishes when it dies, if you die, or if the two of you are separated by more than 5 miles.",
-								"At the end of a short or long rest, you can call the raven back to you—no matter where it is or whether it died—and it reappears within 5 feet of you."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Expanded Spell List",
-							"entries": [
-								"The Raven Queen lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
-								{
-									"type": "table",
-									"caption": "Raven Queen Expanded Spells",
-									"colLabels": [
-										"Spell Level",
-										"Spells"
-									],
-									"colStyles": [
-										"col-3 text-center",
-										"col-9"
-									],
-									"rows": [
-										[
-											"1st",
-											"{@spell false life}, {@spell sanctuary}"
-										],
-										[
-											"2nd",
-											"{@spell silence}, {@spell spiritual weapon}"
-										],
-										[
-											"3rd",
-											"{@spell feign death}, {@spell speak with dead}"
-										],
-										[
-											"4th",
-											"{@spell ice storm}, {@spell locate creature}"
-										],
-										[
-											"5th",
-											"{@spell commune}, {@spell cone of cold}"
-										]
-									]
-								}
-							]
-						}
-					]
-				}],
-				[{
-					"entries": [{
-						"type": "entries",
-						"name": "Soul of the Raven",
-						"entries": [
-							"At 6th level, you gain the ability to merge with your raven spirit. As a bonus action when your raven is perched on your shoulder, your body merges with your raven's form. While merged, you become Tiny, you replace your speed with the raven's, and you can use your action only to Dash, Disengage, Dodge, Help, Hide, or Search. During this time, you gain the benefits of your raven being perched on your shoulder. As an action, you and the raven return to normal."
-						]
-					}]
-				}],
-				[{
-					"entries": [{
-						"type": "entries",
-						"name": "Raven's Shield",
-						"entries": [
-							"At 10th level, the Raven Queen grants you a protective blessing. You gain advantage on death saving throws, immunity to the frightened condition, and resistance to necrotic damage."
-						]
-					}]
-				}],
-				[{
-					"entries": [{
-						"type": "entries",
-						"name": "Audience with the Queen",
-						"entries": [
-							"At 14th level, you are worthy of partaking of the knowledge contained in the memories the Raven Queen collects. Using a ritual to beseech the Raven Queen, or once when you roll a death saving throw, you may send your raven spirit to the throne of the Fortress of Memories.\nIt returns at the beginning of your turn in 1d6+1 rounds (rolled by the DM). When you send it to your patron, you choose one of the following options. Upon its return, you receive the ability to use that option for 1 hour.",
-							{
-								"type": "list",
-								"items": [
-									"One spell from any spell list of a level you can cast (casting it still uses a spell slot)",
-									"One warlock invocation which you meet the prerequisites for",
-									"One skill proficiency",
-									"One saving throw proficiency",
-									"One category of weapon or armor proficiency (such as Martial Weapons, Shields, or Heavy Armor)",
-									"One language",
-									"The answer to one question, answered using the knowledge of a particular soul's memories (you must specify one at the time you send your raven)"
-								]
-							},
-							"At your DM's option, you may choose an alternate ability, but it should be no more powerful than those described above. You must complete a long rest before using this feature again."
-						]
-					}]
-				}]
+			"name": "The Raven Queen (NE)",
+			"shortName": "Raven Queen (NE)",
+			"source": "nessusaryevils",
+			"subclassSpells": [
+				"False Life",
+				"Sanctuary",
+				"Silence",
+				"Spiritual Weapon",
+				"Feign Death",
+				"Speak with Dead",
+				"Ice Storm",
+				"Locate Creature",
+				"Commune",
+				"Cone of Cold"
 			],
-			"shortName": "Raven Queen (NE)"
+			"subclassFeatures": [
+				"The Raven Queen|Warlock||Raven Queen (NE)|nessusaryevils|1",
+				"Soul of the Raven|Warlock||Raven Queen (NE)|nessusaryevils|6",
+				"Raven's Shield|Warlock||Raven Queen (NE)|nessusaryevils|10",
+				"Audience with the Queen|Warlock||Raven Queen (NE)|nessusaryevils|14"
+			],
+			"className": "Warlock",
+			"classSource": "PHB"
 		},
 		{
-			"class": "Warlock",
-			"name": "Hexblade",
-			"source": "NessusaryEvils",
+			"name": "The Hexblade (NE)",
+			"shortName": "Hexblade (NE)",
+			"source": "nessusaryevils",
+			"subclassSpells": [
+				"Shield",
+				"Venonous Spite",
+				"Dark Secret",
+				"Shadow Armour",
+				"Creeping Dark",
+				"Fox's Fangs",
+				"Skin of Flint",
+				"Windblade",
+				"Forgotten Pain",
+				"Punishing Smite"
+			],
 			"subclassFeatures": [
-				[{
-					"name": "The Hexblade",
+				"The Hexblade|Warlock||Hexblade (NE)|nessusaryevils|1",
+				"Accursed Spectre|Warlock||Hexblade (NE)|nessusaryevils|6",
+				"Armour of Hexes|Warlock||Hexblade (NE)|nessusaryevils|10",
+				"Master of Hexes|Warlock||Hexblade (NE)|nessusaryevils|14"
+			],
+			"className": "Warlock",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [{
+			"name": "Oath of the Illrigger",
+			"source": "NE",
+			"page": 1,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Ilrigger",
+			"subclassSource": "nessusaryevils",
+			"level": 3,
+			"entries": [
+				"Illriggers are an ancient order of paladins that swear their allegiance to one of the Lords of the Nine, the archduxes of hell. In supplication to their infernal masters, they carry their lords' command and lead their armies into battle to beat back the seirimic horde. Such paladins hold their oaths with a fierce conviction, for they believe that, without people like them, seirim would overwhelm the forces of hell and spill out into the other planes of existence, decimating every world like a plague.", "Oftentimes, an archdux will recruit soldiers and mercenaries from the Material Plane to join the ranks of the Illriggers, targeting individuals who have strong bonds with their brothers-in-arms. This way, should the archdux ever need supplemental forces for the armies of hell, they can call upon their loyal Illrigger, who in turn recruits their ardent allies to fight alongside them through hell and back.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenets of the Illrigger|Paladin||Illrigger|nessusaryevils|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath Spells|Paladin||Illrigger|nessusaryevils|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Language|Paladin||Illrigger|nessusaryevils|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity: Infernal Implement|Paladin||Illrigger|nessusaryevils|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity: Invoke Authority|Paladin||Illrigger|nessusaryevils|3"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Tenets of the Illrigger",
+			"entries": [
+				"The tenets of the Illriggers are kept secret, and used as a kind of passphrase between Illriggers so that they know they can speak freely, one infernal paladin to another.",
+				{
+					"type": "entries",
+					"entries": [{
+						"type": "entries",
+						"name": "Hold the Line",
+						"entries": [
+							"Wherever seirim are met, they must be eradicated. Their chaos must not be allowed to infect the Multiverse and tip the scales of the Blood War in their favor."
+						]
+					}]
+				},
+				{
+					"type": "entries",
+					"entries": [{
+						"type": "entries",
+						"name": "Consolidate Power",
+						"entries": [
+							"Mortals on the Material Plane squabble for power, blind to the true threats of the multiverse. You've seen beyond the mortal veil, and choose to seek out and amass power in tribute to your archdux. Such conquest is among the most important tasks you have on the Material Plane."
+						]
+					}]
+				},
+				{
+					"type": "entries",
+					"entries": [{
+						"type": "entries",
+						"name": "Judge, Jury, and Executioner",
+						"entries": [
+							"You swear to be the embodiment of your archdux's will wherever you are. You are beholden to no law or master before them. If you see a course of action that would further your archdux's goals, you will take it, consequences be damned."
+						]
+					}]
+				},
+				{
+					"type": "entries",
+					"entries": [{
+						"type": "entries",
+						"name": "Unwavering Loyalty",
+						"entries": [
+							"Never forget who you swore fealty to.Be vigilant and maintain constant adherence to their will, for their vengeance shall be swift at even the mere thought of disobedience or treachery."
+						]
+					}]
+				}
+			],
+			"source": "nessusaryevils",
+			"page": 1,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Illrigger",
+			"subclassSource": "nessusaryevils",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Oath Spells",
+			"entries": [
+				"You gain oath spells at the paladin levels listed.",
+				{
+					"type": "table",
+					"caption": "Oath of the Illrigger Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell defiant smite|nessusaryevils}, {@spell hunter's pace|nessusaryevils}"
+						],
+						[
+							"5th",
+							"{@spell accursed wish|nessusaryevils}, {@spell devilish hunt|nessusaryevils}"
+						],
+						[
+							"9th",
+							"{@spell blasphemy|nessusaryevils}, {@spell funeral pyre|nessusaryevils}"
+						],
+						[
+							"13th",
+							"{@spell ashen pack|nessusaryevils}, {@spell haunt|nessusaryevils}"
+						],
+						[
+							"17th",
+							"{@spell implement of cruelty|nessusaryevils}, {@spell nemesis|nessusaryevils}"
+						]
+					]
+				}
+			],
+			"source": "nessusaryevils",
+			"page": 1,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Illrigger",
+			"subclassSource": "nessusaryevils",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Bonus Language",
+			"entries": [
+				"Starting at 3rd level after you swear this Oath, you can speak, read, and write Infernal."
+			],
+			"source": "nessusaryevils",
+			"page": 1,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Illrigger",
+			"subclassSource": "nessusaryevils",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Channel Divinity: Infernal Implement",
+			"entries": [
+				"You can use your Channel Divinity to call to your hand a weapon from the arsenal of the archdux you swore your oath to. As a bonus action, you present your holy symbol and invoke their terrible name. In a flash of fire and brimstone, the weapon appears in your hand. This magic weapon can be any simple or martial weapon, and you gain a bonus equal to half your proficiency bonus (rounded down), to attack and damage rolls you make with this magic weapon.",
+				"When you hit a hostile creature with this weapon, your weapon places a minor curse upon the creature. Until the beginning of your next turn, the creature subtracts 1d4 from attack rolls which target creatures other than you. Additionally, when you use your Divine Smite or Improved Divine Smite feature while wielding this weapon, you can cause those features to deal fire or necrotic damage instead of radiant. Your Infernal Implement persists until you take a short or long rest, at which point it melts into smoke and dissipates."
+			],
+			"source": "nessusaryevils",
+			"page": 1,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Illrigger",
+			"subclassSource": "nessusaryevils",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Channel Divinity: Invoke Authority",
+			"entries": [
+				"As an action using your Channel Divinity, you can present your holy symbol and speak the terrible name of your archduke, forcing a devil that you can see within 30 feet of you to make a Wisdom saving throw.",
+				"A devil with a challenge rating greater than half your paladin level (rounded down) automatically succeeds on this saving throw. On a failed save, the devil is bound to your will, as if a {@spell dominate monster} spell had been cast upon them. This effect lasts for 1 minute, as long as you are on the same plane of existence as the devil. It ends early if the devil drops to 0 hit points."
+			],
+			"source": "nessusaryevils",
+			"page": 1,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Illrigger",
+			"subclassSource": "nessusaryevils",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Devilish Aura",
+			"source": "nessusaryevils",
+			"page": 1,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Illrigger",
+			"subclassSource": "nessusaryevils",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, you emanate an aura of infernal might. The aura extends 10 feet from you in every direction, but not through total cover. Creatures within the aura feel its effects, but you yourself do not gain its benefits:",
+				{
+					"type": "list",
+					"items": ["Seirim within your aura are placed under the effects of the {@spell bane} spell.",
+						"Friendly creatures deal an additional 1d6 fire damage when they hit with a weapon attack. Good-aligned creatures gain no benefit from this aura."
+					]
+				},
+				"At 18th level, the range of this aura increases to 30 feet."
+			]
+		},
+		{
+			"name": "Infernal Seal",
+			"source": "nessusaryevils",
+			"page": 1,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Illrigger",
+			"subclassSource": "nessusaryevils",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, when you hit a creature with an attack, you can place an infernal seal on them as a bonus action. On any subsequent turn you can consume the seal as an action. Until the seal is consumed, the creature takes an additional 1d6 fire damage when you hit them with a weapon attack. When you use your action to consume the seal, the target must make a Constitution saving throw against your  paladin spell save DC or take 6d8 fire damage, taking half as much damage on a success. A creature who is slain while under the effects of your infernal seal has their soul condemned to the hells. Their soul is no longer free to return should a creature try to resurrect them by any means short of a {@spell wish} spell.",
+				"You can use this feature a number of times equal to your Charisma modifier. You regain all expended uses when you complete a long rest."
+			]
+		},
+		{
+			"name": "Legionnaire from Hell",
+			"source": "nessusaryevils",
+			"page": 1,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Illrigger",
+			"subclassSource": "nessusaryevils",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"At 20th level, you become completely consumed by the infernal powers of your Oath, which grants you the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You are immune to fire damage and your native plane becomes the layer of hell that your archdux rules over.",
+						"When you reduce a creature to 0 hit points with your Infernal Implement, you regain 2d10 + 10 hit points."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Raven Queen (NE)",
+			"source": "nessusaryevils",
+			"page": 1,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Raven Queen (NE)",
+			"subclassSource": "nessusaryevils",
+			"level": 1,
+			"entries": [
+				"Your patron is the Raven Queen, a mysterious being who rules the Shadowfel from a palace of ice deep within that dread realm. The Raven Queen watches over the world, anticipating each creature's death and ensuring that it meets its end at the proscribed time and place. As the ruler of the Shadowfel, she dwells in a decayed, dark reflection of the world. Her ability to reach into the world is limited. Thus, she turns to mortal warlocks to serve her will. Warlocks sworn to the Raven Queen receive visions and whispers from her in their dreams, sending them on quests and warning them of impending dangers.", "The Raven Queen's followers are expected to serve her will in the world. She concerns herself with ensuring that those fated to die pass from the world as expected, and bids her agents to defeat those who seek to cheat death through undeath or other imitations of immortality. She hates intelligent undead and expects her followers to strike them down, whereas mindless undead such as skeletons and zombies are little more than stumbling automatons in her eyes.",
+				{
+					"type": "entries",
+					"name": "Expanded Spell List",
 					"entries": [
-						"You have made your pact with a mysterious entity from the Shadowfell—a force that manifests in sentient magic weapons carved from the stuff of shadow. The mighty sword Blackrazor is the most notable of these weapons, which have been spread across the multiverse over the ages. The shadowy force behind these weapons can offer power to warlocks who form pacts with it. Many hexblade warlocks create weapons that emulate those formed in the Shadowfell. Others forgo such arms, content to weave the dark magic of that plane into their spellcasting.", "Because the Raven Queen is known to have forged the first of these weapons, many sages speculate that she and the force are one and that the weapons, along with hexblade warlocks, are tools she uses to manipulate events on the Material Plane to her inscrutable ends.",
+						"The Raven Queen lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you. When you cast {@spell Aid} or {@spell Death Ward} with a warlock spell slot (not Mystic Arcanum), the spell ends when you finish a short rest.",
 						{
-							"type": "entries",
-							"name": "Expanded Spell List",
-							"entries": [
-								"The Hexblade lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
-								{
-									"type": "table",
-									"caption": "Hexblade Expanded Spells",
-									"colLabels": [
-										"Spell Level",
-										"Spells"
-									],
-									"colStyles": [
-										"col-3 text-center",
-										"col-9"
-									],
-									"rows": [
-										[
-											"1st",
-											"{@spell shield}, {@spell venomous spite|nessusaryevils}"
-										],
-										[
-											"2nd",
-											"{@spell dark secret|nessusaryevils}, {@spell shadow armour|nessusaryevils}"
-										],
-										[
-											"3rd",
-											"{@spell creeping dark|nessusaryevils}, {@spell fox's fangs|nessusaryevils}"
-										],
-										[
-											"4th",
-											"{@spell skin of flint|nessusaryevils}, {@spell windblade|nessusaryevils}"
-										],
-										[
-											"5th",
-											"{@spell forgotten pain|nessusaryevils}, {@spell punishing smite|nessusaryevils}"
-										]
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Hexblade's Curse",
-							"entries": [
-							"Starting at 1st level, you gain the ability to place a baleful curse on someone. As a bonus action, choose one creature you can see within 30 feet of you. The target is cursed for 1 minute. The curse ends early if the target dies, you die, or you are incapacitated. Until the curse ends, you gain the following benefits:",
-							{
-								"type": "list",
-								"items": [
-									"You gain a bonus to damage rolls against the cursed target. The bonus equals your proficiency bonus.",
-									"Any attack roll you make against the cursed target is a critical hit on a roll of 19 or 20 on the d20.",
-									"If the cursed target dies, you regain hit points equal to your warlock level + your Charisma modifier (minimum of 1 hit point)."
+							"type": "table",
+							"caption": "Raven Queen Expanded Spells",
+							"colLabels": [
+								"Spell Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1st",
+									"{@spell false life}, {@spell sanctuary}"
+								],
+								[
+									"2nd",
+									"{@spell silence}, {@spell spiritual weapon}"
+								],
+								[
+									"3rd",
+									"{@spell feign death}, {@spell speak with dead}"
+								],
+								[
+									"4th",
+									"{@spell ice storm}, {@spell locate creature}"
+								],
+								[
+									"5th",
+									"{@spell commune}, {@spell cone of cold}"
 								]
-							},
-							"You can't use this feature again until you finish a short or long rest."
-						]
-						},
-						{
-							"type": "entries",
-							"name": "Hex Warrior",
-							"entries": [
-							"At 1st level, you acquire the training necessary to effectively arm yourself for battle. You gain proficiency with medium armor, shields, and martial weapons.",
-							"The influence of your patron also allows you to mystically channel your will through a particular weapon. Whenever you finish a long rest, you can touch one weapon that you are proficient with and that lacks the two-handed property. When you attack with that weapon, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls. This benefit lasts until you finish a long rest. If you later gain the Pact of the Blade feature, this benefit extends to every pact weapon you conjure with that feature, no matter the weapon's type."
-						]
+							]
 						}
 					]
-				}],
-				[{
-					"entries": [{
-						"type": "entries",
-						"name": "Accursed Specter",
-						"entries": [
-							"Starting at 6th level, you can curse the soul of a person you slay, temporarily binding it to your service. When you slay a humanoid, you can cause its spirit to rise from its corpse as a specter, the statistics for which are in the Monster Manual. When the specter appears, it gains temporary hit points equal to half your warlock level. Roll initiative for the specter, which has its own turns. It obeys your verbal commands, and it gains a special bonus to its attack rolls equal to your Charisma modifier (minimum of +0).",
-							"The specter remains in your service until the end of your next long rest, at which point it vanishes to the afterlife.",
-							"Once you bind a specter with this feature, you can't use the feature again until you finish a long rest."
-						]
-					}]
-				}],
-				[{
-					"entries": [{
-						"type": "entries",
-						"name": "Armour of Hexes",
-						"entries": [
-							"At 10th level, your hex grows more powerful. If the target cursed by your Hexblade's Curse hits you with an attack roll, you can use your reaction to roll a d6. On a 4 or higher, the attack instead misses you, regardless of its roll."
-						]
-					}]
-				}],
-				[{
-					"entries": [{
-						"type": "entries",
-						"name": "Master of Hexes",
-						"entries": [
-							"Starting at 14th level, you can spread your Hexblade's Curse from a slain creature to another creature. When the creature cursed by your Hexblade's Curse dies, you can apply the curse to a different creature you can see within 30 feet of you, provided you aren't incapacitated. When you apply the curse in this way, you don't regain hit points from the death of the previously cursed creature."
-						]
-					}]
-				}]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sentinel Raven|Warlock||Raven Queen (NE)|nessusaryevils|1"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Sentinel Raven",
+			"entries": [
+				"Starting at 1st level, you gain the service of a spirit sent by the Raven Queen to watch over you. The spirit assumes the form and game statistics of a raven, and it always obeys your commands, which you can give telepathically while it is within 100 feet of you.",
+				"While the raven is perched on your shoulder, you gain darkvision with a range of 30 feet and a bonus to your passive Wisdom (Perception) score and to Wisdom (Perception) checks. The bonus equals your Charisma modifier. While perched on your shoulder, the raven can't be targeted by any attack or other harmful effect; only you can cast spells on it; it can't take damage; and it is incapacitated.",
+				"You can see through the raven's eyes and hear what it hears while it is within 100 feet of you. In combat, you roll initiative for the raven and control how it acts. If it is slain by a creature, you gain advantage on all attack rolls against the killer for the next 24 hours.",
+				"The raven doesn't require sleep. While it is within 100 feet of you, it can awaken you from sleep as a bonus action. The raven vanishes when it dies, if you die, or if the two of you are separated by more than 5 miles.",
+				"At the end of a short or long rest, you can call the raven back to you—no matter where it is or whether it died—and it reappears within 5 feet of you."
 			],
-			"shortName": "Hexblade (NE)"
+			"source": "nessusaryevils",
+			"page": 1,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Raven Queen (NE)",
+			"subclassSource": "nessusaryevils",
+			"level": 1,
+			"header": 1
+		},
+		{
+			"name": "Soul of the Raven",
+			"source": "nessusaryevils",
+			"page": 1,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Raven Queen (NE)",
+			"subclassSource": "nessusaryevils",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you gain the ability to merge with your raven spirit. As a bonus action when your raven is perched on your shoulder, your body merges with your raven's form. While merged, you become Tiny, you replace your speed with the raven's, and you can use your action only to Dash, Disengage, Dodge, Help, Hide, or Search. During this time, you gain the benefits of your raven being perched on your shoulder. As an action, you and the raven return to normal."
+			]
+		},
+		{
+			"name": "Raven's Shield",
+			"source": "nessusaryevils",
+			"page": 1,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Raven Queen (NE)",
+			"subclassSource": "nessusaryevils",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, the Raven Queen grants you a protective blessing. You gain advantage on death saving throws, immunity to the frightened condition, and resistance to necrotic damage."
+			]
+		},
+		{
+			"name": "Audience with the Queen",
+			"source": "nessusaryevils",
+			"page": 1,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Raven Queen (NE)",
+			"subclassSource": "nessusaryevils",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you are worthy of partaking of the knowledge contained in the memories the Raven Queen collects. Using a ritual to beseech the Raven Queen, or once when you roll a death saving throw, you may send your raven spirit to the throne of the Fortress of Memories.\nIt returns at the beginning of your turn in 1d6+1 rounds (rolled by the DM). When you send it to your patron, you choose one of the following options. Upon its return, you receive the ability to use that option for 1 hour.",
+				{
+					"type": "list",
+					"items": [
+						"One spell from any spell list of a level you can cast (casting it still uses a spell slot)",
+						"One warlock invocation which you meet the prerequisites for",
+						"One skill proficiency",
+						"One saving throw proficiency",
+						"One category of weapon or armor proficiency (such as Martial Weapons, Shields, or Heavy Armor)",
+						"One language",
+						"The answer to one question, answered using the knowledge of a particular soul's memories (you must specify one at the time you send your raven)"
+					]
+				},
+				"At your DM's option, you may choose an alternate ability, but it should be no more powerful than those described above. You must complete a long rest before using this feature again."
+			]
+		},
+		{
+			"name": "The Hexblade (NE)",
+			"source": "nessusaryevils",
+			"page": 1,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Hexblade (NE)",
+			"subclassSource": "nessusaryevils",
+			"level": 1,
+			"entries": [
+				"You have made your pact with a mysterious entity from the Shadowfell—a force that manifests in sentient magic weapons carved from the stuff of shadow. The mighty sword Blackrazor is the most notable of these weapons, which have been spread across the multiverse over the ages. The shadowy force behind these weapons can offer power to warlocks who form pacts with it. Many hexblade warlocks create weapons that emulate those formed in the Shadowfell. Others forgo such arms, content to weave the dark magic of that plane into their spellcasting.", "Because the Raven Queen is known to have forged the first of these weapons, many sages speculate that she and the force are one and that the weapons, along with hexblade warlocks, are tools she uses to manipulate events on the Material Plane to her inscrutable ends.",
+				{
+					"type": "entries",
+					"name": "Expanded Spell List",
+					"entries": [
+						"The Hexblade lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you. When you cast {@spell Aid} or {@spell Death Ward} with a warlock spell slot (not Mystic Arcanum), the spell ends when you finish a short rest.",
+						{
+							"type": "table",
+							"caption": "Hexblade Expanded Spells",
+							"colLabels": [
+								"Spell Level",
+								"Spells"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"1st",
+									"{@spell shield}, {@spell venomous spite|nessusaryevils}"
+								],
+								[
+									"2nd",
+									"{@spell dark secret|nessusaryevils}, {@spell shadow armour|nessusaryevils}"
+								],
+								[
+									"3rd",
+									"{@spell creeping dark|nessusaryevils}, {@spell fox's fangs|nessusaryevils}"
+								],
+								[
+									"4th",
+									"{@spell skin of flint|nessusaryevils}, {@spell windblade|nessusaryevils}"
+								],
+								[
+									"5th",
+									"{@spell forgotten pain|nessusaryevils}, {@spell punishing smite|nessusaryevils}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hexblade's Curse|Warlock||Hexblade (NE)|nessusaryevils|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hex Warrior|Warlock||Hexblade (NE)|nessusaryevils|1"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Hexblade's Curse",
+			"entries": [
+				"Starting at 1st level, you gain the ability to place a baleful curse on someone. As a bonus action, choose one creature you can see within 30 feet of you. The target is cursed for 1 minute. The curse ends early if the target dies, you die, or you are incapacitated. Until the curse ends, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a bonus to damage rolls against the cursed target. The bonus equals your proficiency bonus.",
+						"Any attack roll you make against the cursed target is a critical hit on a roll of 19 or 20 on the d20.",
+						"If the cursed target dies, you regain hit points equal to your warlock level + your Charisma modifier (minimum of 1 hit point)."
+					]
+				},
+				"You can't use this feature again until you finish a short or long rest."
+			],
+			"source": "nessusaryevils",
+			"page": 1,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Hexblade (NE)",
+			"subclassSource": "nessusaryevils",
+			"level": 1,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Hex Warrior",
+			"entries": [
+				"At 1st level, you acquire the training necessary to effectively arm yourself for battle. You gain proficiency with medium armor, shields, and martial weapons.",
+				"The influence of your patron also allows you to mystically channel your will through a particular weapon. Whenever you finish a long rest, you can touch one weapon that you are proficient with and that lacks the two-handed property. When you attack with that weapon, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls. This benefit lasts until you finish a long rest. If you later gain the Pact of the Blade feature, this benefit extends to every pact weapon you conjure with that feature, no matter the weapon's type."
+			],
+			"source": "nessusaryevils",
+			"page": 1,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Hexblade (NE)",
+			"subclassSource": "nessusaryevils",
+			"level": 1,
+			"header": 1
+		},
+		{
+			"name": "Accursed Spectre",
+			"source": "nessusaryevils",
+			"page": 1,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Hexblade (NE)",
+			"subclassSource": "nessusaryevils",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can curse the soul of a person you slay, temporarily binding it to your service. When you slay a humanoid, you can cause its spirit to rise from its corpse as a specter, the statistics for which are in the Monster Manual. When the specter appears, it gains temporary hit points equal to half your warlock level. Roll initiative for the specter, which has its own turns. It obeys your verbal commands, and it gains a special bonus to its attack rolls equal to your Charisma modifier (minimum of +0).",
+				"The specter remains in your service until the end of your next long rest, at which point it vanishes to the afterlife.",
+				"Once you bind a specter with this feature, you can't use the feature again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Armour of Hexes",
+			"source": "nessusaryevils",
+			"page": 1,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Hexblade (NE)",
+			"subclassSource": "nessusaryevils",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, your hex grows more powerful. If the target cursed by your Hexblade's Curse hits you with an attack roll, you can use your reaction to roll a d6. On a 4 or higher, the attack instead misses you, regardless of its roll."
+			]
+		},
+		{
+			"name": "Master of Hexes",
+			"source": "nessusaryevils",
+			"page": 1,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Hexblade (NE)",
+			"subclassSource": "nessusaryevils",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, you can spread your Hexblade's Curse from a slain creature to another creature. When the creature cursed by your Hexblade's Curse dies, you can apply the curse to a different creature you can see within 30 feet of you, provided you aren't incapacitated. When you apply the curse in this way, you don't regain hit points from the death of the previously cursed creature."
+			]
 		}
 	]
 }
