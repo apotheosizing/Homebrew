@@ -428,15 +428,8 @@
 			"level": 6,
 			"header": 1
 		}, {
-			"name": "Enhanced Flesh",
-			"source": "whiffcity",
-			"page": 1,
-			"className": "Warlock",
-			"classSource": "PHB",
-			"subclassShortName": "Flesh",
-			"subclassSource": "whiffcity",
-			"level": 10,
-			"header": 2,
+			"type": "entries",
+			"name": "Enhanced Mutation",
 			"entries": [
 				"By 10th level, the secrets held by your own body are hidden no longer. You have unlocked the potential deep within your bones and organs and can shape yourself into new and stranger forms.",
 				"A new suite of Mutations becomes available to you. These Mutations each cost two Mutation Points.",
@@ -479,7 +472,15 @@
 							"Wings",
 							"You have a flying speed of 30 feet when not wearing heavy or medium armour."
 						]
-					]
+					],
+					"source": "whiffcity",
+					"page": 1,
+					"className": "Warlock",
+					"classSource": "PHB",
+					"subclassShortName": "Flesh",
+					"subclassSource": "whiffcity",
+					"level": 10,
+					"header": 2
 				},
 				{
 					"name": "Eruption of Flesh",
@@ -495,10 +496,10 @@
 						"At 14th level, your mastery of meat lies not only in your body but extends to the body of the world itself, allowing you can command a fragment of its power directly.",
 						"As an action, you can summon forth meat from the world's core and cause it to erupt through your own body in the form of a tentacle. You decide the exact location of origin and its presence doesn't affect your senses or locomotion.",
 						"As a bonus action on subsequent turns, you can cause one of the following effects with it, using your game statistics:",
-						"Blood Spray: The tentacle spews a mist of blood 10 feet in every direction from you. Plants that aren't creatures become flesh in the range. Any creature in the mist must succeed on a Constitution saving throw or take {@dice 2d6} + your Charisma modifier necrotic damage.",
-						"Bone Spear: A sharpened bone spear is propelled from the tentacle toward one creature within 100 feet of you. Make a ranged spell attack. On a hit, the target takes {@dice 3d6} piercing damage. This damage is magical.",
-						"Leech: A lamprey-like mouth forms on the end of the tentacle, attaching itself to a creature of your choice within 20 feet of you. The creature must make a Dexterity saving throw against to your spell save DC. On a failure, the creature takes damage equal to {@dice 2d6} + your Charisma modifier, and you gain temporary hit points equal to the damage dealt.",
-						"Whip: The tentacle lashes out at one creature within 20 feet of you. Make a melee spell attack. On a hit, the target takes {@dice 3d8} bludgeoning damage. This damage is magical.",
+						"{@bold Blood Spray.} The tentacle spews a mist of blood 10 feet in every direction from you. Plants that aren't creatures become flesh in the range. Any creature in the mist must succeed on a Constitution saving throw or take {@dice 2d6} + your Charisma modifier necrotic damage.",
+						"{@bold Bone Spear.} A sharpened bone spear is propelled from the tentacle toward one creature within 100 feet of you. Make a ranged spell attack. On a hit, the target takes {@dice 3d6} piercing damage. This damage is magical.",
+						"{@bold Leech.} A lamprey-like mouth forms on the end of the tentacle, attaching itself to a creature of your choice within 20 feet of you. The creature must make a Dexterity saving throw against to your spell save DC. On a failure, the creature takes damage equal to {@dice 2d6} + your Charisma modifier, and you gain temporary hit points equal to the damage dealt.",
+						"{@bold Whip.} The tentacle lashes out at one creature within 20 feet of you. Make a melee spell attack. On a hit, the target takes {@dice 3d8} bludgeoning damage. This damage is magical.",
 						"The tentacle lasts for one minute or until dispelled as a free action. Once you use this feature, you must finish a long rest before you can use it again."
 					]
 				}
