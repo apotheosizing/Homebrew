@@ -6297,7 +6297,7 @@
 			"page": 1,
 			"className": "Paladin",
 			"classSource": "PHB",
-			"subclassShortName": "Ilrigger",
+			"subclassShortName": "Illrigger",
 			"subclassSource": "NessusaryEvils",
 			"level": 3,
 			"entries": [
@@ -6547,7 +6547,7 @@
 					"type": "entries",
 					"name": "Expanded Spell List",
 					"entries": [
-						"The Raven Queen lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you. When you cast {@spell Aid} or {@spell Death Ward} with a warlock spell slot (not Mystic Arcanum), the spell ends when you finish a short rest.",
+						"The Raven Queen lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
 						{
 							"type": "table",
 							"caption": "Raven Queen Expanded Spells",
