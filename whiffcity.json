@@ -11,7 +11,7 @@
 			"convertedBy": [
 				"apotheosis"
 			],
-			"version": "1.0.2",
+			"version": "1.0",
 			"url": "https://github.com/apotheosizing/Homebrew",
 			"color": "#89CFF0"
 		}],
@@ -73,7 +73,7 @@
 				"The Slumbering|Warlock||Slumbering|whiffcity|1",
 				"Break of Dawn|Warlock||Slumbering|whiffcity|6",
 				"Incubation|Warlock||Slumbering|whiffcity|10",
-				"Curse of Insomina|Warlock||Slumbering|whiffcity|14"
+				"Curse of Insomnia|Warlock||Slumbering|whiffcity|14"
 			],
 			"className": "Warlock",
 			"classSource": "PHB"
@@ -426,7 +426,7 @@
 			"subclassShortName": "Flesh",
 			"subclassSource": "whiffcity",
 			"level": 6,
-			"header": 2
+			"header": 1
 		}, {
 			"name": "Enhanced Flesh",
 			"source": "whiffcity",
