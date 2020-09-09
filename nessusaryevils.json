@@ -6241,7 +6241,7 @@
 			"classSource": "PHB"
 		},
 		{
-			"name": "The Raven Queen (NE)",
+			"name": "The Raven Queen",
 			"shortName": "Raven Queen (NE)",
 			"source": "NessusaryEvils",
 			"subclassSpells": [
@@ -6266,7 +6266,7 @@
 			"classSource": "PHB"
 		},
 		{
-			"name": "The Hexblade (NE)",
+			"name": "The Hexblade",
 			"shortName": "Hexblade (NE)",
 			"source": "NessusaryEvils",
 			"subclassSpells": [
