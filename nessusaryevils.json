@@ -6293,7 +6293,7 @@
 	],
 	"subclassFeature": [{
 			"name": "Oath of the Illrigger",
-			"source": "NE",
+			"source": "nessusaryevils",
 			"page": 1,
 			"className": "Paladin",
 			"classSource": "PHB",
@@ -6533,7 +6533,7 @@
 			]
 		},
 		{
-			"name": "The Raven Queen (NE)",
+			"name": "The Raven Queen",
 			"source": "nessusaryevils",
 			"page": 1,
 			"className": "Warlock",
@@ -6665,7 +6665,7 @@
 			]
 		},
 		{
-			"name": "The Hexblade (NE)",
+			"name": "The Hexblade",
 			"source": "nessusaryevils",
 			"page": 1,
 			"className": "Warlock",
