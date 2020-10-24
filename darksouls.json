@@ -226,7 +226,15 @@
 				}
 			],
 			"entries": [
-				"When you cast this spell using a spell slot of 7th level or higher, you also have immunity to the damage from spells cast at 1st level or lower. When you cast this spell using a spell slot of 8th level or higher, you have immunity to the damage from spells of one level higher for each slot level above 7th."
+				"You ward yourself against magical attack. Until the spell ends, you have resistance to the damage from spells."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 7th level or higher, you also have immunity to the damage from spells cast at 1st level or lower. When you cast this spell using a spell slot of 8th level or higher, you have immunity to the damage from spells of one level higher for each slot level above 7th."
+					]
+				}
 			],
 			"classes": {
 				"fromClassList": [
