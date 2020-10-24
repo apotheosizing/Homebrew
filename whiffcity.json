@@ -11,7 +11,7 @@
 			"convertedBy": [
 				"apotheosis"
 			],
-			"version": "1.0",
+			"version": "1.0.1",
 			"url": "https://github.com/apotheosizing/Homebrew",
 			"color": "#89CFF0"
 		}],
@@ -53,6 +53,25 @@
 		}
 	],
 	"subclass": [{
+			"name": "Butcher Knight",
+			"source": "whiffcity",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"shortName": "Butcher Knight",
+			"page": 1,
+			"subclassFeatures": [
+				"Butcher Knight|Fighter||Butcher Knight|whiffcity|3",
+				"Artisan of Bone|Fighter||Butcher Knight|whiffcity|7",
+				"Improved Arsenal of Flesh|Fighter||Butcher Knight|whiffcity|7",
+				"Expanded Arsenal|Fighter||Butcher Knight|whiffcity|10",
+				"Improved Artisan of Bone|Fighter||Butcher Knight|whiffcity|15",
+				"Perfected Arsenal of Flesh|Fighter||Butcher Knight|whiffcity|15",
+				"Flesh Explosion|Fighter||Butcher Knight|whiffcity|18"
+			],
+			"className": "Fighter",
+			"classSource": "PHB"
+		},
+		{
 			"name": "The Slumbering",
 			"shortName": "Slumbering",
 			"source": "whiffcity",
@@ -243,26 +262,8 @@
 				"At 14th level, you have learned to weave insomnia and fatigue into your magic. On your turn, you can use a bonus action to augment your magic for the next minute. While the augment is active, once per turn, when you hit a creature with a spell attack or it fails a saving throw from one of your spells, it must make a Constitution saving throw or suffer a level of exhaustion. The augment ends early if you fall unconscious.",
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
-		}
-	],
-	"subclass": [{
-		"name": "Butcher Knight",
-		"source": "whiffcity",
-		"className": "Fighter",
-		"classSource": "PHB",
-		"shortName": "Butcher Knight",
-		"page": 1,
-		"subclassFeatures": [
-			"Butcher Knight|Fighter||Butcher Knight|whiffcity|3",
-			"Artisan of Bone|Fighter||Butcher Knight|whiffcity|7",
-			"Improved Arsenal of Flesh|Fighter||Butcher Knight|whiffcity|7",
-			"Expanded Arsenal|Fighter||Butcher Knight|whiffcity|10",
-			"Improved Artisan of Bone|Fighter||Butcher Knight|whiffcity|15",
-			"Perfected Arsenal of Flesh|Fighter||Butcher Knight|whiffcity|15",
-			"Flesh Explosion|Fighter||Butcher Knight|whiffcity|18"
-		]
-	}],
-	"subclassFeature": [{
+		},
+		{
 			"name": "Butcher Knight",
 			"source": "whiffcity",
 			"className": "Fighter",
