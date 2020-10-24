@@ -243,6 +243,193 @@
 				"At 14th level, you have learned to weave insomnia and fatigue into your magic. On your turn, you can use a bonus action to augment your magic for the next minute. While the augment is active, once per turn, when you hit a creature with a spell attack or it fails a saving throw from one of your spells, it must make a Constitution saving throw or suffer a level of exhaustion. The augment ends early if you fall unconscious.",
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
+		}, {
+			"name": "Butcher Knight",
+			"source": "whiffcity",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"shortName": "Butcher Knight",
+			"page": 1,
+			"subclassFeatures": [
+				"Butcher Knight|Fighter||Butcher Knight|whiffcity|3",
+				"Artisan of Bone|Fighter||Butcher Knight|whiffcity|7",
+				"Improved Arsenal of Flesh|Fighter||Butcher Knight|whiffcity|7",
+				"Expanded Arsenal|Fighter||Butcher Knight|whiffcity|10",
+				"Improved Artisan of Bone|Fighter||Butcher Knight|whiffcity|15",
+				"Perfected Arsenal of Flesh|Fighter||Butcher Knight|whiffcity|15",
+				"Flesh Explosion|Fighter||Butcher Knight|whiffcity|18"
+			]
+		}, {
+			"name": "Butcher Knight",
+			"source": "whiffcity",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassSource": "whiffcity",
+			"subclassShortName": "Butcher Knight",
+			"page": 1,
+			"level": 3,
+			"entries": [
+				"A Butcher Knight has seen the fundamental flaw of warriors across all disciplines, that without weaponry one is only as effective as their raw strength of body allows, and they have sought to remedy that. Boastful fighters make claims that 'their bodies are weapons' but it is no mere boast for Butcher Knights. In pursuit of the body of a perfect fighter the Butcher Knight has taken into their flesh a portion of the world meat, found in some dark cave or taken from a slain beast.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Meat Lore|Fighter||Butcher Knight|whiffcity|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arsenal of Flesh|Fighter||Butcher Knight|whiffcity|3"
+				}
+			]
+		},
+		{
+			"name": "Meat Lore",
+			"source": "whiffcity",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassSource": "whiffcity",
+			"subclassShortName": "Butcher Knight",
+			"page": 1,
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"In your quest for self improvement you have cut away that which is unneeded and refined those parts of you that do harm, it has taught you many things of muscle and bone, blood and skin.",
+				"When you make these alterations at 3rd level you gain proficiency in Cook's Utensils as well as the Medicine skill."
+			]
+		},
+		{
+			"name": "Arsenal of Flesh",
+			"source": "whiffcity",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassSource": "whiffcity",
+			"subclassShortName": "Butcher Knight",
+			"page": 1,
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The solution to being weak without your weapons is simple, never be without them. You have molded your muscle and bone into a collection of arms. Each weapon listed has additionally the finesse property and cannot be disarmed. While conscious you can call a weapon forth from either hand, as one would normally unsheathe a weapon.",
+				{
+					"type": "list",
+					"items": ["Sickle",
+						"Whip",
+						"Shortsword",
+						"Flail"
+					]
+				},
+				"Your body of weapons increases in lethality as you gain experience in their use, growing to a magical +1 weapon at 7th level, and +2 at 15th level."
+			]
+		},
+		{
+			"name": "Artisan of Bone",
+			"source": "whiffcity",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassSource": "whiffcity",
+			"subclassShortName": "Butcher Knight",
+			"page": 1,
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"With the carving skills of an adept you have branched beyond the confines of weaponry for things your body can produce. With a minute of concentration you can alter your body to produce a variety of items. Creating these items draws from your bodily mass, and so costs an amount of hit dice equal to the items complexity.",
+				{
+					"type": "list",
+					"items": ["Simple items are small things that consist of a single part of one material (crowbar, ammunition, caltrops, etc.) and cost 1 hit die to create.",
+						"Middling items are bigger than small and involve a higher level of refinement, and may be made of more than one material (lockpicks, manacles, parchment, etc.) and cost 2 hit die to create.",
+						"Complex items can be large and may involve a high level of intricacy (portable ram, lock, ladder, etc.) and cost 3-5 hit die to create, depending on its size."
+					]
+				}
+			]
+		},
+		{
+			"name": "Improved Arsenal of Flesh",
+			"source": "whiffcity",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassSource": "whiffcity",
+			"subclassShortName": "Butcher Knight",
+			"page": 1,
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Your body of weapons increases in lethality as you gain experience in their use, and your flesh arsenal become magical +1 weapons."
+			]
+		},
+		{
+			"name": "Expanded Arsenal",
+			"source": "whiffcity",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassSource": "whiffcity",
+			"subclassShortName": "Butcher Knight",
+			"page": 1,
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"With expertise comes advancement, and your available schematics for flesh weaponry expands to include new choices.",
+				{
+					"type": "list",
+					"items": ["Longbow",
+						"Lance",
+						"Greatsword",
+						"Shield"
+					]
+				},
+				"These weapons and shield likewise gain effectiveness as you gain levels in this class."
+			]
+		},
+		{
+			"name": "Improved Artisan of Bone",
+			"source": "whiffcity",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassSource": "whiffcity",
+			"subclassShortName": "Butcher Knight",
+			"page": 1,
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Your production capability increases to allows the creation of different elements from your body. With one minute of concentration you can now create additional items.",
+				{
+					"type": "list",
+					"items": ["Acid",
+						"Antitoxin",
+						"Ink",
+						"Oil",
+						"Perfume",
+						"Basic Poison",
+						"Ration (1 day)"
+					]
+				},
+				"Each of these items count as simple, costing 1 hit die."
+			]
+		},
+		{
+			"name": "Perfected Arsenal of Flesh",
+			"source": "whiffcity",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassSource": "whiffcity",
+			"subclassShortName": "Butcher Knight",
+			"page": 1,
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"The armoury of meat within you has reached it pinnacle of lethality, advancing to +2 weapons."
+			]
+		},
+		{
+			"name": "Flesh Explosion",
+			"source": "whiffcity",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassSource": "whiffcity",
+			"subclassShortName": "Butcher Knight",
+			"page": 1,
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"As an action you call forth the infinite mass of the Flesh into your own body, transforming it into a burst of weapons. Make an attack roll against each creature of your choice within 10 feet of you, using any weapon from the arsenal list, the attacks do not have to all be made using the same weapon. As well each creature within 30 feet of you must make a Wisdom saving throw or be frightened of you for one minute, the save is equal to 8 + proficiency bonus + constitution mod.",
+				"This ability can be used once per short or long rest."
+			]
 		},
 		{
 			"name": "The Flesh",
