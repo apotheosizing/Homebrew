@@ -6507,7 +6507,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level, when you hit a creature with an attack, you can mark them with a mote of Zariel's ever-burning fury as a bonus action. On any subsequent turn you can consume the mote as an action. Until the mote is consumed, the creature takes an additional 1d6 radiant damage when you hit them with a weapon attack. When you use your action to consume the mote, the target must make a Constitution saving throw against your paladin spell save DC or take 6d8 radiant damage, taking half as much damage on a success. A seirim who is slain while under the effects of your infernal seal does not return to the Abyss when they die. Their essence is no longer able to reform in the depths of the Abyss by any means short of a {@spell wish} spell.",
+				"Starting at 15th level, when you hit a creature with an attack, you can mark them with a mote of Zariel's ever-burning fury as a bonus action. On any subsequent turn you can consume the mote as an action. Until the mote is consumed, the creature takes an additional 1d6 radiant damage when you hit them with a weapon attack. When you use your action to consume the mote, the target must make a Constitution saving throw against your paladin spell save DC or take 6d8 radiant damage, taking half as much damage on a success. A seirim of a CR equal to half your paladin level or less that is slain while under the effects of your mote does not return to the Abyss when they die. Their essence is no longer able to reform by any means short of a {@spell wish} spell.",
 				"You can use this feature a number of times equal to your Charisma modifier. You regain all expended uses when you complete a long rest."
 			]
 		},
