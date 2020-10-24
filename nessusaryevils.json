@@ -6258,7 +6258,7 @@
 			],
 			"subclassFeatures": [
 				"The Raven Queen|Warlock||Raven Queen (NE)|NessusaryEvils|1",
-				"Soul of the Raven|Warlock||Raven Queen (NE)|NessusaryEvils|6",
+				"Whispers of the Past|Warlock||Raven Queen (NE)|NessusaryEvils|6",
 				"Raven's Shield|Warlock||Raven Queen (NE)|NessusaryEvils|10",
 				"Audience with the Queen|Warlock||Raven Queen (NE)|NessusaryEvils|14"
 			],
@@ -6610,7 +6610,7 @@
 			"header": 1
 		},
 		{
-			"name": "Soul of the Raven",
+			"name": "Whispers of the Past",
 			"source": "NessusaryEvils",
 			"page": 1,
 			"className": "Warlock",
@@ -6620,7 +6620,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you gain the ability to merge with your raven spirit. As a bonus action when your raven is perched on your shoulder, your body merges with your raven's form. While merged, you become Tiny, you replace your speed with the raven's, and you can use your action only to Dash, Disengage, Dodge, Help, Hide, or Search. During this time, you gain the benefits of your raven being perched on your shoulder. As an action, you and the raven return to normal."
+				"At 6th level, you begin to see the glimmers of memory where they have broken. As an action, you touch an item and gain insight into the circumstances during which it was last used. This insight might take the form of feelings related to the event, fragmentary visions, or other appropriate manifestations. You can use this on a particular object only once in a 24 hour period and have a number of uses of this feature equal to your Intelligence modifier (minimum of 1). You regain all uses on a long rest."
 			]
 		},
 		{
